@@ -11,7 +11,7 @@ This project is part of my postdoctoral research in the [Lieberman Lab](http://l
 
 # Overview
 
-The analyses are grouped into four parts:
+The analyses are grouped into three parts:
 
 * [_C. acnes_ genomic analysis](#c-acnes-genomic-analysis)
     * [Snakemake pipelines](#snakemake-pipelines)
@@ -142,10 +142,11 @@ Re-analysis of spatial biogeography from [Oh et al., 2014](https://www.ncbi.nlm.
 
 # Data availability
 
-Input data for these analyses are available from the following sources:
+Data relating to these analyses are available from the following sources:
 
-* Raw sequencing reads: SRA SUB10513085 <!-- [TODO](TODO). -->
-<!-- * Matlab data files: [TODO](TODO). -->
+* Raw sequencing reads: SRA submission in progress (SUB10513085) <!-- [TODO](TODO). -->
+* Assembled pan-genomes for each lineage: _not yet available_ <!-- [TODO](TODO). -->
+* Matlab data files: _not yet available_ <!-- [TODO](TODO). -->
 
 
 

@@ -1,16 +1,35 @@
 # DATA FILES
 *.mat
+*.fasta
+*.fasta.fai
+*.gbk
+*.gb
+%.bt2
+*.xlsx
+*.xls
+*.csv
+/cacnes_genomic_analysis/matlab/data/data*
 
-# IMAGE FILES
+# FIGURE FILES
 *.pdf
 *.png
+*.jpg
+*.tree
+
+# TOOLS
+dnapars dnapars.app
 
 # NOTES TO SELF
 notes*.txt
 
 # DIRECTORIES
 /sra_transfer
+/cacnes_genomic_analysis/snakemakes/0_naming
 /z_debug
 
 # OTHER
 *.DS_Store
+
+# TEMP
+samples_old.csv
+samples_case_old.csv
