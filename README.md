@@ -5,7 +5,7 @@ This repository contains all code necessary to reproduce the analyses described 
 
 > [__Arolyn Conwill, Anne C. Kuan, Ravalika Damerla, Alexandra J. Poret, Jacob S. Baker, A. Delphine Tripp, Eric J. Alm, Tami D. Lieberman.__ Anatomy promotes neutral coexistence of strains in the human skin microbiome. _bioRxiv_ 2021.](https://www.biorxiv.org/content/10.1101/2021.05.12.443817v1)
 
-This project is part of my postdoctoral research in the [Lieberman Lab](http://http://lieberman.science).
+This project is part of my postdoctoral research in the [Lieberman Lab](lieberman.science).
 
 
 
@@ -24,8 +24,8 @@ The analyses are grouped into four parts:
 * [Mathematical models](#mathematical-models)
     * [Pore colonization](#pore-colonization)
     * [Competition on skin](#competition-on-skin)
-* [Other analyses](#other)
-    * [_C. acnes_ growth curve analysis](#experimental-data-analysis)
+* [Other analyses](#other-analyses)
+    * [_C. acnes_ growth curve analysis](#c-acnes-growth-curve-analysis)
     * [_C. granulosum_ analysis](#c-granulosum-analysis)
     * [16S data analysis](#16S-data-analysis)
     * [Reanalysis of metagenomic data from the literature](#reanalysis-of-metagenomic-data-from-the-literature)
