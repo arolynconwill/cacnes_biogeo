@@ -5,7 +5,7 @@ This repository contains all code necessary to reproduce the analyses described 
 
 > [__Arolyn Conwill, Anne C. Kuan, Ravalika Damerla, Alexandra J. Poret, Jacob S. Baker, A. Delphine Tripp, Eric J. Alm, Tami D. Lieberman.__ Anatomy promotes neutral coexistence of strains in the human skin microbiome. _bioRxiv_ 2021.](https://www.biorxiv.org/content/10.1101/2021.05.12.443817v1)
 
-This project is part of my postdoctoral research in the [Lieberman Lab](lieberman.science).
+This project is part of my postdoctoral research in the [Lieberman Lab](http://lieberman.science).
 
 
 
@@ -107,7 +107,7 @@ Mathematical models of competition between _C. acnes_ strains on the skin can be
 Directory: `/other_analyses`
 
 
-### Growth curve analysis
+### _C. acnes_ growth curve analysis
 Directory: `/other_analyses/cacnes_growth_curves`
 
 Analysis of growth rates of _C. acnes_ isolates measured _in vitro_. 
