@@ -26,7 +26,7 @@ The analyses are grouped into four parts:
     * [Competition on skin](#competition-on-skin)
 * [Other analyses](#other)
     * [_C. acnes_ growth curve analysis](#experimental-data-analysis)
-    * [_C. granulosum_ analysis](#c-gran-analysis)
+    * [_C. granulosum_ analysis](#c-granulosum-analysis)
     * [16S data analysis](#16S-data-analysis)
     * [Reanalysis of metagenomic data from the literature](#reanalysis-of-metagenomic-data-from-the-literature)
 
