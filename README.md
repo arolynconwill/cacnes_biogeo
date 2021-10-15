@@ -144,7 +144,7 @@ Re-analysis of spatial biogeography from [Oh et al., 2014](https://www.ncbi.nlm.
 
 Data relating to these analyses are available from the following sources:
 
-* Raw sequencing reads: SRA submission in progress (SUB10513085) <!-- [TODO](TODO). -->
+* Raw sequencing reads: SRA Accession [PRJNA771717](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA771717) 
 * Assembled pan-genomes for each lineage: _not yet available_ <!-- [TODO](TODO). -->
 * Matlab data files: _not yet available_ <!-- [TODO](TODO). -->
 
