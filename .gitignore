@@ -11,3 +11,6 @@ notes*.txt
 # DIRECTORIES
 /sra_transfer
 /z_debug
+
+# OTHER
+*.DS_Store
