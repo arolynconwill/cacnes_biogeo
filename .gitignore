@@ -12,6 +12,8 @@
 #*.fasta
 *.fasta.fai
 *.bt2
+outfile
+outtree
 
 # FIGURE FILES
 *.pdf
@@ -21,6 +23,7 @@
 
 # TOOLS
 dnapars dnapars.app
+**/dnapars.app/*
 
 # NOTES TO SELF
 notes*.txt

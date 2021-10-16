@@ -1,0 +1,340 @@
+###########################################################
+# SNAKEFILE FOR LINEAGE PAN-GENOME ASSEMBLIES AND MAPPING #
+###########################################################
+
+# Reminders:
+# # Put your own email address in cluster.slurm.json so that you get emails about failures. No one else wants your slurm emails.
+
+
+
+''' SETUP '''
+
+# csv file listing all samples names and locations of data
+spls = "samples.csv"
+
+# where to find processed raw data
+DIR_PROCESSED_DATA = "/scratch/mit_lieberman/projects/aro_cacnes_biogeo/1_process_raw_data/2-sickle2050/"
+
+import sys
+SCRIPTS_DIRECTORY = "/scratch/mit_lieberman/projects/aro_cacnes_biogeo/lab_scripts"
+sys.path.insert(0, SCRIPTS_DIRECTORY)
+
+import basic_snakemake_functions as bsf # generic functions to read samples.csv etc.
+import mergeFQ_runSPAdes_aro as msp # functions for spades file prep rule
+
+from itertools import compress
+
+
+
+''' PRE-SNAKEMAKE '''
+
+# define couple of lists from samples.csv
+# Format: Path,Sample,ReferenceGenome,ProviderName,Subject
+[PATH_ls, SAMPLE_ls, REF_Genome_ls, PROVIDER_ls, CLADEID_ls] = bsf.read_samplesCSV(spls)
+CLADES_ls = set(CLADEID_ls) # set(list_patient) provides only unique clade IDs
+# Write sample_info.csv for each sample
+bsf.split_samplesCSV(PATH_ls,SAMPLE_ls,REF_Genome_ls,PROVIDER_ls,CLADEID_ls)
+
+
+
+''' SNAKEMAKE '''
+rule all:
+	input:
+		# Just through spades input:
+		expand("0-tmp/in1_spades_{cladeID}.fq.gz",cladeID=CLADES_ls),
+		expand("0-tmp/in2_spades_{cladeID}.fq.gz",cladeID=CLADES_ls),
+		# Just through spades
+		expand("3-spades/clade_{cladeID}/scaffolds.fasta",cladeID=CLADES_ls),
+		# Just through prokka
+		expand("4-annotation/clade_{cladeID}/prokka_out.txt",cladeID=CLADES_ls),
+		# # Through all assembly steps (part 2) # #
+		expand("5-assemblystats/clade_{cladeID}/sumStats_assembly_annotation.tsv",cladeID=CLADES_ls),
+		"5-assemblystats/all_clades_sumStats_assembly_annotation.tsv",
+		# Through finding slsts and plasmids # #
+		expand("7-blastslst/clade_{cladeID}/clade_{cladeID}_slst.csv",cladeID=CLADES_ls),
+		expand("7-blastplasmid/clade_{cladeID}/clade_{cladeID}_plasmids.csv",cladeID=CLADES_ls),
+		# # Through alignments to assembled genomes # #
+		expand("3-spades/clade_{cladeID}/genome_bowtie2.1.bt2",cladeID=CLADEID_ls),
+		expand("10-quals/{sampleID}_clade_{cladeID}_aligned.sorted.strain.variant.quals.mat", zip, sampleID=SAMPLE_ls, cladeID=CLADEID_ls),
+		expand("11-diversity/{sampleID}_clade_{cladeID}_aligned.sorted.strain.variant.diversity.mat", zip, sampleID=SAMPLE_ls, cladeID=CLADEID_ls),
+		# Including cleanup # #
+		# "logs/cleanUp_dataFiles_done.txt",
+		# "logs/cleanUp_pileup_done.txt",
+
+
+## PART 1: spades + prokka
+
+# Functions required for concatenate_spades_input rule
+# get_cladefq returns sample names of samples for the clade specified by arguement
+def get_cladefq(wildcards):
+	SID=get_clade_samples(wildcards.cladeID)
+	fq=expand(DIR_PROCESSED_DATA+"{sampleID}_filt{n}.fq.gz",sampleID=SID,n=[1,2])
+	return fq 
+# get_clade_samples returns sample names of samples for the clade specified by arguement
+# old version: grabs all samples with this cladeID from samples.csv
+# def get_clade_samples(cladeID):
+#         is_clade = [int(i == cladeID) for i in CLADEID_ls]
+#         samples_clade = list(compress(SAMPLE_ls,is_clade))
+#         return samples_clade
+# new version: grabs only samples in text file (allows for filtering of which clade samples go into the assembly)
+
+def get_clade_samples(cladeID):
+	file = "2-clades/clade"+cladeID+"_samples.txt"
+	samples_clade = []
+	with open(file) as fp:
+		for line in fp:
+			line = line.rstrip('\n')
+			samples_clade.append(line)
+	return samples_clade
+
+rule concatenate_spades_input:
+	# calls functions from mergeFQ_runSPAdes.py in order to concatenate num_reads from fastq files
+	input:
+		clade_fq=get_cladefq,
+	output:
+		fastq1="0-tmp/in1_spades_{cladeID}.fq.gz", # produced by py script, and used by spades for assemebly
+		fastq2="0-tmp/in2_spades_{cladeID}.fq.gz", # 
+	run:
+		clade_ls = get_clade_samples(wildcards.cladeID)
+		file_names = msp.build_sample_file_list(clade_ls,DIR_PROCESSED_DATA)
+		outfileLs = msp.merge_fq(file_names,wildcards.cladeID,250000) # specify number of reads per sample
+
+rule spades:
+	input:
+		fastq1=rules.concatenate_spades_input.output.fastq1,
+		fastq2=rules.concatenate_spades_input.output.fastq2,
+	params:
+		threads=28,
+		outdir="3-spades/clade_{cladeID}"
+	conda:
+		"envs/spades.yaml"
+	output:
+		fastascaffolds="3-spades/clade_{cladeID}/scaffolds.fasta", # produced by spades
+	shell:
+		"spades.py --careful -t {params.threads} -1 {input.fastq1} -2 {input.fastq2} -o {params.outdir}"
+
+rule prokka:
+	# prokka annotations; not currently using --proteins option to specify trusted gbk file
+	input:
+		rules.spades.output.fastascaffolds, # "3-spades/clade_{cladeID}/scaffolds.fasta",
+	params:
+		outdir="4-annotation/clade_{cladeID}",
+	threads: 16
+	output:
+		txt="4-annotation/clade_{cladeID}/prokka_out.txt",
+		faa="4-annotation/clade_{cladeID}/prokka_out.faa",
+	conda:
+		"envs/prokka_new.yaml", #prokka
+	shell:
+		"prokka --mincontiglen 500 --centre MIT_Lieberman_Lab --force --cpus {threads} --outdir {params.outdir} --prefix prokka_out {input} ; conda deactivate"
+
+rule sumstats:
+	input:
+		infile="samples.csv",
+		fastq=rules.concatenate_spades_input.output.fastq1,
+		scaffolds=rules.spades.output.fastascaffolds,
+		assembly=rules.prokka.output.txt,
+	output:
+		"5-assemblystats/clade_{cladeID}/sumStats_assembly_annotation.tsv",
+	conda:
+		"envs/py_for_snakemake.yaml",
+	shell:
+		"python3 ../lab_scripts/getSumStats_SPAdes_prokka_v2.py -s {input.infile} -p {wildcards.cladeID} -f {input.fastq} -c {input.scaffolds} -a {input.assembly} -o {output} ; conda deactivate " 
+
+rule merge_sumstats:
+	input:
+		expand("5-assemblystats/clade_{cladeID}/sumStats_assembly_annotation.tsv",cladeID=CLADES_ls),
+	output:
+		assembliessummary="5-assemblystats/all_clades_sumStats_assembly_annotation.tsv",
+	shell:
+		"cat {input} |sed -n '3~2!p' > {output.assembliessummary}"
+
+rule min500b_scaffold:
+	# limit assembly to scaffolds with length 500b or larger.
+	input:
+		fasta=rules.spades.output.fastascaffolds, # "3-spades/clade_{cladeID}/scaffolds.fasta", # produced by spades
+	output:
+		fastalongscaffolds="3-spades/clade_{cladeID}/scaffolds_min500bp.fasta",
+	conda:
+		"envs/py_for_snakemake.yaml", 
+	shell:
+		" python3 ../lab_scripts/filter_contigFa_length.py -f {input.fasta} -l 500 -o {output.fastalongscaffolds}  ; conda deactivate "
+
+
+## PART 2: find slst region and plasmid regions using blast
+
+rule make_blastdb:
+	input:
+		genome=rules.min500b_scaffold.output.fastalongscaffolds, # "3-spades/clade_{cladeID}/scaffolds_min500bp.fasta",
+	output:
+		dbscaffolds="6-blastDB/clade_{cladeID}/blast-db.nhr", # a file type generated by makeblastdb
+	params:
+		out_tag="6-blastDB/clade_{cladeID}/blast-db",
+	shell:
+		" module add c3ddb/blast+/2.7.1 ;"
+		" makeblastdb -in {input.genome} -parse_seqids -title clade_{wildcards.cladeID} -dbtype nucl -out {params.out_tag} ; "
+
+rule blast_slst:
+	input:
+		dbscaffolds=rules.make_blastdb.output.dbscaffolds, # "6-blastDB/clade_{cladeID}/blast-db.nhr", 
+	output: 
+		slst_hits="7-blastslst/clade_{cladeID}/clade_{cladeID}_slst.csv",
+	params:
+		out_tag=rules.make_blastdb.params.out_tag,
+		fasta_slst="ref_slsts/slsts.fasta",
+	shell: 
+		" module add c3ddb/blast+/2.7.1 ;" # TODO: update to conda environment
+		" blastn -db {params.out_tag} -query {params.fasta_slst} -outfmt 10 -out {output.slst_hits} -max_hsps 1 ;"
+
+rule blast_plasmid:
+	input:
+		dbscaffolds=rules.make_blastdb.output.dbscaffolds, # "6-blastDB/clade_{cladeID}/blast-db.nhr", 
+	output: 
+		slst_hits="7-blastplasmid/clade_{cladeID}/clade_{cladeID}_plasmids.csv",
+	params:
+		out_tag=rules.make_blastdb.params.out_tag,
+		fasta_plasmids="ref_plasmids/plasmids_all.fasta",
+	shell: 
+		" module add c3ddb/blast+/2.7.1 ;" # TODO: update to conda environment
+		" blastn -db {params.out_tag} -query {params.fasta_plasmids} -outfmt 10 -out {output.slst_hits} ;"
+
+
+## PART 4: Alignments to assembled genome
+
+rule refGenome_index:
+	input:
+		fastalongscaffolds=rules.min500b_scaffold.output.fastalongscaffolds, # "3-spades/clade_{cladeID}/scaffolds_min500bp.fasta",
+	params:
+		prefix="3-spades/clade_{cladeID}/genome_bowtie2",
+	output:
+		bt2index="3-spades/clade_{cladeID}/genome_bowtie2.1.bt2",
+	conda:
+		"envs/bowtie2.yaml",
+	shell:
+		" bowtie2-build -q {input} {params.prefix} ;"
+
+rule bowtie2:
+	input:
+		fq1=DIR_PROCESSED_DATA+"{sampleID}_filt1.fq.gz", 
+		fq2=DIR_PROCESSED_DATA+"{sampleID}_filt2.fq.gz", 
+		bowtie2idx=rules.refGenome_index.output.bt2index, # "3-spades/clade_{cladeID}/genome_bowtie2.1.bt2",
+	params:
+		refGenome=rules.refGenome_index.params.prefix, # "3-spades/clade_{cladeID}/genome_bowtie2",
+		fqU="8-bowtie2/{sampleID}_clade_{cladeID}_unaligned.fastq", # just a prefix. 
+	output:
+		sam="8-bowtie2/{sampleID}_clade_{cladeID}_aligned.sam",
+	conda:
+		"envs/bowtie2.yaml",
+	shell:
+		# 8 threads coded into json
+		"bowtie2 --threads 8 -X 2000 --no-mixed --dovetail --un-conc {params.fqU} -x {params.refGenome} -1 {input.fq1} -2 {input.fq2} -S {output.sam} ;"
+
+rule sam2bam:
+	input:
+		sam=rules.bowtie2.output.sam, # "8-bowtie2/{sampleID}_clade_{cladeID}_aligned.sam",
+	params:
+		fqU1="8-bowtie2/{sampleID}_clade_{cladeID}_unaligned.1.fastq",
+		fqU2="8-bowtie2/{sampleID}_clade_{cladeID}_unaligned.2.fastq",
+	output:
+		bam="8-bowtie2/{sampleID}_clade_{cladeID}_aligned.sorted.bam",
+	conda:
+		"envs/samtools15_bcftools12.yaml",
+	shell:
+		# 8 threads coded into json
+		" samtools view -bS {input.sam} | samtools sort - -o {output.bam} ;"
+		" samtools index {output.bam} ;"
+		" bgzip -f {params.fqU1}; bgzip -f {params.fqU2}; rm {input.sam} ;"
+
+rule mpileup2vcf:
+	input:
+		bam=rules.sam2bam.output.bam, # "8-bowtie2/{sampleID}_clade_{cladeID}_aligned.sorted.bam",
+		ref=rules.min500b_scaffold.output.fastalongscaffolds, # "3-spades/clade_{cladeID}/scaffolds_min500bp.fasta",
+	output:
+		pileup="9-vcf/{sampleID}_clade_{cladeID}_aligned.sorted.pileup",
+		variants="9-vcf/{sampleID}_clade_{cladeID}_aligned.sorted.strain.variant.vcf.gz",
+		vcf_strain="9-vcf/{sampleID}_clade_{cladeID}_aligned.sorted.strain.vcf.gz",
+	params:
+		vcf_raw="9-vcf/{sampleID}_clade_{cladeID}_aligned.sorted.strain.gz",
+	shell:
+		" module add c3ddb/samtools/1.5 ; module add c3ddb/bcftools/1.2 ;"
+		" samtools faidx {input.ref} ; "
+		" samtools mpileup -q30 -x -s -O -d3000 -f {input.ref} {input.bam} > {output.pileup} ;" 
+		" samtools mpileup -q30 -t SP -d3000 -vf {input.ref} {input.bam} > {params.vcf_raw} ;"
+		" bcftools call -c -Oz -o {output.vcf_strain} {params.vcf_raw} ;"
+		" bcftools view -Oz -v snps -q .75 {output.vcf_strain} > {output.variants} ;"
+		" tabix -p vcf {output.variants} ;"
+		" rm {params.vcf_raw}"
+
+rule make_genomeFasta: # silly rule so that fasta is literally called "genome.fasta" for next steps...
+	input:
+		fastalongscaffolds=rules.min500b_scaffold.output.fastalongscaffolds, # "3-spades/clade_{cladeID}/scaffolds_min500bp.fasta",
+	output:
+		fastagenome="3-spades/clade_{cladeID}/genome.fasta",
+	shell:
+		"cp {input.fastalongscaffolds} {output.fastagenome} ;"
+
+# strain.vcf ==> vcf_to_quals.m ==> quals.mat
+rule vcf2quals:
+	input:
+		vcf_strain=rules.mpileup2vcf.output.vcf_strain, # "9-vcf/{sampleID}_clade_{cladeID}_aligned.sorted.strain.vcf.gz",
+		fastagenome=rules.make_genomeFasta.output.fastagenome, # "3-spades/clade_{cladeID}/genome.fasta",
+	params:
+		refGenomeDir="3-spades/clade_{cladeID}",
+	output:
+		file_quals="10-quals/{sampleID}_clade_{cladeID}_aligned.sorted.strain.variant.quals.mat", 
+	shell:
+		"""
+		module add mit/matlab/2015b; 
+		matlab -r "path('{SCRIPTS_DIRECTORY}',path); vcf_to_quals_snakemake( '{input.vcf_strain}', '{output.file_quals}', '{params.refGenomeDir}' )" 
+		"""
+
+# strain.pileup ==> pileup_to_diversity.m ==> diversity.mat
+rule pileup2diversity_matrix:
+	input:
+		pileup=rules.mpileup2vcf.output.pileup, # "9-vcf/{sampleID}_clade_{cladeID}_aligned.sorted.pileup",
+		fastagenome=rules.make_genomeFasta.output.fastagenome, # "3-spades/clade_{cladeID}/genome.fasta",
+	params:
+		refGenomeDir="3-spades/clade_{cladeID}/",	
+	output:
+		file_diversity="11-diversity/{sampleID}_clade_{cladeID}_aligned.sorted.strain.variant.diversity.mat",
+		file_coverage="11-diversity/{sampleID}_clade_{cladeID}_aligned.sorted.strain.variant.coverage.mat",
+	shell:
+		"""
+		module add mit/matlab/2015b; 
+		matlab -r "path('{SCRIPTS_DIRECTORY}',path); pileup_to_diversity_matrix_snakemake( '{input.pileup}', '{output.file_diversity}', '{output.file_coverage}', '{params.refGenomeDir}' )" ;
+		"""
+
+
+
+## PART N: clean up step
+
+rule cleanUp_dataFiles:
+	# remove files that contain redundant fastq data
+	input:
+		input_assemblydone=rules.merge_sumstats.output.assembliessummary, # "5-assemblystats/all_clades_sumStats_assembly_annotation.tsv",
+		input_bowtiedone=rules.bowtie2.output.sam, # "8-bowtie2/{sampleID}_clade_{cladeID}_aligned.sam",
+		input_qualsdone=rules.vcf2quals.output.file_quals, # "10-quals/{sampleID}_clade_{cladeID}_aligned.sorted.strain.variant.quals.mat", 
+		input_diversitydone=rules.pileup2diversity_matrix.output.file_diversity, # "11-diversity/{sampleID}_clade_{cladeID}_aligned.sorted.strain.variant.diversity.mat",
+		input_coveragedone=rules.pileup2diversity_matrix.output.file_coverage, # "11-diversity/{sampleID}_clade_{cladeID}_aligned.sorted.strain.variant.coverage.mat",
+	params:
+		tmp_fld="0-tmp/",
+		data_filt="1-data_processed/",
+	output:
+		done="logs/cleanUp_dataFiles_done.txt",
+	shell:
+		" rm -r {params.tmp_fld} ;"
+		" rm -r {params.data_filt} ;"
+		" touch {output.done} ;"
+
+rule cleanUp_pileup:
+	input:
+		pileup=rules.mpileup2vcf.output.pileup, # "9-vcf/{sampleID}_clade_{cladeID}_aligned.sorted.pileup",
+		input_donediversity=rules.pileup2diversity_matrix.output.file_diversity, # "11-diversity/{sampleID}_clade_{cladeID}_aligned.sorted.strain.variant.diversity.mat",
+		input_coveragedone=rules.pileup2diversity_matrix.output.file_coverage, # "11-diversity/{sampleID}_clade_{cladeID}_aligned.sorted.strain.variant.coverage.mat",
+	output:
+		done="logs/cleanUp_pileup_done.txt",
+	shell:
+		" rm {input.pileup} ;"
+		" touch {output.done} ;"
+
+
