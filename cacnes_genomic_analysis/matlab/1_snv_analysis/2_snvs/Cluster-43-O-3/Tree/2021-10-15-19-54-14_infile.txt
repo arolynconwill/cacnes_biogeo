@@ -1,9 +1,0 @@
-   8   10
-T^1          GCCNGNCNGG
-T^2          ACCCTCNCGT
-T^3          NTTAGTTGCG
-T^4          NNCNNNNCGG
-T^5          NNCNNNNCGG
-T^6          NNCNNNNCGN
-T^7          NNCNNNNCGG
-T^8          NNCNNNNCNN

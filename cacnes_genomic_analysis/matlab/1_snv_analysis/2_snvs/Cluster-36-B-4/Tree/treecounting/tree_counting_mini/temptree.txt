@@ -1,5 +1,0 @@
-Z_inferred_ancestor	G
-Z_B^309-Scr-trBa-2_t11	G
-Z_B^075-Scr-trBa-1_t00	A
-Z_B^092-Scr-Nk-1_t00	G
-Z_B^092-Scr-Nk-2_t00	G

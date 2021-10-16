@@ -1,8 +1,0 @@
-K:344-Scr-crNo-4_t11
-K:345-Scr-clNo-5_t11
-K:345-Scr-clNo-4_t11
-K:345-Scr-clNo-2_t11
-K:345-Scr-clNo-1_t11
-K:343-Scr-Lc-4_t11
-K:343-Scr-Lc-3_t11
-K:342-Scr-Rc-3_t11

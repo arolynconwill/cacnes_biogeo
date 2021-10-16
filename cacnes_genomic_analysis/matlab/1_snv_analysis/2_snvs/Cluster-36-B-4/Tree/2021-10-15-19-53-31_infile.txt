@@ -1,9 +1,0 @@
-   8   5
-T^1          CCTGG
-T^2          TCTAA
-T^3          CTCGG
-T^4          CTCGG
-T^5          CCNGG
-T^6          CCTGG
-T^7          CNNNG
-T^8          CCTGG

@@ -1,6 +1,0 @@
-Z_inferred_ancestor	C
-Z_D^062-Scr-tlBa-1_t00	G
-Z_D^062-Scr-tlBa-2_t00	G
-Z_D^062-Scr-tlBa-3_t00	C
-Z_D^058-Scr-Fo-1_t00	C
-Z_D^060-Scr-Rc-4_t00	C

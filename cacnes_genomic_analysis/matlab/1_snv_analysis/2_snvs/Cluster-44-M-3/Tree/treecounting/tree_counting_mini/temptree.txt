@@ -1,4 +1,0 @@
-Z_inferred_ancestor	A
-Z_M^353-Scr-clNo-5_t11	A
-Z_M^352-Scr-crNo-4_t11	G
-Z_M^352-Scr-crNo-3_t11	A

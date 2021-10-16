@@ -1,6 +1,0 @@
-Z_inferred_ancestor	T
-Z_B^303-Scr-Rc-1_t11	T
-Z_B^087-Ext-brNoBs-4_t00	T
-Z_B^082-Ext-clNoBs-4_t00	T
-Z_B^082-Ext-clNoBs-1_t00	T
-Z_B^070-Scr-Fo-2_t00	G

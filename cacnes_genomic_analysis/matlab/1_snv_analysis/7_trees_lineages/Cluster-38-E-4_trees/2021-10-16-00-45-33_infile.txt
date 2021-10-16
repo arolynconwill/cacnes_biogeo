@@ -1,6 +1,0 @@
-   5   2
-T^1          CG
-T^2          TG
-T^3          CG
-T^4          CG
-T^5          CA

@@ -1,4 +1,0 @@
-Z_inferred_ancestor	C
-Z_B^310-Scr-tlBa-4_t11	C
-Z_B^310-Scr-tlBa-5_t11	C
-Z_B^092-Scr-Nk-3_t00	T

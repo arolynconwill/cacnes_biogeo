@@ -1,6 +1,0 @@
-   5   8
-T^1          GCCCCCCC
-T^2          GCTCCTCC
-T^3          ATCATCTA
-T^4          ATCACCTA
-T^5          ATCATCTA

@@ -1,9 +1,0 @@
-   8   6
-T^1          CCGTCC
-T^2          TTAATT
-T^3          TTAATT
-T^4          TTAATT
-T^5          CCGTCC
-T^6          CCGTCC
-T^7          CCGTCC
-T^8          CCGTCC

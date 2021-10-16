@@ -1,6 +1,0 @@
-   5   5
-T^1          CCTGG
-T^2          CCTGG
-T^3          TCTAA
-T^4          CTCGG
-T^5          CTCGG

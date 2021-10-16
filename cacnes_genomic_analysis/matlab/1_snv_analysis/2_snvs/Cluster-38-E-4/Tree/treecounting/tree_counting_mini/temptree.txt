@@ -1,5 +1,0 @@
-Z_inferred_ancestor	G
-Z_E^096-Scr-Ch-4_t00	G
-Z_E^094-Scr-Lc-4_t00	G
-Z_E^093-Scr-Fo-4_t00	G
-Z_E^093-Scr-Fo-3_t00	A

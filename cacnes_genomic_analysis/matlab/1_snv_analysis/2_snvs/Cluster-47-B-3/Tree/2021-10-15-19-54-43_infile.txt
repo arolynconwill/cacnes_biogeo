@@ -1,8 +1,0 @@
-   7   8
-T^1          GAGCCNCC
-T^2          CCATNCTC
-T^3          GCACTTCT
-T^4          GCNCTCCC
-T^5          GCACTCCC
-T^6          NCNNNCNC
-T^7          GCACTCCC

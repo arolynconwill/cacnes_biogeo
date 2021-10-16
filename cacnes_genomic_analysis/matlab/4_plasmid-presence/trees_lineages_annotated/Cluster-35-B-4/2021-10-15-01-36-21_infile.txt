@@ -1,6 +1,0 @@
-   5   11
-T^1          TCCCTTGAGGC
-T^2          TTCTTTGNAGT
-T^3          TTCTTTGCGGC
-T^4          CCACCCAAGAC
-T^5          TTCTTTGCAGT

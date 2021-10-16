@@ -1,7 +1,0 @@
-   6   13
-T^1          TAGAGGCCTAGAG
-T^2          TATACAGCTAGAG
-T^3          CGGGGGCTCGAGA
-T^4          CGGGGGCTCGAGA
-T^5          CGGGGGCTCGAGA
-T^6          CGGGGGCTCGAGA

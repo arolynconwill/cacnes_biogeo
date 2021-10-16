@@ -1,7 +1,0 @@
-F:118-Stp-Lc8-3_t07
-F:117-Stp-Lc11-3_t07
-F:125-Stp-Lc12-3_t07
-F:118-Stp-Lc8-1_t07
-F:117-Stp-Lc11-1_t07
-F:125-Stp-Lc12-1_t07
-F:119-Stp-Lc12-1_t07

@@ -1,6 +1,0 @@
-   5   2
-T^1          CC
-T^2          TT
-T^3          TT
-T^4          CC
-T^5          CC

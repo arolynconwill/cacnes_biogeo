@@ -1,6 +1,0 @@
-Z_inferred_ancestor	G
-Z_O^386-Scr-Ch-6_t11	G
-Z_O^386-Scr-Ch-3_t11	G
-Z_O^385-Scr-clNo-1_t11	T
-Z_O^383-Scr-Lc-4_t11	T
-Z_O^384-Scr-crNo-2_t11	G
