@@ -1,0 +1,7 @@
+dMRCA = 0.77423*t +4.5968
+c1 range (95% CI): 0.77423 +/- 1.4189 SNVs/mb/yr
+c1 range (95% CI): -0.64464 to 2.1931 SNVs/mb/yr
+dMRCA = 0.064519*t +4.5968
+c1 range (95% CI): -0.05372 to 0.18276 SNVs/mb/mo
+c2 range (95% CI): 3.7453 to 5.4482 SNVs/mb 
+r2 : 0.10538
