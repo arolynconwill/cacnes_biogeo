@@ -1,14 +1,16 @@
 # DATA FILES
 *.mat
-#*.fasta
-*.fasta.fai
-#*.gbk
-#*.gb
-%.bt2
 *.xlsx
 *.xls
 *.csv
-/cacnes_genomic_analysis/matlab/data/data*
+#/cacnes_genomic_analysis/matlab/data/data*
+/cacnes_genomic_analysis/matlab/2_within-lineage-gain-loss/output_gainloss_regions/*.fasta
+/cacnes_genomic_analysis/matlab/3_btwn-lineage-gene-content/1_contig_gene_filtering/output_fastas_filtered/lineage_*.fasta
+#*.gbk
+#*.gb
+#*.fasta
+*.fasta.fai
+*.bt2
 
 # FIGURE FILES
 *.pdf
