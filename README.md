@@ -68,7 +68,7 @@ Directory: `/cacnes_genomic_analysis/matlab`
 
 Note: Matlab analyses depend on data from their respective snakemake pipeline(s) as indicated below.
 
-SNV-based analyses: `/cacnes_genomic_analysis/matlab/1_snv_analysis`
+SNV-based analyses: `/cacnes_genomic_analysis/matlab/1_snv_analysis/genomic_analysis_main.m`
 * Clustering of colonies into lineages
 * Within-lineage SNV identification
 * Spatial biogeography analysis (across skin regions and within pores)
