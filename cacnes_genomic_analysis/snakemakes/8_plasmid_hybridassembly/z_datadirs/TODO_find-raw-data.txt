@@ -1,0 +1,5 @@
+/scratch/mit_lieberman/raw_data/2020/201025Lie
+empty
+
+need:
+/scratch/mit_lieberman/raw_data/2020/201025Lie/D20-257001/20201109_2347_1D_PAE64418_43b13961/fastq_pass/barcode10/

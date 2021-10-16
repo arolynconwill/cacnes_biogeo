@@ -1,0 +1,8 @@
+Z_inferred_ancestor	A
+Z_F^118-Stp-Lc8-3_t07	G
+Z_F^117-Stp-Lc11-3_t07	G
+Z_F^125-Stp-Lc12-3_t07	A
+Z_F^118-Stp-Lc8-1_t07	G
+Z_F^117-Stp-Lc11-1_t07	G
+Z_F^125-Stp-Lc12-1_t07	A
+Z_F^119-Stp-Lc12-1_t07	A

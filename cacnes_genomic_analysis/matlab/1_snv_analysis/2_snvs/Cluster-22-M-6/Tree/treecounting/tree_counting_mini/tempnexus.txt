@@ -1,0 +1,23 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=8;
+	taxlabels
+	'Z_M^352-Scr-crNo-1_t11--*?'[&!color=#-16777216]
+	'Z_M^354-Scr-Ch-1_t11--*A'[&!color=#-16776961]
+	'Z_M^353-Scr-clNo-2_t11--*G'[&!color=#-3670016]
+	'Z_M^352-Scr-crNo-6_t11--*A'[&!color=#-16776961]
+	'Z_M^353-Scr-clNo-1_t11--*A'[&!color=#-16776961]
+	'Z_M^353-Scr-clNo-6_t11--*A'[&!color=#-16776961]
+	'Z_inferred_ancestor--*A'[&!color=#-16776961]
+	'Reference'[&!color=#-16777216]
+;
+end
+
+begin trees;
+	tree tree_1=[&R] ((Z_M^352-Scr-crNo-1_t11--*?:0.06731,Z_M^354-Scr-Ch-1_t11--*A:0.16346):0.17308,(Z_M^353-Scr-clNo-2_t11--*G:0.25000,((Z_M^352-Scr-crNo-6_t11--*A:0.01923,
+Z_M^353-Scr-clNo-1_t11--*A:0.00000):0.07692,Z_M^353-Scr-clNo-6_t11--*A:0.01923):0.05769):0.18269,Z_inferred_ancestor--*A:0.00962);
+end;
+
+begin figtree;
+	set tipLabels.fontSize=10;
+end;

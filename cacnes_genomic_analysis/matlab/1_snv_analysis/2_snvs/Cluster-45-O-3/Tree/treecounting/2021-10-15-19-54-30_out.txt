@@ -1,0 +1,37 @@
+
+DNA parsimony algorithm, version 3.695
+
+
+One most parsimonious tree found:
+
+
+  +------------------------T^4       
+  |  
+  |                      +-T^3       
+  1----------------------2  
+  |                      +---------T^2       
+  |  
+  +T^1       
+
+
+requires a total of     24.000
+
+  between      and       length
+  -------      ---       ------
+     1      T^4          0.416667
+     1           2       0.375000
+     2      T^3          0.041667
+     2      T^2          0.166667
+     1      T^1          0.000000
+
+From    To     Any Steps?    State at upper node
+                             ( . means same as in the node below it on tree)
+
+          1                CCTGAACCCG CCCCCTAGGG TTCG
+   1   T^4          yes    .G.....TTA T....C.AAA ..T.
+   1      2         yes    T..RG.T... .TTYT..... .C.A
+   2   T^3          yes    ...N.C.N.. ...N...... ..N.
+   2   T^2          yes    ..CA.....N ...T..G... C...
+   1   T^1          no     .......... .......... ....
+
+

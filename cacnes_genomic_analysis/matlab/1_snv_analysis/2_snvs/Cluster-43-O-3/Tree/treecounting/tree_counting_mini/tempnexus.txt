@@ -1,0 +1,19 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=5;
+	taxlabels
+	'Z_O^385-Scr-clNo-4_t11--*G'[&!color=#-3670016]
+	'Z_O^385-Scr-clNo-5_t11--*T'[&!color=#-3618816]
+	'Z_O^385-Scr-clNo-6_t11--*G'[&!color=#-3670016]
+	'Z_inferred_ancestor--*G'[&!color=#-3670016]
+	'Reference'[&!color=#-16777216]
+;
+end
+
+begin trees;
+	tree tree_1=[&R] (Z_O^385-Scr-clNo-4_t11--*G:0.30000,(Z_O^385-Scr-clNo-5_t11--*T:0.40000,Z_O^385-Scr-clNo-6_t11--*G:0.05000):0.25000,Z_inferred_ancestor--*G:0.00000);
+end;
+
+begin figtree;
+	set tipLabels.fontSize=10;
+end;

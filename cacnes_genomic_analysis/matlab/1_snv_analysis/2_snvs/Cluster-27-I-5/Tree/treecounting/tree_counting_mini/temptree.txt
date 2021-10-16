@@ -1,0 +1,6 @@
+Z_inferred_ancestor	C
+Z_I^338-Scr-crNo-1_t11	G
+Z_I^334-Scr-clLc-4_t11	C
+Z_I^334-Scr-clLc-3_t11	C
+Z_I^331-Scr-Rc-6_t11	C
+Z_I^330-Scr-Fo-6_t11	C

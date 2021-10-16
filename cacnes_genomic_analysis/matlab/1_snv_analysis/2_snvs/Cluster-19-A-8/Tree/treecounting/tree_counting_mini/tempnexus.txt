@@ -1,0 +1,25 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=10;
+	taxlabels
+	'Z_A^418-Scr-brBa-1_t35--*G'[&!color=#-3670016]
+	'Z_A^411-Scr-Fo-11_t35--*G'[&!color=#-3670016]
+	'Z_A^411-Scr-Fo-10_t35--*G'[&!color=#-3670016]
+	'Z_A^411-Scr-Fo-7_t35--*G'[&!color=#-3670016]
+	'Z_A^411-Scr-Fo-4_t35--*G'[&!color=#-3670016]
+	'Z_A^411-Scr-Fo-9_t35--*C'[&!color=#-16725916]
+	'Z_A^411-Scr-Fo-5_t35--*C'[&!color=#-16725916]
+	'Z_A^411-Scr-Fo-3_t35--*C'[&!color=#-16725916]
+	'Z_inferred_ancestor--*G'[&!color=#-3670016]
+	'Reference'[&!color=#-16777216]
+;
+end
+
+begin trees;
+	tree tree_1=[&R] (Z_A^418-Scr-brBa-1_t35--*G:0.25000,(Z_A^411-Scr-Fo-11_t35--*G:0.00000,Z_A^411-Scr-Fo-10_t35--*G:0.00000,Z_A^411-Scr-Fo-7_t35--*G:0.00000,Z_A^411-Scr-Fo-4_t35--*G:0.00000,
+(Z_A^411-Scr-Fo-9_t35--*C:0.00000,Z_A^411-Scr-Fo-5_t35--*C:0.00000,Z_A^411-Scr-Fo-3_t35--*C:0.25000):0.25000):0.25000,Z_inferred_ancestor--*G:0.00000);
+end;
+
+begin figtree;
+	set tipLabels.fontSize=10;
+end;

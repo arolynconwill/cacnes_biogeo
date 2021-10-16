@@ -1,0 +1,57 @@
+
+DNA parsimony algorithm, version 3.695
+
+
+One most parsimonious tree found:
+
+
+  +-------------T^6       
+  |  
+  |             +T^5       
+  |     +-------3  
+  |     |       +T^4       
+  |     |  
+  1-----2------------T^3       
+  |     |  
+  |     +-------------------T^2       
+  |  
+  +T^1       
+
+
+requires a total of     48.000
+
+  between      and       length
+  -------      ---       ------
+     1      T^6          0.229167
+     1           2       0.104167
+     2           3       0.125000
+     3      T^5          0.000000
+     3      T^4          0.000000
+     2      T^3          0.208333
+     2      T^2          0.333333
+     1      T^1          0.000000
+
+From    To     Any Steps?    State at upper node
+                             ( . means same as in the node below it on tree)
+
+          1                CCCGCCTTGC CCGGGCCCGC ACTGCTAATG CGCGGTCGAC 
+   1   T^6          yes    ...C...... .T....T... .T...C.G.A .......A.. 
+   1      2         yes    T...T...AT .......... .......... .........T 
+   2      3         yes    .....T.... .......... ....G.G... ......G.G. 
+   3   T^5          no     .......... .......... .......... .......... 
+   3   T^4          no     .......... .......... .......... .......... 
+   2   T^3          yes    .T........ .........T ..CA....C. .C.A.C.... 
+   2   T^2          yes    N.T...CC.N T.TATT.TA. G........N TNT.T....N 
+   1   T^1          no     .......... .......... .......... .......... 
+
+          1                GGGGGGGT
+   1   T^6          yes    ..C..A.G
+   1      2         no     ........
+   2      3         yes    .A......
+   3   T^5          no     ........
+   3   T^4          no     ........
+   2   T^3          yes    A.....A.
+   2   T^2          yes    ...AT.N.
+   1   T^1          no     ........
+
+

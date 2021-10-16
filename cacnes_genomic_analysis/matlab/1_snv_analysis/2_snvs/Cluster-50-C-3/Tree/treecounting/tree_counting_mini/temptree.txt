@@ -1,0 +1,4 @@
+Z_inferred_ancestor	T
+Z_C^057-Scr-brBa-4_t00	T
+Z_C^057-Scr-brBa-3_t00	T
+Z_C^055-Scr-trBa-3_t00	C

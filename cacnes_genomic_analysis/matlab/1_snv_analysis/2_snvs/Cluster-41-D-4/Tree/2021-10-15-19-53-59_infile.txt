@@ -1,0 +1,9 @@
+   8   8
+T^1          GCTCCTCC
+T^2          ATCATCTA
+T^3          ATCACCTA
+T^4          ATCATCTA
+T^5          GCCCCCCC
+T^6          GCCCCCCC
+T^7          GCCCCCCC
+T^8          GCCCCCCC

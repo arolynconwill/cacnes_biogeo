@@ -1,0 +1,5 @@
+   4   8
+T^1          GCACTCCC
+T^2          GAGCCNCC
+T^3          CCATNCTC
+T^4          GCACTTCT

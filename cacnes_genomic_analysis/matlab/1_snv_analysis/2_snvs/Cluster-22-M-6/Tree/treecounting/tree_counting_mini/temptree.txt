@@ -1,0 +1,7 @@
+Z_inferred_ancestor	A
+Z_M^353-Scr-clNo-6_t11	A
+Z_M^354-Scr-Ch-1_t11	A
+Z_M^353-Scr-clNo-2_t11	G
+Z_M^353-Scr-clNo-1_t11	A
+Z_M^352-Scr-crNo-6_t11	A
+Z_M^352-Scr-crNo-1_t11	N

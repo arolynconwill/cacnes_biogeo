@@ -1,0 +1,4 @@
+Z_inferred_ancestor	C
+Z_M^350-Scr-Rc-1_t11	C
+Z_M^350-Scr-Rc-3_t11	T
+Z_M^350-Scr-Rc-2_t11	C

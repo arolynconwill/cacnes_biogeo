@@ -1,0 +1,5 @@
+Z_inferred_ancestor	T
+Z_K^341-Scr-Fo-5_t11	N
+Z_K^341-Scr-Fo-4_t11	T
+Z_K^341-Scr-Fo-3_t11	C
+Z_K^341-Scr-Fo-2_t11	T

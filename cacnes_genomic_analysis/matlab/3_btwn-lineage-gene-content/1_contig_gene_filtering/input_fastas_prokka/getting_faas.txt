@@ -1,0 +1,37 @@
+Want these files:
+
+/scratch/mit_lieberman/projects/aro_/2021_02_19_clade_assembly_mapping/4-annotation/clade_1/prokka_out.faa
+
+And to save them as:
+
+/Users/arolyn/Dropbox (MIT)/Postdoc/Pacnes_Biogeo/Analysis_LineageDifferences/fastas/clade_1_prokka_out.faa
+
+
+Get one:
+
+scp -i /Users/arolyn/Dropbox\ \(MIT\)/Postdoc/Administrative/c3ddb/c3ddb-cluster/linux/c3ddb-key -r aconwill@c3ddb01.mit.edu:/scratch/mit_lieberman/projects/aro_/2021_02_19_clade_assembly_mapping/4-annotation/clade_1/prokka_out.faa /Users/arolyn/Dropbox\ \(MIT\)/Postdoc/Pacnes_Biogeo/Analysis_LineageDifferences/fastas/clade_1_prokka_out.faa
+
+
+Wildcards don't work:
+
+scp -i /Users/arolyn/Dropbox\ \(MIT\)/Postdoc/Administrative/c3ddb/c3ddb-cluster/linux/c3ddb-key -r aconwill@c3ddb01.mit.edu:/scratch/mit_lieberman/projects/aro_/2021_02_19_clade_assembly_mapping/4-annotation/clade_*/prokka_out.faa /Users/arolyn/Dropbox\ \(MIT\)/Postdoc/Pacnes_Biogeo/Analysis_LineageDifferences/fastas/clade_*/prokka_out.faa
+
+
+Loop but password is annoying:
+
+for i in {1..3}; do scp -i /Users/arolyn/Dropbox\ \(MIT\)/Postdoc/Administrative/c3ddb/c3ddb-cluster/linux/c3ddb-key -r aconwill@c3ddb01.mit.edu:/scratch/mit_lieberman/projects/aro_/2021_02_19_clade_assembly_mapping/4-annotation/clade_$i/prokka_out.faa /Users/arolyn/Dropbox\ \(MIT\)/Postdoc/Pacnes_Biogeo/Analysis_LineageDifferences/fastas/clade_${i}_prokka_out.faa; done
+
+for i in {11..53}; do scp -i /Users/arolyn/Dropbox\ \(MIT\)/Postdoc/Administrative/c3ddb/c3ddb-cluster/linux/c3ddb-key -r aconwill@c3ddb01.mit.edu:/scratch/mit_lieberman/projects/aro_/2021_02_19_clade_assembly_mapping/4-annotation/clade_$i/prokka_out.faa /Users/arolyn/Dropbox\ \(MIT\)/Postdoc/Pacnes_Biogeo/Analysis_LineageDifferences/fastas/clade_${i}_prokka_out.faa; done
+
+
+whatever
+
+
+
+
+
+
+
+scp: c3ddb to me
+scp -i /Users/arolyn/Dropbox\ \(MIT\)/Postdoc/Administrative/c3ddb/c3ddb-cluster/linux/c3ddb-key -r aconwill@c3ddb01.mit.edu:/scratch/mit_lieberman/projects/aro_/2019_12_22_arolyn_big-set_snakemake_bracken/for_analysis /Users/arolyn/Desktop/thing
+

@@ -1,0 +1,5 @@
+   4   7
+T^1          CTAGGGC
+T^2          CTAGGAC
+T^3          CCGAGGT
+T^4          ATAGAAC

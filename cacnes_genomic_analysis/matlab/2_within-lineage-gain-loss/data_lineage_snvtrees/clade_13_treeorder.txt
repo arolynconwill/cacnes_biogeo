@@ -1,0 +1,12 @@
+B^304-Scr-Lc-5_t11
+B^308-Scr-clNo-5_t11
+B^071-Scr-Lc-2_t00
+B^071-Scr-Lc-3_t00
+B^072-Scr-Rc-3_t00
+B^072-Scr-Rc-4_t00
+B^080-Ext-RcBs-1_t00
+B^080-Ext-RcBs-3_t00
+B^082-Ext-clNoBs-2_t00
+B^091-Ext-blNoBs-2_t00
+B^091-Ext-blNoBs-3_t00
+B^303-Scr-Rc-4_t11

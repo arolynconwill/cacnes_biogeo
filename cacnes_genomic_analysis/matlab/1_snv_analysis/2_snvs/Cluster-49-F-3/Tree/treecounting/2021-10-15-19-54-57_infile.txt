@@ -1,0 +1,5 @@
+   4   7
+T^1          GCTGAGC
+T^2          GTTGGGC
+T^3          GCTGAGC
+T^4          ACCAAAT

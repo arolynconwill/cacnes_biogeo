@@ -1,0 +1,7 @@
+   6   13
+T^1          GCTGTGGATCCTC
+T^2          GCTATGNNCTCTG
+T^3          GCTACGGGTCTTC
+T^4          CTCGTAAATCCTC
+T^5          GCTATAGGTCTCC
+T^6          NNTATAGGTCTTC

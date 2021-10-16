@@ -1,0 +1,10 @@
+   9   4
+T^1          GCTG
+T^2          ACCC
+T^3          GCCG
+T^4          GCCC
+T^5          GCCG
+T^6          GCCC
+T^7          GATG
+T^8          GCCG
+T^9          GCCG

@@ -1,0 +1,28 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=12;
+	taxlabels
+	'Z_N^371-Scr-trBa-2_t11--*C'[&!color=#-16725916]
+	'Z_N^371-Scr-trBa-4_t11--*C'[&!color=#-16725916]
+	'Z_N^365-Scr-Fo-2_t11--*C'[&!color=#-16725916]
+	'Z_N^365-Scr-Fo-4_t11--*C'[&!color=#-16725916]
+	'Z_N^369-Scr-clNo-4_t11--*C'[&!color=#-16725916]
+	'Z_N^372-Scr-tlBa-1_t11--*C'[&!color=#-16725916]
+	'Z_N^372-Scr-tlBa-3_t11--*A'[&!color=#-16776961]
+	'Z_N^365-Scr-Fo-3_t11--*C'[&!color=#-16725916]
+	'Z_N^372-Scr-tlBa-2_t11--*C'[&!color=#-16725916]
+	'Z_N^372-Scr-tlBa-6_t11--*C'[&!color=#-16725916]
+	'Z_inferred_ancestor--*C'[&!color=#-16725916]
+	'Reference'[&!color=#-16777216]
+;
+end
+
+begin trees;
+	tree tree_1=[&R] ((Z_N^371-Scr-trBa-2_t11--*C:0.00625,Z_N^371-Scr-trBa-4_t11--*C:0.00000):0.15625,((Z_N^365-Scr-Fo-2_t11--*C:0.00000,Z_N^365-Scr-Fo-4_t11--*C:0.00000):0.10000,
+(Z_N^369-Scr-clNo-4_t11--*C:0.13750,Z_N^372-Scr-tlBa-1_t11--*C:0.06250,Z_N^372-Scr-tlBa-3_t11--*A:0.11250,Z_N^365-Scr-Fo-3_t11--*C:0.18750,(Z_N^372-Scr-tlBa-2_t11--*C:0.00000,
+Z_N^372-Scr-tlBa-6_t11--*C:0.00000):0.10000):0.01250):0.12500,Z_inferred_ancestor--*C:0.00000);
+end;
+
+begin figtree;
+	set tipLabels.fontSize=10;
+end;

@@ -1,0 +1,13 @@
+B:310-Scr-tlBa-1_t11
+B:310-Scr-tlBa-2_t11
+B:304-Scr-Lc-4_t11
+B:309-Scr-trBa-3_t11
+B:307-Scr-crNo-4_t11
+B:308-Scr-clNo-4_t11
+B:074-Scr-tlBa-1_t00
+B:074-Scr-tlBa-3_t00
+B:074-Scr-tlBa-4_t00
+B:078-Ext-trFoBp-1_t00
+B:077-Scr-brBa-1_t00
+B:076-Scr-blBa-4_t00
+B:076-Scr-blBa-3_t00

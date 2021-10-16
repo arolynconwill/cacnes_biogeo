@@ -1,0 +1,5 @@
+Z_inferred_ancestor	C
+Z_D^059-Scr-Lc-2_t00	T
+Z_D^059-Scr-Lc-3_t00	T
+Z_D^060-Scr-Rc-1_t00	C
+Z_D^060-Scr-Rc-3_t00	C

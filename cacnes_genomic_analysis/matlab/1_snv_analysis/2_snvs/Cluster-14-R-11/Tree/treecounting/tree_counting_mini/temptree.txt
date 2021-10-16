@@ -1,0 +1,12 @@
+Z_inferred_ancestor	G
+Z_R^410-Ext-blFoBs-2_t15	G
+Z_R^405-Ext-tlLcB-3_t15	G
+Z_R^405-Ext-tlLcB-1_t15	G
+Z_R^407-Ext-ChB-6_t15	G
+Z_R^407-Ext-ChB-5_t15	G
+Z_R^407-Ext-ChB-4_t15	G
+Z_R^407-Ext-ChB-3_t15	G
+Z_R^406-Ext-ChB-5_t15	G
+Z_R^406-Ext-ChB-3_t15	G
+Z_R^410-Ext-blFoBs-5_t15	T
+Z_R^410-Ext-blFoBs-4_t15	T

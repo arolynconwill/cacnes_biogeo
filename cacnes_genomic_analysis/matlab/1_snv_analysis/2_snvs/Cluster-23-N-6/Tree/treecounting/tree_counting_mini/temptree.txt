@@ -1,0 +1,7 @@
+Z_inferred_ancestor	G
+Z_N^366-Scr-Rc-4_t11	C
+Z_N^366-Scr-Rc-3_t11	C
+Z_N^366-Scr-Rc-2_t11	C
+Z_N^366-Scr-Rc-1_t11	G
+Z_N^368-Scr-crNo-5_t11	G
+Z_N^368-Scr-crNo-1_t11	G

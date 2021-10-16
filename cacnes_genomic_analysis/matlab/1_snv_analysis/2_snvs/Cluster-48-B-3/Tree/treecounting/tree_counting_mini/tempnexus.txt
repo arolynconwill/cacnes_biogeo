@@ -1,0 +1,19 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=5;
+	taxlabels
+	'Z_B^078-Ext-trFoBp-2_t00--*A'[&!color=#-16776961]
+	'Z_B^078-Ext-trFoBp-3_t00--*A'[&!color=#-16776961]
+	'Z_B^309-Scr-trBa-6_t11--*G'[&!color=#-3670016]
+	'Z_inferred_ancestor--*G'[&!color=#-3670016]
+	'Reference'[&!color=#-16777216]
+;
+end
+
+begin trees;
+	tree tree_1=[&R] ((Z_B^078-Ext-trFoBp-2_t00--*A:0.00000,Z_B^078-Ext-trFoBp-3_t00--*A:0.05000):0.65000,Z_B^309-Scr-trBa-6_t11--*G:0.30000,Z_inferred_ancestor--*G:0.00000);
+end;
+
+begin figtree;
+	set tipLabels.fontSize=10;
+end;

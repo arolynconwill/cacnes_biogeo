@@ -1,0 +1,13 @@
+   12   7
+T^1          CTAGGAC
+T^2          CCGAGGT
+T^3          ATAGAAC
+T^4          CTAGGGC
+T^5          CTAGGGC
+T^6          CTAGGGC
+T^7          CTAGGGC
+T^8          CTAGGGC
+T^9          CTAGGGC
+T^10         CTAGGGC
+T^11         CTAGGGC
+T^12         CTAGGGC

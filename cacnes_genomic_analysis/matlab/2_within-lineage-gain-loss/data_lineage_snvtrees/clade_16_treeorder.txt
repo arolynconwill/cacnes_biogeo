@@ -1,0 +1,10 @@
+Q^394-Ext-clChB-1_t15
+Q^400-Scr-tcBa-5_t15
+Q^394-Ext-clChB-3_t15
+Q^394-Ext-clChB-4_t15
+Q^394-Ext-clChB-5_t15
+Q^401-Scr-trBa-4_t15
+Q^401-Scr-trBa-2_t15
+Q^402-Scr-tlBa-4_t15
+Q^402-Scr-tlBa-5_t15
+Q^404-Scr-Lc-1_t15

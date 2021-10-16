@@ -1,0 +1,12 @@
+name: filtlong
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - filtlong=0.2.0=he513fc3_3
+  - libgcc-ng=9.1.0=hdf63c60_0
+  - libstdcxx-ng=9.1.0=hdf63c60_0
+  - zlib=1.2.11=h7b6447c_3
+prefix: /scratch/users/ravalika/tools/miniconda3/envs/filtlong
+

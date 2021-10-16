@@ -1,0 +1,9 @@
+   8   11
+T^1          TTCTTTGNAGT
+T^2          TTCTTTGCGGC
+T^3          CCACCCAAGAC
+T^4          TTCTTTGCAGT
+T^5          TCCCTTGAGGC
+T^6          TCCCTTGAGGC
+T^7          TCCCTTGAGGC
+T^8          TCCCTTGAGGC

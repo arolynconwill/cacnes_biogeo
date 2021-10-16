@@ -1,0 +1,40 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=22;
+	taxlabels
+	'Z_I^340-Scr-ccBa-3_t11--*G'[&!color=#-3670016]
+	'Z_I^340-Scr-ccBa-1_t11--*G'[&!color=#-3670016]
+	'Z_I^340-Scr-ccBa-6_t11--*G'[&!color=#-3670016]
+	'Z_I^330-Scr-Fo-2_t11--*G'[&!color=#-3670016]
+	'Z_I^332-Scr-Lc-3_t11--*G'[&!color=#-3670016]
+	'Z_I^333-Scr-crRc-2_t11--*G'[&!color=#-3670016]
+	'Z_I^333-Scr-crRc-1_t11--*G'[&!color=#-3670016]
+	'Z_I^333-Scr-crRc-3_t11--*G'[&!color=#-3670016]
+	'Z_I^340-Scr-ccBa-4_t11--*G'[&!color=#-3670016]
+	'Z_I^331-Scr-Rc-5_t11--*G'[&!color=#-3670016]
+	'Z_I^332-Scr-Lc-4_t11--*A'[&!color=#-16776961]
+	'Z_I^334-Scr-clLc-1_t11--*G'[&!color=#-3670016]
+	'Z_I^333-Scr-crRc-4_t11--*G'[&!color=#-3670016]
+	'Z_I^336-Scr-trBa-1_t11--*G'[&!color=#-3670016]
+	'Z_I^336-Scr-trBa-3_t11--*G'[&!color=#-3670016]
+	'Z_I^336-Scr-trBa-4_t11--*G'[&!color=#-3670016]
+	'Z_I^336-Scr-trBa-2_t11--*G'[&!color=#-3670016]
+	'Z_I^339-Scr-clNo-1_t11--*G'[&!color=#-3670016]
+	'Z_I^339-Scr-clNo-3_t11--*G'[&!color=#-3670016]
+	'Z_I^339-Scr-clNo-4_t11--*G'[&!color=#-3670016]
+	'Z_inferred_ancestor--*G'[&!color=#-3670016]
+	'Reference'[&!color=#-16777216]
+;
+end
+
+begin trees;
+	tree tree_1=[&R] (Z_I^340-Scr-ccBa-3_t11--*G:0.06667,Z_I^340-Scr-ccBa-1_t11--*G:0.08333,Z_I^340-Scr-ccBa-6_t11--*G:0.00000,Z_I^330-Scr-Fo-2_t11--*G:0.00000,Z_I^332-Scr-Lc-3_t11--*G:0.18333,
+Z_I^333-Scr-crRc-2_t11--*G:0.08333,(Z_I^333-Scr-crRc-1_t11--*G:0.09167,Z_I^333-Scr-crRc-3_t11--*G:0.02500):0.03333,(Z_I^340-Scr-ccBa-4_t11--*G:0.05000,
+Z_I^331-Scr-Rc-5_t11--*G:0.00000,Z_I^332-Scr-Lc-4_t11--*A:0.06667,Z_I^334-Scr-clLc-1_t11--*G:0.03333,Z_I^333-Scr-crRc-4_t11--*G:0.05000):0.03333,(Z_I^336-Scr-trBa-1_t11--*G:0.00000,
+Z_I^336-Scr-trBa-3_t11--*G:0.01667,Z_I^336-Scr-trBa-4_t11--*G:0.06667,Z_I^336-Scr-trBa-2_t11--*G:0.05000):0.05000,(Z_I^339-Scr-clNo-1_t11--*G:0.00000,Z_I^339-Scr-clNo-3_t11--*G:0.00000,
+Z_I^339-Scr-clNo-4_t11--*G:0.00000):0.01667,Z_inferred_ancestor--*G:0.00000);
+end;
+
+begin figtree;
+	set tipLabels.fontSize=10;
+end;

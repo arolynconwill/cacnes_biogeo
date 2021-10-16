@@ -1,0 +1,6 @@
+Z_inferred_ancestor	G
+Z_Q^404-Scr-Lc-2_t15	G
+Z_Q^395-Ext-trBaB-8_t15	A
+Z_Q^395-Ext-trBaB-7_t15	A
+Z_Q^395-Ext-trBaB-5_t15	A
+Z_Q^395-Ext-trBaB-4_t15	A

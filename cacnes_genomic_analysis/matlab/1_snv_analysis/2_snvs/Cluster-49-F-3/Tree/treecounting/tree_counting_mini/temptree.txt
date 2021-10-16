@@ -1,0 +1,4 @@
+Z_inferred_ancestor	C
+Z_F^182-Scr-Lc-2_t07	C
+Z_F^190-Scr-crSh-1_t07	C
+Z_F^185-Scr-Fo-1_t07	T

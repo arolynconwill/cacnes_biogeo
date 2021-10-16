@@ -1,0 +1,11 @@
+   10   8
+T^1          GCGCAGCC
+T^2          GCGCAGCC
+T^3          GTGCGGCC
+T^4          GCGCNACC
+T^5          GCGCAGCC
+T^6          ACAAAGGT
+T^7          ACGCGGCT
+T^8          ACGCAGCT
+T^9          ACGCNGCT
+T^10         ACGCAGCT

@@ -1,0 +1,5 @@
+   4   10
+T^1          GTCAGTTCGG
+T^2          GCCNGNCNGG
+T^3          ACCCTCNCGT
+T^4          NTTAGTTGCG

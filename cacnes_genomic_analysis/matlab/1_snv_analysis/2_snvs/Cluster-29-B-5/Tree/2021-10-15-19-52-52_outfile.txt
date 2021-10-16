@@ -1,0 +1,28 @@
+[2J[Hdnapars: can't find input file "infile"
+Please enter a new file name> 
+dnapars: the file "outfile" that you wanted to
+     use as output file already exists.
+     Do you want to Replace it, Append to it,
+     write to a new File, or Quit?
+     (please type R, A, F, or Q) 
+Please enter a new file name> 
+dnapars: the file "2021-10-15-19-52-52_out.txt" that you wanted to
+     use as output file already exists.
+     Do you want to Replace it, Append to it,
+     write to a new File, or Quit?
+     (please type R, A, F, or Q) 
+     (please type R, A, F, or Q) 
+     (please type R, A, F, or Q) 
+     (please type R, A, F, or Q) 
+     (please type R, A, F, or Q) 
+Please enter a new file name> 
+dnapars: the file "2021-10-15-19-52-52_out.tree" that you wanted to
+     use as output file already exists.
+     Do you want to Replace it, Append to it,
+     write to a new File, or Quit?
+     (please type R, A, F, or Q) 
+     (please type R, A, F, or Q) 
+
+
+ERROR: Unexpected end-of-file.
+

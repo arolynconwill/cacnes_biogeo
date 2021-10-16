@@ -1,0 +1,4 @@
+Z_inferred_ancestor	G
+Z_B^309-Scr-trBa-6_t11	G
+Z_B^078-Ext-trFoBp-3_t00	A
+Z_B^078-Ext-trFoBp-2_t00	A

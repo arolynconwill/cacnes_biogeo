@@ -1,0 +1,233 @@
+Suspicious Sample Removal
+Starting log file...
+2021-10-15 18:02:34
+ 
+
+ 
+First checking for suspicious subjects...
+
+Cluster-1:
+Number of samples: 222
+Majority subject: Subject A, 216/222 samples in clade
+Minority subject: Subject E, 4/222 samples in clade, 4/8 samples for subject
+Minority subject: Subject F, 2/222 samples in clade, 2/86 samples for subject
+Warning! Suspicious subject assignment! Removing sample(s). 
+     F:111-Stp-Lc9-1_t07
+     F:141-Stp-Lc14-4_t07
+
+Cluster-2:
+Number of samples: 128
+Majority subject: Subject A, 125/128 samples in clade
+Minority subject: Subject F, 2/128 samples in clade, 2/86 samples for subject
+Warning! Suspicious subject assignment! Removing sample(s). 
+     F:134-Stp-Lc10-1_t07
+     F:134-Stp-Lc10-3_t07
+Minority subject: Subject H, 1/128 samples in clade, 1/47 samples for subject
+Warning! Suspicious subject assignment! Removing sample(s). 
+     H:321-Scr-clLc-3_t11
+
+Cluster-3:
+Number of samples: 64
+Majority subject: Subject A, 63/64 samples in clade
+Minority subject: Subject J, 1/64 samples in clade, 1/21 samples for subject
+Warning! Suspicious subject assignment! Removing sample(s). 
+     J:322-Scr-Fo-3_t11
+
+Cluster-4:
+Number of samples: 46
+Majority subject: Subject H, 46/46 samples in clade
+
+Cluster-5:
+Number of samples: 45
+Majority subject: Subject F, 45/45 samples in clade
+
+Cluster-6:
+Number of samples: 33
+Majority subject: Subject B, 33/33 samples in clade
+
+Cluster-7:
+Number of samples: 30
+Majority subject: Subject L, 30/30 samples in clade
+
+Cluster-8:
+Number of samples: 22
+Majority subject: Subject F, 22/22 samples in clade
+
+Cluster-9:
+Number of samples: 20
+Majority subject: Subject I, 20/20 samples in clade
+
+Cluster-10:
+Number of samples: 20
+Majority subject: Subject Q, 20/20 samples in clade
+
+Cluster-11:
+Number of samples: 17
+Majority subject: Subject J, 17/17 samples in clade
+
+Cluster-12:
+Number of samples: 14
+Majority subject: Subject B, 14/14 samples in clade
+
+Cluster-13:
+Number of samples: 12
+Majority subject: Subject B, 12/12 samples in clade
+
+Cluster-14:
+Number of samples: 11
+Majority subject: Subject R, 11/11 samples in clade
+
+Cluster-15:
+Number of samples: 10
+Majority subject: Subject N, 10/10 samples in clade
+
+Cluster-16:
+Number of samples: 10
+Majority subject: Subject Q, 10/10 samples in clade
+
+Cluster-17:
+Number of samples: 9
+Majority subject: Subject K, 9/9 samples in clade
+
+Cluster-18:
+Number of samples: 9
+Majority subject: Subject R, 9/9 samples in clade
+
+Cluster-19:
+Number of samples: 8
+Majority subject: Subject A, 8/8 samples in clade
+
+Cluster-20:
+Number of samples: 7
+Majority subject: Subject B, 7/7 samples in clade
+
+Cluster-21:
+Number of samples: 7
+Majority subject: Subject F, 7/7 samples in clade
+
+Cluster-22:
+Number of samples: 6
+Majority subject: Subject M, 6/6 samples in clade
+
+Cluster-23:
+Number of samples: 6
+Majority subject: Subject N, 6/6 samples in clade
+
+Cluster-24:
+Number of samples: 6
+Majority subject: Subject O, 6/6 samples in clade
+
+Cluster-25:
+Number of samples: 5
+Majority subject: Subject M, 5/5 samples in clade
+
+Cluster-26:
+Number of samples: 5
+Majority subject: Subject O, 5/5 samples in clade
+
+Cluster-27:
+Number of samples: 5
+Majority subject: Subject I, 5/5 samples in clade
+
+Cluster-28:
+Number of samples: 5
+Majority subject: Subject K, 5/5 samples in clade
+
+Cluster-29:
+Number of samples: 5
+Majority subject: Subject B, 5/5 samples in clade
+
+Cluster-30:
+Number of samples: 5
+Majority subject: Subject D, 5/5 samples in clade
+
+Cluster-31:
+Number of samples: 5
+Majority subject: Subject R, 5/5 samples in clade
+
+Cluster-32:
+Number of samples: 5
+Majority subject: Subject Q, 5/5 samples in clade
+
+Cluster-33:
+Number of samples: 4
+Majority subject: Subject O, 4/4 samples in clade
+
+Cluster-34:
+Number of samples: 4
+Majority subject: Subject K, 4/4 samples in clade
+
+Cluster-35:
+Number of samples: 4
+Majority subject: Subject B, 4/4 samples in clade
+
+Cluster-36:
+Number of samples: 4
+Majority subject: Subject B, 4/4 samples in clade
+
+Cluster-37:
+Number of samples: 4
+Majority subject: Subject F, 4/4 samples in clade
+
+Cluster-38:
+Number of samples: 4
+Majority subject: Subject C, 4/4 samples in clade
+
+Cluster-39:
+Number of samples: 4
+Majority subject: Subject A, 3/4 samples in clade
+Minority subject: Subject Q, 1/4 samples in clade, 1/39 samples for subject
+Warning! Suspicious subject assignment! Removing sample(s). 
+     Q:398-Ext-tlBaB-6_t15
+
+Cluster-40:
+Number of samples: 4
+Majority subject: Subject R, 4/4 samples in clade
+
+Cluster-41:
+Number of samples: 4
+Majority subject: Subject D, 4/4 samples in clade
+
+Cluster-42:
+Number of samples: 4
+Majority subject: Subject D, 4/4 samples in clade
+
+Cluster-43:
+Number of samples: 3
+Majority subject: Subject O, 3/3 samples in clade
+
+Cluster-44:
+Number of samples: 3
+Majority subject: Subject M, 3/3 samples in clade
+
+Cluster-45:
+Number of samples: 3
+Majority subject: Subject O, 3/3 samples in clade
+
+Cluster-46:
+Number of samples: 3
+Majority subject: Subject M, 3/3 samples in clade
+
+Cluster-47:
+Number of samples: 3
+Majority subject: Subject B, 3/3 samples in clade
+
+Cluster-48:
+Number of samples: 3
+Majority subject: Subject B, 3/3 samples in clade
+
+Cluster-49:
+Number of samples: 3
+Majority subject: Subject F, 3/3 samples in clade
+
+Cluster-50:
+Number of samples: 3
+Majority subject: Subject C, 3/3 samples in clade
+
+Cluster-51:
+Number of samples: 3
+Majority subject: Subject Q, 3/3 samples in clade
+
+Cluster-52:
+Number of samples: 3
+Majority subject: Subject A, 3/3 samples in clade

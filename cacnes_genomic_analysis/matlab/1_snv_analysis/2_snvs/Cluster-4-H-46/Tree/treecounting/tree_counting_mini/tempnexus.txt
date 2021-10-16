@@ -1,0 +1,73 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=48;
+	taxlabels
+	'Z_H^317-Scr-Ch-4_t11--*G'[&!color=#-3670016]
+	'Z_H^317-Scr-Ch-3_t11--*G'[&!color=#-3670016]
+	'Z_H^317-Scr-Ch-2_t11--*G'[&!color=#-3670016]
+	'Z_H^317-Scr-Ch-1_t11--*G'[&!color=#-3670016]
+	'Z_H^318-Scr-trBa-3_t11--*G'[&!color=#-3670016]
+	'Z_H^318-Scr-trBa-4_t11--*G'[&!color=#-3670016]
+	'Z_H^318-Scr-trBa-5_t11--*G'[&!color=#-3670016]
+	'Z_H^318-Scr-trBa-6_t11--*G'[&!color=#-3670016]
+	'Z_H^319-Scr-brBa-3_t11--*G'[&!color=#-3670016]
+	'Z_H^319-Scr-brBa-5_t11--*G'[&!color=#-3670016]
+	'Z_H^319-Scr-brBa-6_t11--*G'[&!color=#-3670016]
+	'Z_H^312-Scr-Fo-1_t11--*G'[&!color=#-3670016]
+	'Z_H^319-Scr-brBa-4_t11--*G'[&!color=#-3670016]
+	'Z_H^319-Scr-brBa-1_t11--*G'[&!color=#-3670016]
+	'Z_H^314-Scr-Lc-4_t11--*G'[&!color=#-3670016]
+	'Z_H^314-Scr-Lc-2_t11--*G'[&!color=#-3670016]
+	'Z_H^314-Scr-Lc-1_t11--*G'[&!color=#-3670016]
+	'Z_H^314-Scr-Lc-6_t11--*G'[&!color=#-3670016]
+	'Z_H^321-Scr-clLc-2_t11--*G'[&!color=#-3670016]
+	'Z_H^321-Scr-clLc-1_t11--*G'[&!color=#-3670016]
+	'Z_H^316-Scr-clNo-1_t11--*G'[&!color=#-3670016]
+	'Z_H^312-Scr-Fo-4_t11--*G'[&!color=#-3670016]
+	'Z_H^312-Scr-Fo-3_t11--*G'[&!color=#-3670016]
+	'Z_H^321-Scr-clLc-5_t11--*G'[&!color=#-3670016]
+	'Z_H^318-Scr-trBa-1_t11--*G'[&!color=#-3670016]
+	'Z_H^319-Scr-brBa-2_t11--*G'[&!color=#-3670016]
+	'Z_H^321-Scr-clLc-4_t11--*G'[&!color=#-3670016]
+	'Z_H^316-Scr-clNo-4_t11--*G'[&!color=#-3670016]
+	'Z_H^313-Scr-Rc-4_t11--*G'[&!color=#-3670016]
+	'Z_H^314-Scr-Lc-5_t11--*G'[&!color=#-3670016]
+	'Z_H^314-Scr-Lc-3_t11--*G'[&!color=#-3670016]
+	'Z_H^315-Scr-crNo-3_t11--*G'[&!color=#-3670016]
+	'Z_H^315-Scr-crNo-2_t11--*G'[&!color=#-3670016]
+	'Z_H^315-Scr-crNo-6_t11--*G'[&!color=#-3670016]
+	'Z_H^315-Scr-crNo-5_t11--*G'[&!color=#-3670016]
+	'Z_H^315-Scr-crNo-1_t11--*G'[&!color=#-3670016]
+	'Z_H^313-Scr-Rc-5_t11--*G'[&!color=#-3670016]
+	'Z_H^313-Scr-Rc-2_t11--*G'[&!color=#-3670016]
+	'Z_H^313-Scr-Rc-1_t11--*G'[&!color=#-3670016]
+	'Z_H^312-Scr-Fo-6_t11--*G'[&!color=#-3670016]
+	'Z_H^313-Scr-Rc-3_t11--*G'[&!color=#-3670016]
+	'Z_H^312-Scr-Fo-5_t11--*C'[&!color=#-16725916]
+	'Z_H^313-Scr-Rc-6_t11--*G'[&!color=#-3670016]
+	'Z_H^312-Scr-Fo-2_t11--*G'[&!color=#-3670016]
+	'Z_H^321-Scr-clLc-6_t11--*G'[&!color=#-3670016]
+	'Z_H^318-Scr-trBa-2_t11--*G'[&!color=#-3670016]
+	'Z_inferred_ancestor--*G'[&!color=#-3670016]
+	'Reference'[&!color=#-16777216]
+;
+end
+
+begin trees;
+	tree tree_1=[&R] ((Z_H^317-Scr-Ch-4_t11--*G:0.00913,(Z_H^317-Scr-Ch-3_t11--*G:0.00457,Z_H^317-Scr-Ch-2_t11--*G:0.01370):0.00913,Z_H^317-Scr-Ch-1_t11--*G:0.00913):0.04566,
+(Z_H^318-Scr-trBa-3_t11--*G:0.00000,Z_H^318-Scr-trBa-4_t11--*G:0.00000,Z_H^318-Scr-trBa-5_t11--*G:0.00000,Z_H^318-Scr-trBa-6_t11--*G:0.00000):0.08219,(Z_H^319-Scr-brBa-3_t11--*G:0.00000,
+Z_H^319-Scr-brBa-5_t11--*G:0.00000,Z_H^319-Scr-brBa-6_t11--*G:0.00000):0.08219,(Z_H^312-Scr-Fo-1_t11--*G:0.04566,(Z_H^319-Scr-brBa-4_t11--*G:0.00000,
+Z_H^319-Scr-brBa-1_t11--*G:0.00000):0.02283,(Z_H^314-Scr-Lc-4_t11--*G:0.00913,Z_H^314-Scr-Lc-2_t11--*G:0.01826,Z_H^314-Scr-Lc-1_t11--*G:0.01826,
+Z_H^314-Scr-Lc-6_t11--*G:0.00457,(Z_H^321-Scr-clLc-2_t11--*G:0.00913,Z_H^321-Scr-clLc-1_t11--*G:0.01142):0.01142,(Z_H^316-Scr-clNo-1_t11--*G:0.00913,
+Z_H^312-Scr-Fo-4_t11--*G:0.02283):0.00457,Z_H^312-Scr-Fo-3_t11--*G:0.01370,Z_H^321-Scr-clLc-5_t11--*G:0.05023):0.01370,((Z_H^318-Scr-trBa-1_t11--*G:0.01370,
+Z_H^319-Scr-brBa-2_t11--*G:0.00000):0.00457,Z_H^321-Scr-clLc-4_t11--*G:0.01370,(Z_H^316-Scr-clNo-4_t11--*G:0.01370,Z_H^313-Scr-Rc-4_t11--*G:0.03196,
+(Z_H^314-Scr-Lc-5_t11--*G:0.00685,Z_H^314-Scr-Lc-3_t11--*G:0.02283):0.02511,(Z_H^315-Scr-crNo-3_t11--*G:0.05936,(Z_H^315-Scr-crNo-2_t11--*G:0.00457,
+Z_H^315-Scr-crNo-6_t11--*G:0.00000):0.00913):0.00457,(Z_H^315-Scr-crNo-5_t11--*G:0.00913,Z_H^315-Scr-crNo-1_t11--*G:0.02740):0.01826,
+(Z_H^313-Scr-Rc-5_t11--*G:0.00000,Z_H^313-Scr-Rc-2_t11--*G:0.00457,Z_H^313-Scr-Rc-1_t11--*G:0.00000):0.01826,Z_H^312-Scr-Fo-6_t11--*G:0.01370,
+(Z_H^313-Scr-Rc-3_t11--*G:0.02283,Z_H^312-Scr-Fo-5_t11--*C:0.01826):0.01370,Z_H^313-Scr-Rc-6_t11--*G:0.02740,Z_H^312-Scr-Fo-2_t11--*G:0.01826,
+Z_H^321-Scr-clLc-6_t11--*G:0.03196):0.00457,Z_H^318-Scr-trBa-2_t11--*G:0.00913):0.00457):0.02740,Z_inferred_ancestor--*G:0.00000);
+end;
+
+begin figtree;
+	set tipLabels.fontSize=10;
+end;

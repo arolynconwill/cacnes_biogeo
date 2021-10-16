@@ -1,0 +1,109 @@
+[2J[Hdnapars: can't find input file "infile"
+Please enter a new file name> 
+dnapars: the file "outfile" that you wanted to
+     use as output file already exists.
+     Do you want to Replace it, Append to it,
+     write to a new File, or Quit?
+     (please type R, A, F, or Q) 
+Please enter a new file name> [2J[H
+DNA parsimony algorithm, version 3.695
+
+Setting for this run:
+  U                 Search for best tree?  Yes
+  S                        Search option?  More thorough search
+  V              Number of trees to save?  10000
+  J   Randomize input order of sequences?  No. Use input order
+  O                        Outgroup root?  No, use as outgroup species  1
+  T              Use Threshold parsimony?  No, use ordinary parsimony
+  N           Use Transversion parsimony?  No, count all steps
+  W                       Sites weighted?  No
+  M           Analyze multiple data sets?  No
+  I          Input sequences interleaved?  Yes
+  0   Terminal type (IBM PC, ANSI, none)?  ANSI
+  1    Print out the data at start of run  No
+  2  Print indications of progress of run  Yes
+  3                        Print out tree  Yes
+  4          Print out steps in each site  No
+  5  Print sequences at all nodes of tree  No
+  6       Write out trees onto tree file?  Yes
+
+  Y to accept these or type the letter for one to change
+[2J[H
+DNA parsimony algorithm, version 3.695
+
+Setting for this run:
+  U                 Search for best tree?  Yes
+  S                        Search option?  More thorough search
+  V              Number of trees to save?  10000
+  J   Randomize input order of sequences?  No. Use input order
+  O                        Outgroup root?  No, use as outgroup species  1
+  T              Use Threshold parsimony?  No, use ordinary parsimony
+  N           Use Transversion parsimony?  No, count all steps
+  W                       Sites weighted?  No
+  M           Analyze multiple data sets?  No
+  I          Input sequences interleaved?  Yes
+  0   Terminal type (IBM PC, ANSI, none)?  ANSI
+  1    Print out the data at start of run  No
+  2  Print indications of progress of run  Yes
+  3                        Print out tree  Yes
+  4          Print out steps in each site  No
+  5  Print sequences at all nodes of tree  Yes
+  .  Use dot-differencing to display them  Yes
+  6       Write out trees onto tree file?  Yes
+
+  Y to accept these or type the letter for one to change
+type the number of trees to save
+[2J[H
+DNA parsimony algorithm, version 3.695
+
+Setting for this run:
+  U                 Search for best tree?  Yes
+  S                        Search option?  More thorough search
+  V              Number of trees to save?  1
+  J   Randomize input order of sequences?  No. Use input order
+  O                        Outgroup root?  No, use as outgroup species  1
+  T              Use Threshold parsimony?  No, use ordinary parsimony
+  N           Use Transversion parsimony?  No, count all steps
+  W                       Sites weighted?  No
+  M           Analyze multiple data sets?  No
+  I          Input sequences interleaved?  Yes
+  0   Terminal type (IBM PC, ANSI, none)?  ANSI
+  1    Print out the data at start of run  No
+  2  Print indications of progress of run  Yes
+  3                        Print out tree  Yes
+  4          Print out steps in each site  No
+  5  Print sequences at all nodes of tree  Yes
+  .  Use dot-differencing to display them  Yes
+  6       Write out trees onto tree file?  Yes
+
+  Y to accept these or type the letter for one to change
+
+dnapars: the file "outtree" that you wanted to
+     use as output tree file already exists.
+     Do you want to Replace it, Append to it,
+     write to a new File, or Quit?
+     (please type R, A, F, or Q) 
+Please enter a new file name> Adding species:
+   1. T^1       
+   2. T^2       
+   3. T^3       
+   4. T^4       
+   5. T^5       
+   6. T^6       
+   7. T^7       
+   8. T^8       
+
+Doing global rearrangements on all trees tied for best
+  !---------------!
+   ...............
+   ...............
+
+Collapsing best trees
+   .
+
+Output written to file "2021-10-15-19-54-00_out.txt"
+
+Tree also written onto file "2021-10-15-19-54-00_out.tree"
+
+Done.
+

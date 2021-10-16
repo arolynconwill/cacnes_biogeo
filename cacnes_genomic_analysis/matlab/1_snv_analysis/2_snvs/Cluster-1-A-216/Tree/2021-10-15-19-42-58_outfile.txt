@@ -1,0 +1,321 @@
+[2J[Hdnapars: can't find input file "infile"
+Please enter a new file name> 
+dnapars: the file "outfile" that you wanted to
+     use as output file already exists.
+     Do you want to Replace it, Append to it,
+     write to a new File, or Quit?
+     (please type R, A, F, or Q) 
+Please enter a new file name> [2J[H
+DNA parsimony algorithm, version 3.695
+
+Setting for this run:
+  U                 Search for best tree?  Yes
+  S                        Search option?  More thorough search
+  V              Number of trees to save?  10000
+  J   Randomize input order of sequences?  No. Use input order
+  O                        Outgroup root?  No, use as outgroup species  1
+  T              Use Threshold parsimony?  No, use ordinary parsimony
+  N           Use Transversion parsimony?  No, count all steps
+  W                       Sites weighted?  No
+  M           Analyze multiple data sets?  No
+  I          Input sequences interleaved?  Yes
+  0   Terminal type (IBM PC, ANSI, none)?  ANSI
+  1    Print out the data at start of run  No
+  2  Print indications of progress of run  Yes
+  3                        Print out tree  Yes
+  4          Print out steps in each site  No
+  5  Print sequences at all nodes of tree  No
+  6       Write out trees onto tree file?  Yes
+
+  Y to accept these or type the letter for one to change
+[2J[H
+DNA parsimony algorithm, version 3.695
+
+Setting for this run:
+  U                 Search for best tree?  Yes
+  S                        Search option?  More thorough search
+  V              Number of trees to save?  10000
+  J   Randomize input order of sequences?  No. Use input order
+  O                        Outgroup root?  No, use as outgroup species  1
+  T              Use Threshold parsimony?  No, use ordinary parsimony
+  N           Use Transversion parsimony?  No, count all steps
+  W                       Sites weighted?  No
+  M           Analyze multiple data sets?  No
+  I          Input sequences interleaved?  Yes
+  0   Terminal type (IBM PC, ANSI, none)?  ANSI
+  1    Print out the data at start of run  No
+  2  Print indications of progress of run  Yes
+  3                        Print out tree  Yes
+  4          Print out steps in each site  No
+  5  Print sequences at all nodes of tree  Yes
+  .  Use dot-differencing to display them  Yes
+  6       Write out trees onto tree file?  Yes
+
+  Y to accept these or type the letter for one to change
+type the number of trees to save
+[2J[H
+DNA parsimony algorithm, version 3.695
+
+Setting for this run:
+  U                 Search for best tree?  Yes
+  S                        Search option?  More thorough search
+  V              Number of trees to save?  1
+  J   Randomize input order of sequences?  No. Use input order
+  O                        Outgroup root?  No, use as outgroup species  1
+  T              Use Threshold parsimony?  No, use ordinary parsimony
+  N           Use Transversion parsimony?  No, count all steps
+  W                       Sites weighted?  No
+  M           Analyze multiple data sets?  No
+  I          Input sequences interleaved?  Yes
+  0   Terminal type (IBM PC, ANSI, none)?  ANSI
+  1    Print out the data at start of run  No
+  2  Print indications of progress of run  Yes
+  3                        Print out tree  Yes
+  4          Print out steps in each site  No
+  5  Print sequences at all nodes of tree  Yes
+  .  Use dot-differencing to display them  Yes
+  6       Write out trees onto tree file?  Yes
+
+  Y to accept these or type the letter for one to change
+
+dnapars: the file "outtree" that you wanted to
+     use as output tree file already exists.
+     Do you want to Replace it, Append to it,
+     write to a new File, or Quit?
+     (please type R, A, F, or Q) 
+Please enter a new file name> Adding species:
+   1. T^1       
+   2. T^2       
+   3. T^3       
+   4. T^4       
+   5. T^5       
+   6. T^6       
+   7. T^7       
+   8. T^8       
+   9. T^9       
+  10. T^10      
+  11. T^11      
+  12. T^12      
+  13. T^13      
+  14. T^14      
+  15. T^15      
+  16. T^16      
+  17. T^17      
+  18. T^18      
+  19. T^19      
+  20. T^20      
+  21. T^21      
+  22. T^22      
+  23. T^23      
+  24. T^24      
+  25. T^25      
+  26. T^26      
+  27. T^27      
+  28. T^28      
+  29. T^29      
+  30. T^30      
+  31. T^31      
+  32. T^32      
+  33. T^33      
+  34. T^34      
+  35. T^35      
+  36. T^36      
+  37. T^37      
+  38. T^38      
+  39. T^39      
+  40. T^40      
+  41. T^41      
+  42. T^42      
+  43. T^43      
+  44. T^44      
+  45. T^45      
+  46. T^46      
+  47. T^47      
+  48. T^48      
+  49. T^49      
+  50. T^50      
+  51. T^51      
+  52. T^52      
+  53. T^53      
+  54. T^54      
+  55. T^55      
+  56. T^56      
+  57. T^57      
+  58. T^58      
+  59. T^59      
+  60. T^60      
+  61. T^61      
+  62. T^62      
+  63. T^63      
+  64. T^64      
+  65. T^65      
+  66. T^66      
+  67. T^67      
+  68. T^68      
+  69. T^69      
+  70. T^70      
+  71. T^71      
+  72. T^72      
+  73. T^73      
+  74. T^74      
+  75. T^75      
+  76. T^76      
+  77. T^77      
+  78. T^78      
+  79. T^79      
+  80. T^80      
+  81. T^81      
+  82. T^82      
+  83. T^83      
+  84. T^84      
+  85. T^85      
+  86. T^86      
+  87. T^87      
+  88. T^88      
+  89. T^89      
+  90. T^90      
+  91. T^91      
+  92. T^92      
+  93. T^93      
+  94. T^94      
+  95. T^95      
+  96. T^96      
+  97. T^97      
+  98. T^98      
+  99. T^99      
+ 100. T^100     
+ 101. T^101     
+ 102. T^102     
+ 103. T^103     
+ 104. T^104     
+ 105. T^105     
+ 106. T^106     
+ 107. T^107     
+ 108. T^108     
+ 109. T^109     
+ 110. T^110     
+ 111. T^111     
+ 112. T^112     
+ 113. T^113     
+ 114. T^114     
+ 115. T^115     
+ 116. T^116     
+ 117. T^117     
+ 118. T^118     
+ 119. T^119     
+ 120. T^120     
+ 121. T^121     
+ 122. T^122     
+ 123. T^123     
+ 124. T^124     
+ 125. T^125     
+ 126. T^126     
+ 127. T^127     
+ 128. T^128     
+ 129. T^129     
+ 130. T^130     
+ 131. T^131     
+ 132. T^132     
+ 133. T^133     
+ 134. T^134     
+ 135. T^135     
+ 136. T^136     
+ 137. T^137     
+ 138. T^138     
+ 139. T^139     
+ 140. T^140     
+ 141. T^141     
+ 142. T^142     
+ 143. T^143     
+ 144. T^144     
+ 145. T^145     
+ 146. T^146     
+ 147. T^147     
+ 148. T^148     
+ 149. T^149     
+ 150. T^150     
+ 151. T^151     
+ 152. T^152     
+ 153. T^153     
+ 154. T^154     
+ 155. T^155     
+ 156. T^156     
+ 157. T^157     
+ 158. T^158     
+ 159. T^159     
+ 160. T^160     
+ 161. T^161     
+ 162. T^162     
+ 163. T^163     
+ 164. T^164     
+ 165. T^165     
+ 166. T^166     
+ 167. T^167     
+ 168. T^168     
+ 169. T^169     
+ 170. T^170     
+ 171. T^171     
+ 172. T^172     
+ 173. T^173     
+ 174. T^174     
+ 175. T^175     
+ 176. T^176     
+ 177. T^177     
+ 178. T^178     
+ 179. T^179     
+ 180. T^180     
+ 181. T^181     
+ 182. T^182     
+ 183. T^183     
+ 184. T^184     
+ 185. T^185     
+ 186. T^186     
+ 187. T^187     
+ 188. T^188     
+ 189. T^189     
+ 190. T^190     
+ 191. T^191     
+ 192. T^192     
+ 193. T^193     
+ 194. T^194     
+ 195. T^195     
+ 196. T^196     
+ 197. T^197     
+ 198. T^198     
+ 199. T^199     
+ 200. T^200     
+ 201. T^201     
+ 202. T^202     
+ 203. T^203     
+ 204. T^204     
+ 205. T^205     
+ 206. T^206     
+ 207. T^207     
+ 208. T^208     
+ 209. T^209     
+ 210. T^210     
+ 211. T^211     
+ 212. T^212     
+ 213. T^213     
+ 214. T^214     
+ 215. T^215     
+ 216. T^216     
+ 217. T^217     
+ 218. T^218     
+ 219. T^219     
+ 220. T^220     
+
+Doing global rearrangements on all trees tied for best
+  !---------------------------------------------------------------!
+   ...............................................................
+   ...............................................................
+
+Collapsing best trees
+   .
+
+Output written to file "2021-10-15-19-42-58_out.txt"
+
+Tree also written onto file "2021-10-15-19-42-58_out.tree"
+
+Done.
+

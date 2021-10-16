@@ -1,0 +1,8 @@
+Z_inferred_ancestor	C
+Z_B^311-Scr-ccCh-2_t11	T
+Z_B^311-Scr-ccCh-3_t11	C
+Z_B^311-Scr-ccCh-4_t11	C
+Z_B^306-Scr-clCh-3_t11	C
+Z_B^306-Scr-clCh-4_t11	C
+Z_B^080-Ext-RcBs-2_t00	C
+Z_B^090-Ext-crChBs-3_t00	C
