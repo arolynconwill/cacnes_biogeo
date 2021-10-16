@@ -1,9 +1,9 @@
 # DATA FILES
 *.mat
-*.fasta
+#*.fasta
 *.fasta.fai
-*.gbk
-*.gb
+#*.gbk
+#*.gb
 %.bt2
 *.xlsx
 *.xls
