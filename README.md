@@ -74,7 +74,7 @@ SNV-based analyses: `/cacnes_genomic_analysis/matlab/1_snv_analysis/genomic_anal
 * Spatial biogeography analysis (across skin regions and within pores)
 * Evolutionary analysis (search for parallel evolution; inference of ancestral alleles; treemaking)
 * and more!  
-Snakemake dependencies: `/cacnes_genomic_analysis/snakemakes/4_refgenome_case`
+* Snakemake dependencies: `/cacnes_genomic_analysis/snakemakes/4_refgenome_case`
 
 Gene content analyses: 
 * Within-lineage gains/losses: `/cacnes_genomic_analysis/matlab/2_within-lineage-gain-loss`
