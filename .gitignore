@@ -9,6 +9,9 @@
 #*.fasta
 *.fasta.fai
 *.bt2
+*.fna
+*.tax
+*.qza
 outfile
 outtree
 
