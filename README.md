@@ -117,9 +117,9 @@ Analysis of growth rates of _C. acnes_ isolates measured _in vitro_.
 Directory: `/other_analyses/c_granulosum`
 
 Evolutionary analysis of _C. granulosum_ colonies:
-* `/other_analyses/c_granulosum/refgenome`: alignments of short reads to a _C. granulosum_ reference genome, SNV calling, and evolutionary analysis
-* `/other_analyses/c_granulosum/assemblies`: assembly of sample-specific _C. granulosum_ genomes, SNV calling, and evolutionary analysis
-
+* `/other_analyses/c_granulosum/phylogenetics`: alignments of short reads to a _C. granulosum_ genomes, SNV calling, and evolutionary analysis
+* `/other_analyses/c_granulosum/assemblies`: assembly of sample-specific _C. granulosum_ genomes for clades of interest
+* `/other_analyses/c_granulosum/reference_genomes`: all genomes used for treemaking
 
 ### 16S data analysis
 Directory: `/other_analyses/16s_analysis`
