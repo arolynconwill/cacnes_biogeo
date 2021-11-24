@@ -112,7 +112,7 @@ num_reg_total=0;
 % Loop through clusters and regions
 for c=1:numel(cluster_names)
     
-    load( [ 'regions_info' '/' 'C-' num2str(c) '_regions.mat' ] )
+    load( [ dir_gainloss_output '/' 'C-' num2str(c) '_regions.mat' ] )
     if isempty( fieldnames( all_regions_table ) )
         continue
     else
@@ -154,7 +154,7 @@ for c=1:numel(cluster_names)
             % Get info on refgenome blast
             blast_refgenome_filename = [ 'blast_refgenome_' next_region_name '.csv' ];
             region_fasta_filename = [ next_region_name '.fasta' ];
-            [ refgenome_perc_region_covered, refgenome_positions ] = get_refgenome_blast_info( [ dir_blast_refgenome '/' blast_refgenome_filename ], [ 'regions_info' '/' region_fasta_filename ] );
+            [ refgenome_perc_region_covered, refgenome_positions ] = get_refgenome_blast_info( [ dir_blast_refgenome '/' blast_refgenome_filename ], [ dir_gainloss_output '/' region_fasta_filename ] );
             full_regions_table(num_reg_total).BlastPacnesC1_PercentRegFound = refgenome_perc_region_covered;
             full_regions_table(num_reg_total).BlastPacnesC1_GenomePositions = refgenome_positions;
             

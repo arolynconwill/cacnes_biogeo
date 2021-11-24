@@ -1,1 +1,1 @@
-! ../dnapars < 2021-10-15-01-42-45_optionfile.txt > 2021-10-15-01-42-45_outfile.txt
+! ../dnapars < 2021-11-22-19-07-57_optionfile.txt > 2021-11-22-19-07-57_outfile.txt

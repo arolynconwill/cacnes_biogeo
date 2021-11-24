@@ -28,6 +28,10 @@ dir_lineages = 'data_lineage_trees'; % info about lineage phylogenies
 path(path,[ pwd '/' 'miniscripts' ]) % functions for this analysis
 path(path,'../lab_scripts') % functions from shared lab folder
 
+% Where to find info on each cluster
+dir_clusters = '/Users/arolyn/Dropbox (MIT)/Postdoc/Pacnes_Biogeo/ANALYSIS_GITHUB/cacnes_genomic_analysis/matlab/1_snv_analysis/2_snvs';
+
+
 
 %% OTHER BASICS
 
@@ -554,13 +558,10 @@ save([ dir_typing '/' 'data_plasmid_presence' ],'has_plasmid','has_plasmid_other
 %% HEATMAPS SHOWING PLASMID ABUNDANCE IN EACH LINEAGE
 
 % Load cluster info
-load([ dir_samples '/' 'cluster_names.mat'],'cluster_names','cluster_names_new' );
-% Load cluster SLST info
-load([ dir_samples '/' 'clade_slst_info' ])
-cluster_names_slst = names_tree_slst; clear names_tree_slst;
-% Get SLST for clusters
-clusters_all_slst = cellfun(@(x) x(find(ismember(x,'_'))+6:end), cluster_names_slst, 'UniformOutput', false);
+load([ dir_samples '/' 'cluster_names.mat'],'cluster_names','cluster_names_new','clusters_all_slst' );
+% Get super SLST for clusters
 clusters_all_slst_super = cellfun(@(x) x(end-1), clusters_all_slst );
+cluster_names_slst = arrayfun(@(x) [cluster_names{x} '_SLST-' clusters_all_slst{i}], 1:1:numel(cluster_names), 'UniformOutput', false);
 
 % Add unclustered
 cluster_names = [ {'Unclustered'}, cluster_names ];
@@ -679,20 +680,6 @@ else
 end
 
 %% HEATMAPS SHOWING PLASMID ABUNDANCE IN EACH LINEAGE
-
-% Load cluster info
-load([ dir_samples '/' 'cluster_names.mat'],'cluster_names' );
-% Load cluster SLST info
-load([ dir_samples '/' 'clade_slst_info' ])
-cluster_names_slst = names_tree_slst; clear names_tree_slst;
-% Get SLST for clusters
-clusters_all_slst = cellfun(@(x) x(find(ismember(x,'_'))+6:end), cluster_names_slst, 'UniformOutput', false);
-
-% Add unclustered
-cluster_names = [ {'Unclustered'}, cluster_names ];
-cluster_names_slst = [ {'Unclustered'}, cluster_names_slst ]; 
-clusters_all_slst = [ {'Unclustered'}, clusters_all_slst];
-clusters_all_slst_super = [ 'U', clusters_all_slst_super ]; % U for unclustered
 
 % Filter (toggle Subj _ vs all)
 %subject_tag = 'A'; cluster_list_for_table = unique( cluster_membership( subject_membership=='A' ) ); % subj A only
@@ -844,11 +831,9 @@ copyfile( 'dnapars.app', [ dir_trees '/dnapars.app' ] )
 copyfile( 'dnapars', [ dir_trees '/dnapars' ] )
 
 % Make annotated tree for this cluster
-dir_clusters = '/Users/arolyn/Dropbox (MIT)/Postdoc/Pacnes_biogeo/Analysis_SNP/analysis_evo_v11/clusters/';
 for c=1:numel(lineages_for_treemaking)
     this_cluster_name = lineages_for_treemaking{c};
     make_tree_lineage_annotated( this_cluster_name, SampleNamesSimple_keep, SampleNamesSimple_keep_annotated_short, NTs, dir_trees, dir_clusters )
-%    make_tree_lineage_annotated( this_cluster_name, SampleNamesSimple_keep, SampleNamesSimple_keep_annotated, NTs, dir_trees, dir_clusters )
 end
 
 % Manually color-code and format trees
@@ -929,11 +914,6 @@ for match_index = 1:3%1:num_hybrid_scaffolds % next scaffold
     % Set "ancestor" as reference (not really the ancestor
     anc_nti = refnti_all; 
     fixedmutation = ( (Calls_for_analysis~=repmat(anc_nti(goodpos),1,Nsample)) & Calls_for_analysis>0 );
-    % Annotation table
-    promoter_size = 150;
-    annotations = annotate_mutations_gb_lineage(p2chrpos(p(goodpos),ChrStarts),dir_refgenome,p(goodpos), anc_nti(p(goodpos))) ;
-    annotation_full = append_annotations(annotations, anc_nti(goodpos), Calls_for_analysis, counts(:,p(goodpos),:), fixedmutation, promoter_size) ; %% adds information about particular mutations observed, based on
-    QualSort=0;
     [MutQual, ~] = ana_mutation_quality( Calls_for_analysis,Quals(goodpos,:) );
     % Reorder
     reorder_set_by_cluster = []; % initialize
@@ -953,9 +933,6 @@ for match_index = 1:3%1:num_hybrid_scaffolds % next scaffold
             end
         end
     end
-    % Clickable SNP table
-    order = reorder_set_by_cluster;
-    clickable_snp_table(annotation_full, Calls_for_analysis(:,order), counts(:,goodpos,order), SamplesNamesSimple_this_set_annotated(order), ScafNames, MutQual, QualSort);
     
     if ~make_tree
         continue

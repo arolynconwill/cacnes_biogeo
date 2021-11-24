@@ -38,7 +38,7 @@ min_aa_length_to_keep = 50; % removes plasmid contigs
 
 % Initialize
 all_contigs_to_keep = {};
-all_assembled_genome_lenghts = [];
+all_assembled_genome_lengths = [];
 all_eff_genome_lenghts = [];
 all_locustags_to_keep = {};
 
@@ -51,7 +51,7 @@ for this_clade_num = 1:numel(cluster_names)
         min_contig_copynum_to_keep, min_aa_length_to_keep);
 
     all_contigs_to_keep{end+1} = contigs_to_keep;
-    all_assembled_genome_lenghts(end+1) = assembled_genome_length;
+    all_assembled_genome_lengths(end+1) = assembled_genome_length;
     all_eff_genome_lenghts(end+1) = eff_genome_length;
     all_locustags_to_keep{end+1} = locustags_to_keep;
     
@@ -60,11 +60,11 @@ end
 %%
 
 % Save data
-dir_locustags = 'locustags';
+dir_locustags = 'output_locustags';
 if ~exist( [pwd '/' dir_locustags], 'dir' )
     mkdir( [pwd '/' dir_locustags] )
 end
-save( [ dir_locustags '/LineageGenomeInfo_All' '.mat' ], 'all_contigs_to_keep', 'all_assembled_genome_lenghts', 'all_eff_genome_lenghts', 'all_locustags_to_keep' );
+save( [ dir_locustags '/LineageGenomeInfo_All' '.mat' ], 'all_contigs_to_keep', 'all_assembled_genome_lengths', 'all_eff_genome_lenghts', 'all_locustags_to_keep' );
 
 
 %%
@@ -75,7 +75,7 @@ clf(2)
 hold on
 box on
 histogram( all_eff_genome_lenghts, 2200000:50000:3000000 )
-histogram( all_assembled_genome_lenghts, 2200000:50000:3000000 )
+histogram( all_assembled_genome_lengths, 2200000:50000:3000000 )
 line( [2519002 2519002], ylim, 'Color', 'k', 'LineWidth', 2 )
 xlabel('genome length')
 ylabel('num of lineages')
@@ -96,7 +96,7 @@ figure(3)
 clf(3)
 hold on
 box on
-scatter(all_assembled_genome_lenghts,all_eff_genome_lenghts,100)
+scatter(all_assembled_genome_lengths,all_eff_genome_lenghts,100)
 ylabel('assembled genome length')
 xlabel('filtered genome length')
 xlim( [ 2400000 2800000 ] )

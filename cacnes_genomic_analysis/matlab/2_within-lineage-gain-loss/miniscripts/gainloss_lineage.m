@@ -4,50 +4,7 @@ function [ all_regions_table, num_regions_final ] = ...
 
 %% Summary
 
-% This function detects gain/loss regions in clade
-
-
-%% Version history
-
-% Arolyn, 2021.10.15: Removes data-grabbing from cluster; replaces with
-% local dir
-
-% Arolyn, 2021.02.26: Region collapsing and summary data
-% % Collapses overlapping regions on different samples into a single region
-% of interest
-% % Saves a table with info on all regions, plus a figure and fasta file
-% for each region
-
-% Arolyn, 2021.02.25: Changed gain/loss detection
-% % Gain/loss detection: uses copy number (as opposed to double-normalized
-% coverage) to find regions that have variable presence among samples
-% % Contigs: adds contigs to the list of potential gain/loss regions to
-% test
-% % Contigs: Does not allow regions to span multiple contigs
-% % Fixed some indexing errors from the original version wrt use of the 
-% variable start_pos and the use of matlab fcn diff
-
-% Arolyn, 2021.02.22+: Added many new features
-% % Generates a shell script to download data from the cluster
-% % Masks plasmid regions on assembled genome (positions and contigs)
-% % Sorts samples in order of SNP tree
-% % Improvements to candidate amp/del plot
-% % % Displays sample names
-% % % Shows contig boundaries in background
-% % % Conforms colors of lines and dots; dot color according to amp vs del
-% % Improvements to popup plots
-% % % Makes plot for raw coverage and for normalized coverage
-% % % Displays average coverage as a control instead of a random sample
-% % % Also shows contig boundaries in background
-% % % Prints more information on amp/del region
-% % % Prints sequence of amp/del region and prints list of annotations
-% % Pulls sequences and annotations
-% % % Pulls full sequence (NTs) of candidate region
-% % % Pulls prokka annotations and amino acid seqs for coding regions
-
-% Tami's original version: looking_for_large_losss_and_gains.m
-
-
+% This function detects gain/loss regions in lineage
 
 %%
 
@@ -129,6 +86,9 @@ if exist( path_treeorder, 'file' )
     temp = flipud(temp); % reverse order so first sample at top of plot not at 1
     % Reorder SampleNames and coverage matrix
     [ ~, reorder ] = sort( cellfun(@(x) find(ismember(temp,x)), SampleNames ) );
+    if numel(reorder)<numel(SampleNames)
+        fprintf(1,'Missing sample names!\n')
+    end
     SampleNames = SampleNames(reorder)';
     all_coverage_per_bp = all_coverage_per_bp( reorder,: );
 else
@@ -214,34 +174,8 @@ for i=1:num_samples
     fprintf(1,['Sample ' num2str(i) '/' num2str(num_samples) ': ' SampleNames{i} '\n'])
     
     if avg_cov_by_sample(i)>min_cov_to_eval_sample % only looking at strains with high enough coverage
-        
-%         % Candidate gain regions in this sample
-%         amp_starts_0=find(diff(has_high_coverage(i,:))>0)+1; % diff is one shorter 
-%         amp_ends_0=find(diff(has_high_coverage(i,:))<0);
-%         % Impose contig boundaries
-%         [ amp_starts, amp_ends ] = break_at_contig_boundaries( amp_starts_0, amp_ends_0, ...
-%             contig_num_by_index, contig_start_indices, contig_end_indices, start_pos );
-%         % Also test all contigs with length under min_contig_len_to_test
-%         amp_starts = [ contig_start_indices( genome_contig_lengths <= max_contig_len_to_test ), amp_starts ];
-%         amp_ends = [ contig_end_indices( genome_contig_lengths <= max_contig_len_to_test ), amp_ends ];
-%         % Filter candidate gains
-%         for j=1:numel(amp_starts)
-%             if (amp_ends(j) - amp_starts(j) + 1) >= min_size_gain ... % filter length of region
-%                     && mean(test_mat_copynum(i,amp_starts(j):amp_ends(j))) >= min_cutoff_for_gain ... % filter average copy number of region
-%                     && mean(test_mat_cov(i,amp_starts(j):amp_ends(j))) >= min_avg_cov_for_gain ... % filter average coverage of region
-%                     && min( mean( test_mat_copynum(:,amp_starts(j):amp_ends(j)),2 ) ) <= max_avg_copynum_for_gain_low_control ... % require another sample to have normal coverage
-%                     && min( mean( test_mat_cov(:,amp_starts(j):amp_ends(j)),2 ) ) <= max_avg_cov_for_gain_low_control
-%                 
-%                 % Record candidate gains
-%                 copy_number_variants_strains(end+1)=i;
-%                 copy_number_variants_starts(end+1)=amp_starts(j);
-%                 copy_number_variants_ends(end+1)=amp_ends(j);
-%                 isdel(end+1)=0;
-%                 
-%             end
-%         end
 
-        % Candidate loss regions in this sample
+        % Candidate gain/loss regions in this sample: 
         del_starts_0=find(diff(has_low_coverage(i,:))>0)+1; % diff is one shorter 
         del_ends_0=find(diff(has_low_coverage(i,:))<0);
         % Impose contig boundaries
@@ -281,7 +215,7 @@ if numel(copy_number_variants_strains)>0
         copy_number_variants_strains, copy_number_variants_starts+start_pos-1, copy_number_variants_ends+start_pos-1, isdel, ...
         SampleNames, all_coverage_per_bp, all_coverage_per_bp_copynum, test_mat_doublenorm_buffered, ...
         this_clade_name, GenomeLength, ChrStarts, genome_contig_seqs, CDS, ...
-        dir_save_scans )
+        dir_save_regions )
 end
 
 
@@ -300,6 +234,9 @@ all_regions_bool_combined = sum(all_regions_bool);
 all_regions_bool_combined( all_regions_bool_combined>1 ) = 1;
 all_regions_starts_0 = find( diff(all_regions_bool_combined) > 0 ) + 1;
 all_regions_ends_0 = find( diff(all_regions_bool_combined) < 0 );
+if all_regions_bool_combined(end)==1 % case where region includes last position on genome
+    all_regions_ends_0 = [ all_regions_ends_0, GenomeLength ];
+end
 % Split across contig boundaries if regions on adjacent contigs happened to merge
 [ all_regions_starts, all_regions_ends ] = break_at_contig_boundaries( all_regions_starts_0, all_regions_ends_0, ...
     contig_num_by_index, contig_start_indices, contig_end_indices, 1 );
