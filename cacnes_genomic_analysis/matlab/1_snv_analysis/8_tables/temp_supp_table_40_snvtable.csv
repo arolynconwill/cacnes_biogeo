@@ -1,0 +1,4 @@
+Lineage_8d,,,,,,,,,,,,
+,,,,,,,sample_name_simple,subj-8_pore-406_col-1,subj-8_pore-406_col-2,subj-8_pore-406_col-5,subj-8_pore-406_col-6,
+position_on_ref_genome,protein_id,locus_tag,annontation,mutation_type,mutation_info,ancestral_allele,,,,,,
+250007,WP_002518660.1,PAC1_RS12060,hypothetical protein,N,V84A,A,,C,T,C,C,

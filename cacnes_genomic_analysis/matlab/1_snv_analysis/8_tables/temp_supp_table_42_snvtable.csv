@@ -1,0 +1,5 @@
+Lineage_14c,,,,,,,,,,,,
+,,,,,,,sample_name_simple,subj-14_scrape-59_col-2,subj-14_scrape-59_col-3,subj-14_scrape-60_col-1,subj-14_scrape-60_col-3,
+position_on_ref_genome,protein_id,locus_tag,annontation,mutation_type,mutation_info,ancestral_allele,,,,,,
+361039,WP_002518715.1,PAC1_RS01605,glutamyl-tRNA reductase,S,,C,,T,T,C,C,
+1671888,,,intergenic; 2-PAC1_RS07955 27-PAC1_RS07960,I,,C,,T,T,C,C,

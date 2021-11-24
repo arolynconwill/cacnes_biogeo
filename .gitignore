@@ -2,11 +2,8 @@
 *.mat
 *.xlsx
 *.xls
-*.csv
+#*.csv
 *.txt
-#/cacnes_genomic_analysis/matlab/data/data*
-/cacnes_genomic_analysis/matlab/2_within-lineage-gain-loss/output_gainloss_regions/*.fasta
-/cacnes_genomic_analysis/matlab/3_btwn-lineage-gene-content/1_contig_gene_filtering/output_fastas_filtered/lineage_*.fasta
 #*.gbk
 #*.gb
 #*.fasta
@@ -25,6 +22,19 @@ outtree
 dnapars dnapars.app
 **/dnapars.app/*
 
+# DIRECTORIES
+datadata_other
+/cacnes_genomic_analysis/matlab/data/
+/cacnes_genomic_analysis/1_snv_analysis/1_clustering/cacnes_genomic_analysis/1_snv_analysis/2_snvs/cacnes_genomic_analysis/1_snv_analysis/3_straintype_biogeo/cacnes_genomic_analysis/1_snv_analysis/3_straintype_faceback/cacnes_genomic_analysis/1_snv_analysis/3_straintype_porestripvis/cacnes_genomic_analysis/1_snv_analysis/4_pore_biogeo/cacnes_genomic_analysis/1_snv_analysis/5_parallel_evo/cacnes_genomic_analysis/1_snv_analysis/6_misc_molec_clock/cacnes_genomic_analysis/1_snv_analysis/6_misc_spatial_confinement/cacnes_genomic_analysis/1_snv_analysis/7_trees_lineageancestors/cacnes_genomic_analysis/1_snv_analysis/7_trees_lineages/cacnes_genomic_analysis/1_snv_analysis/7_trees_straintypes/cacnes_genomic_analysis/1_snv_analysis/8_tables
+/cacnes_genomic_analysis/matlab/2_within-lineage-gain-loss/blast_ncbi/cacnes_genomic_analysis/matlab/2_within-lineage-gain-loss/blast_refgenome/cacnes_genomic_analysis/matlab/2_within-lineage-gain-loss/data_lineage_snvtrees
+/cacnes_genomic_analysis/matlab/2_within-lineage-gain-loss/output_gainloss_regions
+/cacnes_genomic_analysis/matlab/2_within-lineage-gain-loss/output_supp_table
+/cacnes_genomic_analysis/matlab/3_btwn-lineage-gene-content/1_contig_gene_filtering/input*
+/cacnes_genomic_analysis/matlab/3_btwn-lineage-gene-content/1_contig_gene_filtering/output*
+/cacnes_genomic_analysis/matlab/4_plasmid-presence/data*
+/cacnes_genomic_analysis/matlab/4_plasmid-presence/plasmid_typing*
+/cacnes_genomic_analysis/matlab/4_plasmid-presence/trees*
+
 # NOTES TO SELF
 notes*.txt
 
@@ -35,7 +45,3 @@ notes*.txt
 
 # OTHER
 *.DS_Store
-
-# TEMP
-samples_old.csv
-samples_case_old.csv

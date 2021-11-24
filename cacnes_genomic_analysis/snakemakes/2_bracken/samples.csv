@@ -1,0 +1,1421 @@
+Path,Sample,ReferenceGenome,ProviderName,Subject
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:388-Scr-tlBa-4_t11,Pacnes_C1,N724S524,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,M:349-Scr-Fo-6_t11,Pacnes_C1,N724S523,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,I:339-Scr-clNo-4_t11,Pacnes_C1,N724S522,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:362-Scr-Ch-6_t11,Pacnes_C1,N724S521,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:378-Scr-Ch-6_t11,Pacnes_C1,N724S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:357-Scr-Fo-6_t11,Pacnes_C1,N724S519,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:377-Scr-clNo-6_t11,Pacnes_C1,N724S518,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,I:336-Scr-trBa-2_t11,Pacnes_C1,N714S517,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:385-Scr-clNo-6_t11,Pacnes_C1,N724S517,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:388-Scr-tlBa-3_t11,Pacnes_C1,N723S524,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,M:349-Scr-Fo-5_t11,Pacnes_C1,N723S523,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,I:339-Scr-clNo-3_t11,Pacnes_C1,N723S522,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:362-Scr-Ch-5_t11,Pacnes_C1,N723S521,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:378-Scr-Ch-5_t11,Pacnes_C1,N723S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:357-Scr-Fo-5_t11,Pacnes_C1,N723S519,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:377-Scr-clNo-5_t11,Pacnes_C1,N723S518,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:385-Scr-clNo-5_t11,Pacnes_C1,N723S517,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:388-Scr-tlBa-2_t11,Pacnes_C1,N722S524,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,M:349-Scr-Fo-1_t11,Pacnes_C1,N713S524,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:363-Scr-trBa-4_t11,Pacnes_C1,N722S523,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:361-Scr-clNo-6_t11,Pacnes_C1,N722S522,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:362-Scr-Ch-4_t11,Pacnes_C1,N722S521,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:378-Scr-Ch-4_t11,Pacnes_C1,N722S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:386-Scr-Ch-6_t11,Pacnes_C1,N722S519,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,I:337-Scr-tlBa-2_t11,Pacnes_C1,N722S518,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:376-Scr-crNo-6_t11,Pacnes_C1,N722S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:388-Scr-tlBa-1_t11,Pacnes_C1,N721S524,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:363-Scr-trBa-3_t11,Pacnes_C1,N721S523,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:361-Scr-clNo-5_t11,Pacnes_C1,N721S522,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,I:339-Scr-clNo-1_t11,Pacnes_C1,N713S523,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:362-Scr-Ch-3_t11,Pacnes_C1,N721S521,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:378-Scr-Ch-3_t11,Pacnes_C1,N721S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:386-Scr-Ch-5_t11,Pacnes_C1,N721S519,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,I:337-Scr-tlBa-1_t11,Pacnes_C1,N721S518,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:376-Scr-crNo-5_t11,Pacnes_C1,N721S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:359-Scr-Lc-4_t11,Pacnes_C1,N720S524,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:363-Scr-trBa-2_t11,Pacnes_C1,N720S523,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:361-Scr-clNo-4_t11,Pacnes_C1,N720S522,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:362-Scr-Ch-2_t11,Pacnes_C1,N720S521,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:358-Scr-Rc-4_t11,Pacnes_C1,N720S520,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,I:338-Scr-crNo-1_t11,Pacnes_C1,N713S522,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:386-Scr-Ch-4_t11,Pacnes_C1,N720S519,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:360-Scr-crNo-4_t11,Pacnes_C1,N720S518,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:376-Scr-crNo-4_t11,Pacnes_C1,N720S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:359-Scr-Lc-3_t11,Pacnes_C1,N719S524,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:363-Scr-trBa-1_t11,Pacnes_C1,N719S523,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:361-Scr-clNo-3_t11,Pacnes_C1,N719S522,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:362-Scr-Ch-1_t11,Pacnes_C1,N719S521,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:358-Scr-Rc-3_t11,Pacnes_C1,N719S520,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:386-Scr-Ch-3_t11,Pacnes_C1,N719S519,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:360-Scr-crNo-3_t11,Pacnes_C1,N719S518,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:378-Scr-Ch-1_t11,Pacnes_C1,N713S521,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:376-Scr-crNo-3_t11,Pacnes_C1,N719S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:359-Scr-Lc-2_t11,Pacnes_C1,N718S524,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:379-Scr-trBa-4_t11,Pacnes_C1,N718S523,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:361-Scr-clNo-2_t11,Pacnes_C1,N718S522,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:387-Scr-trBa-4_t11,Pacnes_C1,N718S521,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:358-Scr-Rc-2_t11,Pacnes_C1,N718S520,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:386-Scr-Ch-2_t11,Pacnes_C1,N718S519,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:360-Scr-crNo-2_t11,Pacnes_C1,N718S518,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:376-Scr-crNo-2_t11,Pacnes_C1,N718S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:359-Scr-Lc-1_t11,Pacnes_C1,N717S524,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:357-Scr-Fo-1_t11,Pacnes_C1,N713S520,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:379-Scr-trBa-3_t11,Pacnes_C1,N717S523,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:361-Scr-clNo-1_t11,Pacnes_C1,N717S522,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:387-Scr-trBa-3_t11,Pacnes_C1,N717S521,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:358-Scr-Rc-1_t11,Pacnes_C1,N717S520,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:386-Scr-Ch-1_t11,Pacnes_C1,N717S519,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:360-Scr-crNo-1_t11,Pacnes_C1,N717S518,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:376-Scr-crNo-1_t11,Pacnes_C1,N717S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,M:349-Scr-Fo-4_t11,Pacnes_C1,N716S524,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:379-Scr-trBa-2_t11,Pacnes_C1,N716S523,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:377-Scr-clNo-1_t11,Pacnes_C1,N713S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:387-Scr-trBa-2_t11,Pacnes_C1,N716S521,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:357-Scr-Fo-4_t11,Pacnes_C1,N716S520,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:377-Scr-clNo-4_t11,Pacnes_C1,N716S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:385-Scr-clNo-4_t11,Pacnes_C1,N716S518,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,I:336-Scr-trBa-4_t11,Pacnes_C1,N716S517,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,M:349-Scr-Fo-3_t11,Pacnes_C1,N715S524,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:379-Scr-trBa-1_t11,Pacnes_C1,N715S523,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,I:338-Scr-crNo-3_t11,Pacnes_C1,N715S522,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:387-Scr-trBa-1_t11,Pacnes_C1,N715S521,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:357-Scr-Fo-3_t11,Pacnes_C1,N715S520,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:385-Scr-clNo-1_t11,Pacnes_C1,N713S518,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:377-Scr-clNo-3_t11,Pacnes_C1,N715S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:385-Scr-clNo-3_t11,Pacnes_C1,N715S518,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,I:336-Scr-trBa-3_t11,Pacnes_C1,N715S517,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,M:349-Scr-Fo-2_t11,Pacnes_C1,N714S524,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,I:339-Scr-clNo-2_t11,Pacnes_C1,N714S523,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,I:338-Scr-crNo-2_t11,Pacnes_C1,N714S522,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:378-Scr-Ch-2_t11,Pacnes_C1,N714S521,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:357-Scr-Fo-2_t11,Pacnes_C1,N714S520,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:377-Scr-clNo-2_t11,Pacnes_C1,N714S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,O:385-Scr-clNo-2_t11,Pacnes_C1,N714S518,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,I:336-Scr-trBa-1_t11,Pacnes_C1,N713S517,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:333-Scr-crRc-4_t11,Pacnes_C1,N724S507,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:367-Scr-Lc-4_t11,Pacnes_C1,N724S506,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:353-Scr-clNo-6_t11,Pacnes_C1,N724S505,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:354-Scr-Ch-6_t11,Pacnes_C1,N724S504,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:344-Scr-crNo-6_t11,Pacnes_C1,N724S503,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:375-Scr-Lc-4_t11,Pacnes_C1,N724S502,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:374-Scr-Rc-2_t11,Pacnes_C1,N714S501,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:384-Scr-crNo-6_t11,Pacnes_C1,N724S501,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:333-Scr-crRc-3_t11,Pacnes_C1,N723S507,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:367-Scr-Lc-3_t11,Pacnes_C1,N723S506,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:353-Scr-clNo-5_t11,Pacnes_C1,N723S505,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:354-Scr-Ch-5_t11,Pacnes_C1,N723S504,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:344-Scr-crNo-5_t11,Pacnes_C1,N723S503,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:375-Scr-Lc-3_t11,Pacnes_C1,N723S502,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:384-Scr-crNo-5_t11,Pacnes_C1,N723S501,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:333-Scr-crRc-1_t11,Pacnes_C1,N713S508,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:345-Scr-clNo-6_t11,Pacnes_C1,N722S507,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:367-Scr-Lc-2_t11,Pacnes_C1,N722S506,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:372-Scr-tlBa-6_t11,Pacnes_C1,N722S505,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:366-Scr-Rc-4_t11,Pacnes_C1,N722S504,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:344-Scr-crNo-4_t11,Pacnes_C1,N722S503,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:365-Scr-Fo-4_t11,Pacnes_C1,N722S502,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:384-Scr-crNo-4_t11,Pacnes_C1,N722S501,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:345-Scr-clNo-5_t11,Pacnes_C1,N721S507,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:367-Scr-Lc-1_t11,Pacnes_C1,N721S506,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:373-Scr-Fo-1_t11,Pacnes_C1,N713S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:372-Scr-tlBa-5_t11,Pacnes_C1,N721S505,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:366-Scr-Rc-3_t11,Pacnes_C1,N721S504,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:344-Scr-crNo-3_t11,Pacnes_C1,N721S503,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:365-Scr-Fo-3_t11,Pacnes_C1,N721S502,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:384-Scr-crNo-3_t11,Pacnes_C1,N721S501,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:383-Scr-Lc-6_t11,Pacnes_C1,N720S508,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:345-Scr-clNo-4_t11,Pacnes_C1,N720S507,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:353-Scr-clNo-4_t11,Pacnes_C1,N720S506,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:372-Scr-tlBa-4_t11,Pacnes_C1,N720S505,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:366-Scr-Rc-2_t11,Pacnes_C1,N720S504,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:343-Scr-Lc-1_t11,Pacnes_C1,N713S506,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:334-Scr-clLc-4_t11,Pacnes_C1,N720S503,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:365-Scr-Fo-2_t11,Pacnes_C1,N720S502,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:335-Scr-Ch-4_t11,Pacnes_C1,N720S501,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:383-Scr-Lc-5_t11,Pacnes_C1,N719S508,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:345-Scr-clNo-3_t11,Pacnes_C1,N719S507,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:353-Scr-clNo-3_t11,Pacnes_C1,N719S506,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:372-Scr-tlBa-3_t11,Pacnes_C1,N719S505,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:366-Scr-Rc-1_t11,Pacnes_C1,N719S504,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:334-Scr-clLc-3_t11,Pacnes_C1,N719S503,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:365-Scr-Fo-1_t11,Pacnes_C1,N719S502,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:354-Scr-Ch-1_t11,Pacnes_C1,N713S505,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:335-Scr-Ch-3_t11,Pacnes_C1,N719S501,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:383-Scr-Lc-4_t11,Pacnes_C1,N718S508,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:345-Scr-clNo-2_t11,Pacnes_C1,N718S507,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:353-Scr-clNo-2_t11,Pacnes_C1,N718S506,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:372-Scr-tlBa-2_t11,Pacnes_C1,N718S505,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:344-Scr-crNo-2_t11,Pacnes_C1,N718S504,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:334-Scr-clLc-2_t11,Pacnes_C1,N718S503,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:346-Scr-Ch-4_t11,Pacnes_C1,N718S502,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:335-Scr-Ch-2_t11,Pacnes_C1,N718S501,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:383-Scr-Lc-3_t11,Pacnes_C1,N717S508,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:355-Scr-trBa-1_t11,Pacnes_C1,N713S504,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:345-Scr-clNo-1_t11,Pacnes_C1,N717S507,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:353-Scr-clNo-1_t11,Pacnes_C1,N717S506,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:372-Scr-tlBa-1_t11,Pacnes_C1,N717S505,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:344-Scr-crNo-1_t11,Pacnes_C1,N717S504,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:334-Scr-clLc-1_t11,Pacnes_C1,N717S503,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:346-Scr-Ch-3_t11,Pacnes_C1,N717S502,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:335-Scr-Ch-1_t11,Pacnes_C1,N717S501,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:383-Scr-Lc-2_t11,Pacnes_C1,N716S508,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:373-Scr-Fo-4_t11,Pacnes_C1,N716S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:343-Scr-Lc-4_t11,Pacnes_C1,N716S506,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:375-Scr-Lc-1_t11,Pacnes_C1,N713S503,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:354-Scr-Ch-4_t11,Pacnes_C1,N716S505,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:355-Scr-trBa-6_t11,Pacnes_C1,N716S504,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:355-Scr-trBa-5_t11,Pacnes_C1,N716S503,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:346-Scr-Ch-2_t11,Pacnes_C1,N716S502,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:374-Scr-Rc-4_t11,Pacnes_C1,N716S501,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:383-Scr-Lc-1_t11,Pacnes_C1,N715S508,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:373-Scr-Fo-3_t11,Pacnes_C1,N715S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:343-Scr-Lc-3_t11,Pacnes_C1,N715S506,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:354-Scr-Ch-3_t11,Pacnes_C1,N715S505,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:355-Scr-trBa-4_t11,Pacnes_C1,N715S504,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:384-Scr-crNo-1_t11,Pacnes_C1,N713S502,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:355-Scr-trBa-3_t11,Pacnes_C1,N715S503,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:346-Scr-Ch-1_t11,Pacnes_C1,N715S502,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:374-Scr-Rc-3_t11,Pacnes_C1,N715S501,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:333-Scr-crRc-2_t11,Pacnes_C1,N714S508,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:373-Scr-Fo-2_t11,Pacnes_C1,N714S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:343-Scr-Lc-2_t11,Pacnes_C1,N714S506,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:354-Scr-Ch-2_t11,Pacnes_C1,N714S505,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:355-Scr-trBa-2_t11,Pacnes_C1,N714S504,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:375-Scr-Lc-2_t11,Pacnes_C1,N714S503,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:384-Scr-crNo-2_t11,Pacnes_C1,N714S502,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:374-Scr-Rc-1_t11,Pacnes_C1,N713S501,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:369-Scr-clNo-4_t11,Pacnes_C1,N724S516,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:332-Scr-Lc-4_t11,Pacnes_C1,N724S515,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:352-Scr-crNo-6_t11,Pacnes_C1,N724S514,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:341-Scr-Fo-5_t11,Pacnes_C1,N724S513,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:331-Scr-Rc-6_t11,Pacnes_C1,N724S512,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:380-Scr-tlBa-6_t11,Pacnes_C1,N724S511,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:370-Scr-Ch-6_t11,Pacnes_C1,N724S510,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,L:364-Scr-tlBa-2_t11,Pacnes_C1,N714S509,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:341-Scr-Fo-4_t11,Pacnes_C1,N724S509,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:369-Scr-clNo-3_t11,Pacnes_C1,N723S516,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:332-Scr-Lc-3_t11,Pacnes_C1,N723S515,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:352-Scr-crNo-5_t11,Pacnes_C1,N723S514,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:341-Scr-Fo-3_t11,Pacnes_C1,N723S513,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:331-Scr-Rc-5_t11,Pacnes_C1,N723S512,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:380-Scr-tlBa-5_t11,Pacnes_C1,N723S511,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:370-Scr-Ch-5_t11,Pacnes_C1,N723S510,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:330-Scr-Fo-6_t11,Pacnes_C1,N723S509,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:369-Scr-clNo-2_t11,Pacnes_C1,N722S516,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:332-Scr-Lc-1_t11,Pacnes_C1,N713S516,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:368-Scr-crNo-6_t11,Pacnes_C1,N722S515,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:381-Scr-Fo-6_t11,Pacnes_C1,N722S514,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:351-Scr-Lc-6_t11,Pacnes_C1,N722S513,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:331-Scr-Rc-4_t11,Pacnes_C1,N722S512,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:380-Scr-tlBa-4_t11,Pacnes_C1,N722S511,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:370-Scr-Ch-4_t11,Pacnes_C1,N722S510,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:330-Scr-Fo-5_t11,Pacnes_C1,N722S509,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:369-Scr-clNo-1_t11,Pacnes_C1,N721S516,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:368-Scr-crNo-5_t11,Pacnes_C1,N721S515,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:381-Scr-Fo-5_t11,Pacnes_C1,N721S514,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:352-Scr-crNo-1_t11,Pacnes_C1,N713S515,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:351-Scr-Lc-5_t11,Pacnes_C1,N721S513,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:331-Scr-Rc-3_t11,Pacnes_C1,N721S512,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:380-Scr-tlBa-3_t11,Pacnes_C1,N721S511,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:370-Scr-Ch-3_t11,Pacnes_C1,N721S510,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:330-Scr-Fo-4_t11,Pacnes_C1,N721S509,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:342-Scr-Rc-6_t11,Pacnes_C1,N720S516,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:368-Scr-crNo-4_t11,Pacnes_C1,N720S515,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:381-Scr-Fo-4_t11,Pacnes_C1,N720S514,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:351-Scr-Lc-4_t11,Pacnes_C1,N720S513,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:331-Scr-Rc-2_t11,Pacnes_C1,N720S512,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:341-Scr-Fo-1_t11,Pacnes_C1,N713S514,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:380-Scr-tlBa-2_t11,Pacnes_C1,N720S511,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:370-Scr-Ch-2_t11,Pacnes_C1,N720S510,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:330-Scr-Fo-3_t11,Pacnes_C1,N720S509,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:342-Scr-Rc-5_t11,Pacnes_C1,N719S516,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:368-Scr-crNo-3_t11,Pacnes_C1,N719S515,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:381-Scr-Fo-3_t11,Pacnes_C1,N719S514,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:351-Scr-Lc-3_t11,Pacnes_C1,N719S513,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:331-Scr-Rc-1_t11,Pacnes_C1,N719S512,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,A:380-Scr-tlBa-1_t11,Pacnes_C1,N719S511,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:370-Scr-Ch-1_t11,Pacnes_C1,N719S510,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:330-Scr-Fo-2_t11,Pacnes_C1,N719S509,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:342-Scr-Rc-4_t11,Pacnes_C1,N718S516,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:368-Scr-crNo-2_t11,Pacnes_C1,N718S515,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:381-Scr-Fo-2_t11,Pacnes_C1,N718S514,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:351-Scr-Lc-2_t11,Pacnes_C1,N718S513,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:382-Scr-Rc-6_t11,Pacnes_C1,N718S512,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:340-Scr-ccBa-6_t11,Pacnes_C1,N718S511,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:350-Scr-Rc-6_t11,Pacnes_C1,N718S510,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:330-Scr-Fo-1_t11,Pacnes_C1,N718S509,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:342-Scr-Rc-3_t11,Pacnes_C1,N717S516,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:382-Scr-Rc-1_t11,Pacnes_C1,N713S512,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:368-Scr-crNo-1_t11,Pacnes_C1,N717S515,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:381-Scr-Fo-1_t11,Pacnes_C1,N717S514,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:351-Scr-Lc-1_t11,Pacnes_C1,N717S513,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:382-Scr-Rc-5_t11,Pacnes_C1,N717S512,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:340-Scr-ccBa-5_t11,Pacnes_C1,N717S511,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:350-Scr-Rc-5_t11,Pacnes_C1,N717S510,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,L:364-Scr-tlBa-5_t11,Pacnes_C1,N717S509,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:342-Scr-Rc-2_t11,Pacnes_C1,N716S516,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:352-Scr-crNo-4_t11,Pacnes_C1,N716S515,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:371-Scr-trBa-4_t11,Pacnes_C1,N716S514,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:340-Scr-ccBa-1_t11,Pacnes_C1,N713S511,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:371-Scr-trBa-3_t11,Pacnes_C1,N716S513,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:382-Scr-Rc-4_t11,Pacnes_C1,N716S512,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:340-Scr-ccBa-4_t11,Pacnes_C1,N716S511,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:350-Scr-Rc-4_t11,Pacnes_C1,N716S510,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,L:364-Scr-tlBa-4_t11,Pacnes_C1,N716S509,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:342-Scr-Rc-1_t11,Pacnes_C1,N715S516,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:352-Scr-crNo-3_t11,Pacnes_C1,N715S515,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:371-Scr-trBa-2_t11,Pacnes_C1,N715S514,N
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:382-Scr-Rc-3_t11,Pacnes_C1,N715S512,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:350-Scr-Rc-1_t11,Pacnes_C1,N713S510,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:340-Scr-ccBa-3_t11,Pacnes_C1,N715S511,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:350-Scr-Rc-3_t11,Pacnes_C1,N715S510,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,L:364-Scr-tlBa-3_t11,Pacnes_C1,N715S509,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:332-Scr-Lc-2_t11,Pacnes_C1,N714S516,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:352-Scr-crNo-2_t11,Pacnes_C1,N714S515,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:341-Scr-Fo-2_t11,Pacnes_C1,N714S514,K
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,O:382-Scr-Rc-2_t11,Pacnes_C1,N714S512,O
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,I:340-Scr-ccBa-2_t11,Pacnes_C1,N714S511,I
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:350-Scr-Rc-2_t11,Pacnes_C1,N714S510,M
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,L:364-Scr-tlBa-1_t11,Pacnes_C1,N713S509,L
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:323-Scr-Rc-8_t11,Pacnes_C1,N724S529,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:324-Scr-Lc-6_t11,Pacnes_C1,N724S528,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:329-Scr-tlBa-3_t11,Pacnes_C1,N724S527,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:326-Scr-clNo-6_t11,Pacnes_C1,N724S526,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,H:318-Scr-trBa-2_t11,Pacnes_C1,N714S525,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:322-Scr-Fo-6_t11,Pacnes_C1,N724S525,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:323-Scr-Rc-7_t11,Pacnes_C1,N723S529,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:324-Scr-Lc-5_t11,Pacnes_C1,N723S528,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:329-Scr-tlBa-2_t11,Pacnes_C1,N723S527,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:326-Scr-clNo-5_t11,Pacnes_C1,N723S526,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:322-Scr-Fo-5_t11,Pacnes_C1,N723S525,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,H:321-Scr-clLc-6_t11,Pacnes_C1,N722S529,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:324-Scr-Lc-4_t11,Pacnes_C1,N722S528,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:329-Scr-tlBa-1_t11,Pacnes_C1,N722S527,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:326-Scr-clNo-4_t11,Pacnes_C1,N722S526,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:322-Scr-Fo-4_t11,Pacnes_C1,N722S525,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,H:321-Scr-clLc-5_t11,Pacnes_C1,N721S529,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:324-Scr-Lc-3_t11,Pacnes_C1,N721S528,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:328-Scr-trBa-3_t11,Pacnes_C1,N721S527,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:326-Scr-clNo-3_t11,Pacnes_C1,N721S526,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:322-Scr-Fo-3_t11,Pacnes_C1,N721S525,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,H:321-Scr-clLc-4_t11,Pacnes_C1,N720S529,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:324-Scr-Lc-2_t11,Pacnes_C1,N720S528,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:328-Scr-trBa-2_t11,Pacnes_C1,N720S527,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:326-Scr-clNo-2_t11,Pacnes_C1,N720S526,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:322-Scr-Fo-2_t11,Pacnes_C1,N720S525,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,H:321-Scr-clLc-3_t11,Pacnes_C1,N719S529,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:324-Scr-Lc-1_t11,Pacnes_C1,N719S528,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:328-Scr-trBa-1_t11,Pacnes_C1,N719S527,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:326-Scr-clNo-1_t11,Pacnes_C1,N719S526,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:327-Scr-Ch-1_t11,Pacnes_C1,N713S529,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:322-Scr-Fo-1_t11,Pacnes_C1,N719S525,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:327-Scr-Ch-6_t11,Pacnes_C1,N718S529,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:325-Scr-crNo-6_t11,Pacnes_C1,N718S528,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,H:319-Scr-brBa-6_t11,Pacnes_C1,N718S527,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,H:318-Scr-trBa-6_t11,Pacnes_C1,N718S525,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:325-Scr-crNo-1_t11,Pacnes_C1,N713S528,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:323-Scr-Rc-6_t11,Pacnes_C1,N717S530,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:327-Scr-Ch-5_t11,Pacnes_C1,N717S529,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:325-Scr-crNo-5_t11,Pacnes_C1,N717S528,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,H:319-Scr-brBa-5_t11,Pacnes_C1,N717S527,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:323-Scr-Rc-5_t11,Pacnes_C1,N717S526,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,H:318-Scr-trBa-5_t11,Pacnes_C1,N717S525,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,H:319-Scr-brBa-1_t11,Pacnes_C1,N713S527,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:327-Scr-Ch-4_t11,Pacnes_C1,N716S529,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:325-Scr-crNo-4_t11,Pacnes_C1,N716S528,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,H:319-Scr-brBa-4_t11,Pacnes_C1,N716S527,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:323-Scr-Rc-4_t11,Pacnes_C1,N716S526,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,H:318-Scr-trBa-4_t11,Pacnes_C1,N716S525,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:327-Scr-Ch-3_t11,Pacnes_C1,N715S529,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:325-Scr-crNo-3_t11,Pacnes_C1,N715S528,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:323-Scr-Rc-1_t11,Pacnes_C1,N713S526,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,H:319-Scr-brBa-3_t11,Pacnes_C1,N715S527,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:323-Scr-Rc-3_t11,Pacnes_C1,N715S526,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,H:318-Scr-trBa-3_t11,Pacnes_C1,N715S525,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:327-Scr-Ch-2_t11,Pacnes_C1,N714S529,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:325-Scr-crNo-2_t11,Pacnes_C1,N714S528,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,H:319-Scr-brBa-2_t11,Pacnes_C1,N714S527,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:323-Scr-Rc-2_t11,Pacnes_C1,N714S526,J
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,H:318-Scr-trBa-1_t11,Pacnes_C1,N713S525,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:302-Scr-Fo-1_t11,Pacnes_C1,N724S516,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:310-Scr-tlBa-1_t11,Pacnes_C1,N724S515,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:304-Scr-Lc-1_t11,Pacnes_C1,N724S514,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:311-Scr-ccCh-1_t11,Pacnes_C1,N724S513,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:303-Scr-Rc-1_t11,Pacnes_C1,N724S512,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:312-Scr-Fo-1_t11,Pacnes_C1,N724S511,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:305-Scr-crCh-1_t11,Pacnes_C1,N724S510,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:307-Scr-crNo-5_t11,Pacnes_C1,N714S509,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:312-Scr-Fo-2_t11,Pacnes_C1,N724S509,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:302-Scr-Fo-2_t11,Pacnes_C1,N723S516,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:310-Scr-tlBa-2_t11,Pacnes_C1,N723S515,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:304-Scr-Lc-2_t11,Pacnes_C1,N723S514,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:311-Scr-ccCh-2_t11,Pacnes_C1,N723S513,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:303-Scr-Rc-2_t11,Pacnes_C1,N723S512,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:312-Scr-Fo-3_t11,Pacnes_C1,N723S511,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:305-Scr-crCh-2_t11,Pacnes_C1,N723S510,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:312-Scr-Fo-4_t11,Pacnes_C1,N723S509,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:302-Scr-Fo-3_t11,Pacnes_C1,N722S516,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:313-Scr-Rc-6_t11,Pacnes_C1,N713S516,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:310-Scr-tlBa-3_t11,Pacnes_C1,N722S515,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:304-Scr-Lc-3_t11,Pacnes_C1,N722S514,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:311-Scr-ccCh-3_t11,Pacnes_C1,N722S513,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:303-Scr-Rc-3_t11,Pacnes_C1,N722S512,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:312-Scr-Fo-5_t11,Pacnes_C1,N722S511,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:305-Scr-crCh-3_t11,Pacnes_C1,N722S510,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:321-Scr-clLc-1_t11,Pacnes_C1,N722S509,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:302-Scr-Fo-4_t11,Pacnes_C1,N721S516,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:310-Scr-tlBa-4_t11,Pacnes_C1,N721S515,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:304-Scr-Lc-4_t11,Pacnes_C1,N721S514,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:309-Scr-trBa-6_t11,Pacnes_C1,N713S515,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:311-Scr-ccCh-4_t11,Pacnes_C1,N721S513,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:303-Scr-Rc-4_t11,Pacnes_C1,N721S512,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:312-Scr-Fo-6_t11,Pacnes_C1,N721S511,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:305-Scr-crCh-4_t11,Pacnes_C1,N721S510,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:321-Scr-clLc-2_t11,Pacnes_C1,N721S509,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:302-Scr-Fo-5_t11,Pacnes_C1,N720S516,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:310-Scr-tlBa-5_t11,Pacnes_C1,N720S515,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:304-Scr-Lc-5_t11,Pacnes_C1,N720S514,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:311-Scr-ccCh-5_t11,Pacnes_C1,N720S513,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:303-Scr-Rc-5_t11,Pacnes_C1,N720S512,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:314-Scr-Lc-6_t11,Pacnes_C1,N713S514,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:317-Scr-Ch-1_t11,Pacnes_C1,N720S511,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:317-Scr-Ch-2_t11,Pacnes_C1,N720S510,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:317-Scr-Ch-3_t11,Pacnes_C1,N720S509,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:302-Scr-Fo-6_t11,Pacnes_C1,N719S516,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:310-Scr-tlBa-6_t11,Pacnes_C1,N719S515,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:304-Scr-Lc-6_t11,Pacnes_C1,N719S514,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:311-Scr-ccCh-6_t11,Pacnes_C1,N719S513,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:303-Scr-Rc-6_t11,Pacnes_C1,N719S512,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:317-Scr-Ch-4_t11,Pacnes_C1,N719S511,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:317-Scr-Ch-5_t11,Pacnes_C1,N719S510,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:308-Scr-clNo-5_t11,Pacnes_C1,N713S513,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:313-Scr-Rc-1_t11,Pacnes_C1,N718S516,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:309-Scr-trBa-1_t11,Pacnes_C1,N718S515,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:314-Scr-Lc-1_t11,Pacnes_C1,N718S514,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:308-Scr-clNo-1_t11,Pacnes_C1,N718S513,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:315-Scr-crNo-1_t11,Pacnes_C1,N718S512,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:306-Scr-clCh-1_t11,Pacnes_C1,N718S511,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:316-Scr-clNo-1_t11,Pacnes_C1,N718S510,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:307-Scr-crNo-1_t11,Pacnes_C1,N718S509,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:313-Scr-Rc-2_t11,Pacnes_C1,N717S516,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:315-Scr-crNo-6_t11,Pacnes_C1,N713S512,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:309-Scr-trBa-2_t11,Pacnes_C1,N717S515,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:314-Scr-Lc-2_t11,Pacnes_C1,N717S514,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:308-Scr-clNo-2_t11,Pacnes_C1,N717S513,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:315-Scr-crNo-2_t11,Pacnes_C1,N717S512,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:306-Scr-clCh-2_t11,Pacnes_C1,N717S511,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:316-Scr-clNo-2_t11,Pacnes_C1,N717S510,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:307-Scr-crNo-2_t11,Pacnes_C1,N717S509,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:313-Scr-Rc-3_t11,Pacnes_C1,N716S516,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:309-Scr-trBa-3_t11,Pacnes_C1,N716S515,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:314-Scr-Lc-3_t11,Pacnes_C1,N716S514,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:306-Scr-clCh-6_t11,Pacnes_C1,N713S511,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:315-Scr-crNo-3_t11,Pacnes_C1,N716S512,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:306-Scr-clCh-3_t11,Pacnes_C1,N716S511,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:316-Scr-clNo-3_t11,Pacnes_C1,N716S510,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:307-Scr-crNo-3_t11,Pacnes_C1,N716S509,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:313-Scr-Rc-4_t11,Pacnes_C1,N715S516,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:309-Scr-trBa-4_t11,Pacnes_C1,N715S515,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:314-Scr-Lc-4_t11,Pacnes_C1,N715S514,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:308-Scr-clNo-3_t11,Pacnes_C1,N715S513,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:315-Scr-crNo-4_t11,Pacnes_C1,N715S512,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:316-Scr-clNo-6_t11,Pacnes_C1,N713S510,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:306-Scr-clCh-4_t11,Pacnes_C1,N715S511,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:316-Scr-clNo-4_t11,Pacnes_C1,N715S510,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:307-Scr-crNo-4_t11,Pacnes_C1,N715S509,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:313-Scr-Rc-5_t11,Pacnes_C1,N714S516,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:309-Scr-trBa-5_t11,Pacnes_C1,N714S515,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:314-Scr-Lc-5_t11,Pacnes_C1,N714S514,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:308-Scr-clNo-4_t11,Pacnes_C1,N714S513,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:315-Scr-crNo-5_t11,Pacnes_C1,N714S512,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:306-Scr-clCh-5_t11,Pacnes_C1,N714S511,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,H:316-Scr-clNo-5_t11,Pacnes_C1,N714S510,H
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:307-Scr-crNo-6_t11,Pacnes_C1,N713S509,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:160-Stp-No20-1_t07,Pacnes_C1,S515N717,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:170-Stp-Rc24-4_t07,Pacnes_C1,S516N716,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:166-Stp-Rc23-4_t07,Pacnes_C1,S515N716,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:170-Stp-Rc24-3_t07,Pacnes_C1,S516N715,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:166-Stp-Rc23-3_t07,Pacnes_C1,S515N715,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:170-Stp-Rc24-2_t07,Pacnes_C1,S516N714,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:166-Stp-Rc23-2_t07,Pacnes_C1,S515N714,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:161-Stp-No21-4_t07,Pacnes_C1,S516N724,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:168-Stp-Rc22-4_t07,Pacnes_C1,S515N724,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:161-Stp-No21-3_t07,Pacnes_C1,S516N723,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:168-Stp-Rc22-3_t07,Pacnes_C1,S515N723,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:161-Stp-No21-2_t07,Pacnes_C1,S516N722,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:170-Stp-Rc24-1_t07,Pacnes_C1,S516N713,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:168-Stp-Rc22-2_t07,Pacnes_C1,S515N722,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:161-Stp-No21-1_t07,Pacnes_C1,S516N721,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:168-Stp-Rc22-1_t07,Pacnes_C1,S515N721,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:172-Stp-Rc19-4_t07,Pacnes_C1,S516N720,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:160-Stp-No20-4_t07,Pacnes_C1,S515N720,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:172-Stp-Rc19-3_t07,Pacnes_C1,S516N719,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:160-Stp-No20-3_t07,Pacnes_C1,S515N719,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:172-Stp-Rc19-2_t07,Pacnes_C1,S516N718,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:160-Stp-No20-2_t07,Pacnes_C1,S515N718,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:172-Stp-Rc19-1_t07,Pacnes_C1,S516N717,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:166-Stp-Rc23-1_t07,Pacnes_C1,S515N713,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:122-Stp-Lc8-4_t07,Pacnes_C1,S508N724,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:181-Scr-Rc-4_t07,Pacnes_C1,S507N724,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:148-Stp-Lc16-4_t07,Pacnes_C1,S506N724,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:116-Stp-Lc10-4_t07,Pacnes_C1,S505N724,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:121-Stp-Lc11-4_t07,Pacnes_C1,S504N724,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:111-Stp-Lc9-1_t07,Pacnes_C1,S503N724,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:147-Stp-Lc16-4_t07,Pacnes_C1,S502N724,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:111-Stp-Lc9-3_t07,Pacnes_C1,S501N714,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:115-Stp-Lc7-4_t07,Pacnes_C1,S501N724,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:122-Stp-Lc8-3_t07,Pacnes_C1,S508N723,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:181-Scr-Rc-3_t07,Pacnes_C1,S507N723,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:148-Stp-Lc16-3_t07,Pacnes_C1,S506N723,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:116-Stp-Lc10-3_t07,Pacnes_C1,S505N723,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:121-Stp-Lc11-3_t07,Pacnes_C1,S504N723,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:180-Scr-Ch-3_t07,Pacnes_C1,S503N723,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:147-Stp-Lc16-3_t07,Pacnes_C1,S502N723,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:115-Stp-Lc7-3_t07,Pacnes_C1,S501N723,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:144-Stp-Lc15-2_t07,Pacnes_C1,S508N722,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:127-Stp-Lc12-1_t07,Pacnes_C1,S508N713,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:183-Scr-crFo-2_t07,Pacnes_C1,S507N722,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:140-Stp-Lc14-2_t07,Pacnes_C1,S506N722,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:101-Stp-Fo4-2_t07,Pacnes_C1,S505N722,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:131-Stp-Lc11-2_t07,Pacnes_C1,S504N722,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:107-Stp-Fo6-2_t07,Pacnes_C1,S503N722,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:138-Stp-Lc14-2_t07,Pacnes_C1,S502N722,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:110-Stp-Fo3-2_t07,Pacnes_C1,S501N722,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:144-Stp-Lc15-1_t07,Pacnes_C1,S508N721,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:183-Scr-crFo-1_t07,Pacnes_C1,S507N721,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:140-Stp-Lc14-1_t07,Pacnes_C1,S506N721,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:120-Stp-Lc11-1_t07,Pacnes_C1,S507N713,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:101-Stp-Fo4-1_t07,Pacnes_C1,S505N721,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:131-Stp-Lc11-1_t07,Pacnes_C1,S504N721,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:107-Stp-Fo6-1_t07,Pacnes_C1,S503N721,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:138-Stp-Lc14-1_t07,Pacnes_C1,S502N721,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:110-Stp-Fo3-1_t07,Pacnes_C1,S501N721,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:141-Stp-Lc14-4_t07,Pacnes_C1,S508N720,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:141-Stp-Lc14-3_t07,Pacnes_C1,S507N720,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:141-Stp-Lc14-2_t07,Pacnes_C1,S506N720,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:141-Stp-Lc14-1_t07,Pacnes_C1,S505N720,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:103-Stp-Fo2-4_t07,Pacnes_C1,S504N720,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:134-Stp-Lc10-1_t07,Pacnes_C1,S506N713,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:187-Scr-clCh-3_t07,Pacnes_C1,S503N720,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:187-Scr-clCh-2_t07,Pacnes_C1,S502N720,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:187-Scr-clCh-1_t07,Pacnes_C1,S501N720,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:128-Stp-Lc12-3_t07,Pacnes_C1,S508N719,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:190-Scr-crSh-3_t07,Pacnes_C1,S507N719,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:118-Stp-Lc8-3_t07,Pacnes_C1,S506N719,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:129-Stp-Lc12-3_t07,Pacnes_C1,S505N719,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:193-Scr-clCh-3_t07,Pacnes_C1,S504N719,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:189-Scr-crCh-3_t07,Pacnes_C1,S503N719,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:117-Stp-Lc11-3_t07,Pacnes_C1,S502N719,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:114-Stp-Lc7-1_t07,Pacnes_C1,S505N713,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:125-Stp-Lc12-3_t07,Pacnes_C1,S501N719,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:143-Stp-Lc15-2_t07,Pacnes_C1,S508N718,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:182-Scr-Lc-2_t07,Pacnes_C1,S507N718,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:132-Stp-Lc10-2_t07,Pacnes_C1,S506N718,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:146-Stp-Lc15-2_t07,Pacnes_C1,S505N718,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:191-Scr-Nk-2_t07,Pacnes_C1,S504N718,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:145-Stp-Lc11-2_t07,Pacnes_C1,S503N718,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:106-Stp-Fo3-2_t07,Pacnes_C1,S502N718,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:105-Stp-Fo3-2_t07,Pacnes_C1,S501N718,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:128-Stp-Lc12-1_t07,Pacnes_C1,S508N717,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:136-Stp-Lc10-1_t07,Pacnes_C1,S504N713,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:190-Scr-crSh-1_t07,Pacnes_C1,S507N717,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:118-Stp-Lc8-1_t07,Pacnes_C1,S506N717,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:129-Stp-Lc12-1_t07,Pacnes_C1,S505N717,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:193-Scr-clCh-1_t07,Pacnes_C1,S504N717,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:189-Scr-crCh-1_t07,Pacnes_C1,S503N717,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:117-Stp-Lc11-1_t07,Pacnes_C1,S502N717,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:125-Stp-Lc12-1_t07,Pacnes_C1,S501N717,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:139-Stp-Lc14-3_t07,Pacnes_C1,S508N716,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:139-Stp-Lc14-2_t07,Pacnes_C1,S507N716,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:139-Stp-Lc14-1_t07,Pacnes_C1,S506N716,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:119-Stp-Lc12-1_t07,Pacnes_C1,S503N713,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:109-Stp-Fo6-4_t07,Pacnes_C1,S505N716,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:103-Stp-Fo2-3_t07,Pacnes_C1,S504N716,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:103-Stp-Fo2-2_t07,Pacnes_C1,S503N716,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:123-Stp-Lc12-3_t07,Pacnes_C1,S502N716,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:112-Stp-Lc9-3_t07,Pacnes_C1,S501N716,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:127-Stp-Lc12-3_t07,Pacnes_C1,S508N715,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:120-Stp-Lc11-3_t07,Pacnes_C1,S507N715,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:134-Stp-Lc10-3_t07,Pacnes_C1,S506N715,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:114-Stp-Lc7-3_t07,Pacnes_C1,S505N715,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:136-Stp-Lc10-3_t07,Pacnes_C1,S504N715,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:133-Stp-Lc10-1_t07,Pacnes_C1,S502N713,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:119-Stp-Lc12-3_t07,Pacnes_C1,S503N715,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:133-Stp-Lc10-3_t07,Pacnes_C1,S502N715,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:113-Stp-Lc9-3_t07,Pacnes_C1,S501N715,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:185-Scr-Fo-1_t07,Pacnes_C1,S508N714,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:142-Stp-Lc15-2_t07,Pacnes_C1,S507N714,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:192-Scr-clCh-2_t07,Pacnes_C1,S506N714,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:109-Stp-Fo6-2_t07,Pacnes_C1,S505N714,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:102-Stp-Fo1-2_t07,Pacnes_C1,S504N714,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:188-Scr-ccCh-2_t07,Pacnes_C1,S503N714,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:123-Stp-Lc12-1_t07,Pacnes_C1,S502N714,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:113-Stp-Lc9-1_t07,Pacnes_C1,S501N713,F
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:214-Stp-No62-2_t08,Pacnes_C1,S506N712,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:205-Stp-Rc59-2_t08,Pacnes_C1,S505N712,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:197-Stp-Rc57-2_t08,Pacnes_C1,S504N712,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:236-Stp-Rc69-2_t08,Pacnes_C1,S503N712,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:200-Stp-Rc58-4_t08,Pacnes_C1,S502N712,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:208-Stp-Rc60-2_t08,Pacnes_C1,S501N702,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:252-Stp-Lc78-2_t08,Pacnes_C1,S501N712,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:214-Stp-No62-1_t08,Pacnes_C1,S506N711,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:205-Stp-Rc59-1_t08,Pacnes_C1,S505N711,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:197-Stp-Rc57-1_t08,Pacnes_C1,S504N711,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:236-Stp-Rc69-1_t08,Pacnes_C1,S503N711,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:200-Stp-Rc58-3_t08,Pacnes_C1,S502N711,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:252-Stp-Lc78-1_t08,Pacnes_C1,S501N711,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:198-Stp-Rc58-1_t08,Pacnes_C1,S508N701,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:239-Stp-Rc69-2_t08,Pacnes_C1,S506N710,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:199-Stp-Rc58-2_t08,Pacnes_C1,S505N710,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:210-Stp-Rc60-2_t08,Pacnes_C1,S504N710,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:203-Stp-Rc59-2_t08,Pacnes_C1,S503N710,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:200-Stp-Rc58-2_t08,Pacnes_C1,S502N710,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:281-Ext-crMoW-4_t08,Pacnes_C1,S501N710,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:239-Stp-Rc69-1_t08,Pacnes_C1,S506N709,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:244-Stp-Rc70-1_t08,Pacnes_C1,S507N701,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:199-Stp-Rc58-1_t08,Pacnes_C1,S505N709,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:210-Stp-Rc60-1_t08,Pacnes_C1,S504N709,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:203-Stp-Rc59-1_t08,Pacnes_C1,S503N709,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:200-Stp-Rc58-1_t08,Pacnes_C1,S502N709,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:281-Ext-crMoW-3_t08,Pacnes_C1,S501N709,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:216-Stp-No62-2_t08,Pacnes_C1,S506N708,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:245-Stp-Rc70-2_t08,Pacnes_C1,S505N708,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:196-Stp-Rc57-4_t08,Pacnes_C1,S504N708,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:195-Stp-No66-1_t08,Pacnes_C1,S506N701,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:206-Stp-Rc59-2_t08,Pacnes_C1,S503N708,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:297-Scr-crBa-2_t08,Pacnes_C1,S502N708,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:281-Ext-crMoW-2_t08,Pacnes_C1,S501N708,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:216-Stp-No62-1_t08,Pacnes_C1,S506N707,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:245-Stp-Rc70-1_t08,Pacnes_C1,S505N707,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:196-Stp-Rc57-3_t08,Pacnes_C1,S504N707,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:206-Stp-Rc59-1_t08,Pacnes_C1,S503N707,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:297-Scr-crBa-1_t08,Pacnes_C1,S502N707,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:211-Stp-Rc60-1_t08,Pacnes_C1,S505N701,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:281-Ext-crMoW-1_t08,Pacnes_C1,S501N707,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:213-Stp-Rc56-2_t08,Pacnes_C1,S506N706,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:204-Stp-Rc59-2_t08,Pacnes_C1,S505N706,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:196-Stp-Rc57-2_t08,Pacnes_C1,S504N706,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:201-Stp-Rc58-2_t08,Pacnes_C1,S503N706,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:253-Stp-Lc78-2_t08,Pacnes_C1,S502N706,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:209-Stp-Rc60-2_t08,Pacnes_C1,S501N706,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:207-Stp-Rc60-1_t08,Pacnes_C1,S504N701,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:213-Stp-Rc56-1_t08,Pacnes_C1,S506N705,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:204-Stp-Rc59-1_t08,Pacnes_C1,S505N705,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:196-Stp-Rc57-1_t08,Pacnes_C1,S504N705,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:201-Stp-Rc58-1_t08,Pacnes_C1,S503N705,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:253-Stp-Lc78-1_t08,Pacnes_C1,S502N705,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:209-Stp-Rc60-1_t08,Pacnes_C1,S501N705,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:215-Stp-No62-2_t08,Pacnes_C1,S508N704,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:217-Stp-No63-2_t08,Pacnes_C1,S507N704,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:238-Stp-Rc69-2_t08,Pacnes_C1,S506N704,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:298-Scr-clBa-1_t08,Pacnes_C1,S503N701,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:194-Stp-No66-2_t08,Pacnes_C1,S505N704,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:202-Stp-Rc59-2_t08,Pacnes_C1,S504N704,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:298-Scr-clBa-4_t08,Pacnes_C1,S503N704,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:282-Ext-clMoW-4_t08,Pacnes_C1,S502N704,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:232-Stp-Rc71-2_t08,Pacnes_C1,S501N704,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:215-Stp-No62-1_t08,Pacnes_C1,S508N703,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:217-Stp-No63-1_t08,Pacnes_C1,S507N703,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:238-Stp-Rc69-1_t08,Pacnes_C1,S506N703,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:194-Stp-No66-1_t08,Pacnes_C1,S505N703,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:202-Stp-Rc59-1_t08,Pacnes_C1,S504N703,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:282-Ext-clMoW-1_t08,Pacnes_C1,S502N701,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:298-Scr-clBa-3_t08,Pacnes_C1,S503N703,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:282-Ext-clMoW-3_t08,Pacnes_C1,S502N703,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:232-Stp-Rc71-1_t08,Pacnes_C1,S501N703,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:198-Stp-Rc58-2_t08,Pacnes_C1,S508N702,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:244-Stp-Rc70-2_t08,Pacnes_C1,S507N702,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:195-Stp-No66-2_t08,Pacnes_C1,S506N702,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:211-Stp-Rc60-2_t08,Pacnes_C1,S505N702,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:207-Stp-Rc60-2_t08,Pacnes_C1,S504N702,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:298-Scr-clBa-2_t08,Pacnes_C1,S503N702,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:282-Ext-clMoW-2_t08,Pacnes_C1,S502N702,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:208-Stp-Rc60-1_t08,Pacnes_C1,S501N701,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:264-Stp-Lc86-5_t08,Pacnes_C1,S532N712,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:277-Ext-ccLcW-4_t08,Pacnes_C1,S531N712,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:264-Stp-Lc86-4_t08,Pacnes_C1,S530N712,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:249-Stp-Fo74-4_t08,Pacnes_C1,S529N712,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:248-Stp-Fo76-4_t08,Pacnes_C1,S527N712,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:272-Ext-tlChW-6_t08,Pacnes_C1,S526N712,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:222-Stp-No62-2_t08,Pacnes_C1,S525N702,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:267-Ext-tcChW-2_t08,Pacnes_C1,S525N712,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:264-Stp-Lc86-3_t08,Pacnes_C1,S532N711,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:277-Ext-ccLcW-3_t08,Pacnes_C1,S531N711,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:278-Ext-ccChBs-2_t08,Pacnes_C1,S530N711,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:249-Stp-Fo74-3_t08,Pacnes_C1,S529N711,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:248-Stp-Fo76-3_t08,Pacnes_C1,S527N711,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:272-Ext-tlChW-5_t08,Pacnes_C1,S526N711,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:267-Ext-tcChW-1_t08,Pacnes_C1,S525N711,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:264-Stp-Lc86-2_t08,Pacnes_C1,S532N710,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:263-Stp-Lc82-1_t08,Pacnes_C1,S532N701,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:277-Ext-ccLcW-2_t08,Pacnes_C1,S531N710,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:235-Stp-Rc72-2_t08,Pacnes_C1,S530N710,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:249-Stp-Fo74-2_t08,Pacnes_C1,S529N710,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:242-Stp-Rc70-2_t08,Pacnes_C1,S527N710,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:272-Ext-tlChW-4_t08,Pacnes_C1,S526N710,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:219-Stp-No63-2_t08,Pacnes_C1,S525N710,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:264-Stp-Lc86-1_t08,Pacnes_C1,S532N709,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:277-Ext-ccLcW-1_t08,Pacnes_C1,S531N709,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:235-Stp-Rc72-1_t08,Pacnes_C1,S530N709,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:269-Ext-trMoW-1_t08,Pacnes_C1,S531N701,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:249-Stp-Fo74-1_t08,Pacnes_C1,S529N709,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:242-Stp-Rc70-1_t08,Pacnes_C1,S527N709,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:272-Ext-tlChW-3_t08,Pacnes_C1,S526N709,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:219-Stp-No63-1_t08,Pacnes_C1,S525N709,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:248-Stp-Fo76-2_t08,Pacnes_C1,S532N708,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:241-Stp-Rc73-2_t08,Pacnes_C1,S531N708,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:300-Scr-crBa-4_t08,Pacnes_C1,S530N708,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:268-Ext-blFoW-2_t08,Pacnes_C1,S529N708,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:266-Ext-crChW-1_t08,Pacnes_C1,S530N701,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:240-Stp-Rc73-2_t08,Pacnes_C1,S527N708,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:299-Scr-crBa-4_t08,Pacnes_C1,S526N708,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:223-Stp-No65-4_t08,Pacnes_C1,S525N708,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:248-Stp-Fo76-1_t08,Pacnes_C1,S532N707,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:241-Stp-Rc73-1_t08,Pacnes_C1,S531N707,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:300-Scr-crBa-3_t08,Pacnes_C1,S530N707,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:268-Ext-blFoW-1_t08,Pacnes_C1,S529N707,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:240-Stp-Rc73-1_t08,Pacnes_C1,S527N707,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:299-Scr-crBa-3_t08,Pacnes_C1,S526N707,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:220-Stp-No63-1_t08,Pacnes_C1,S529N701,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:223-Stp-No65-3_t08,Pacnes_C1,S525N707,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:243-Stp-Rc70-2_t08,Pacnes_C1,S532N706,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:231-Stp-No62-2_t08,Pacnes_C1,S531N706,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:300-Scr-crBa-2_t08,Pacnes_C1,S530N706,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:221-Stp-No63-2_t08,Pacnes_C1,S529N706,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:226-Stp-No65-4_t08,Pacnes_C1,S527N706,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:299-Scr-crBa-2_t08,Pacnes_C1,S526N706,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:223-Stp-No65-2_t08,Pacnes_C1,S525N706,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:243-Stp-Rc70-1_t08,Pacnes_C1,S532N705,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:231-Stp-No62-1_t08,Pacnes_C1,S531N705,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:300-Scr-crBa-1_t08,Pacnes_C1,S530N705,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:221-Stp-No63-1_t08,Pacnes_C1,S529N705,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:226-Stp-No65-3_t08,Pacnes_C1,S527N705,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:299-Scr-crBa-1_t08,Pacnes_C1,S526N705,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:223-Stp-No65-1_t08,Pacnes_C1,S525N705,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:263-Stp-Lc82-4_t08,Pacnes_C1,S532N704,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:272-Ext-tlChW-2_t08,Pacnes_C1,S531N704,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:280-Ext-crMoW-4_t08,Pacnes_C1,S530N704,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:301-Scr-Ch-1_t08,Pacnes_C1,S527N701,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:280-Ext-crMoW-3_t08,Pacnes_C1,S529N704,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:301-Scr-Ch-4_t08,Pacnes_C1,S527N704,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:265-Ext-RcB-2_t08,Pacnes_C1,S526N704,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:218-Stp-No63-2_t08,Pacnes_C1,S525N704,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:263-Stp-Lc82-3_t08,Pacnes_C1,S532N703,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:272-Ext-tlChW-1_t08,Pacnes_C1,S531N703,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:280-Ext-crMoW-2_t08,Pacnes_C1,S530N703,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:280-Ext-crMoW-1_t08,Pacnes_C1,S529N703,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:279-Ext-brFoW-1_t08,Pacnes_C1,S526N701,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:301-Scr-Ch-3_t08,Pacnes_C1,S527N703,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:265-Ext-RcB-1_t08,Pacnes_C1,S526N703,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:218-Stp-No63-1_t08,Pacnes_C1,S525N703,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:263-Stp-Lc82-2_t08,Pacnes_C1,S532N702,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:269-Ext-trMoW-2_t08,Pacnes_C1,S531N702,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:266-Ext-crChW-2_t08,Pacnes_C1,S530N702,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:220-Stp-No63-2_t08,Pacnes_C1,S529N702,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:301-Scr-Ch-2_t08,Pacnes_C1,S527N702,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:279-Ext-brFoW-2_t08,Pacnes_C1,S526N702,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:222-Stp-No62-1_t08,Pacnes_C1,S525N701,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:225-Stp-No65-2_t08,Pacnes_C1,S532N724,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:224-Stp-No65-2_t08,Pacnes_C1,S531N724,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:251-Stp-Lc79-2_t08,Pacnes_C1,S530N724,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:246-Stp-Rc68-5_t08,Pacnes_C1,S529N724,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:259-Stp-Lc82-2_t08,Pacnes_C1,S527N724,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:288-Scr-clCh-4_t08,Pacnes_C1,S526N724,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:275-Ext-tcFoB-2_t08,Pacnes_C1,S525N714,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:246-Stp-Rc68-4_t08,Pacnes_C1,S525N724,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:225-Stp-No65-1_t08,Pacnes_C1,S532N723,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:224-Stp-No65-1_t08,Pacnes_C1,S531N723,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:251-Stp-Lc79-1_t08,Pacnes_C1,S530N723,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:246-Stp-Rc68-3_t08,Pacnes_C1,S529N723,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:259-Stp-Lc82-1_t08,Pacnes_C1,S527N723,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:288-Scr-clCh-3_t08,Pacnes_C1,S526N723,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:296-Scr-trBa-3_t08,Pacnes_C1,S525N723,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:227-Stp-No64-2_t08,Pacnes_C1,S532N722,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:284-Ext-brFoMx-1_t08,Pacnes_C1,S532N713,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:226-Stp-No65-2_t08,Pacnes_C1,S531N722,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:261-Stp-Lc85-2_t08,Pacnes_C1,S530N722,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:246-Stp-Rc68-2_t08,Pacnes_C1,S529N722,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:258-Stp-Lc82-2_t08,Pacnes_C1,S527N722,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:288-Scr-clCh-2_t08,Pacnes_C1,S526N722,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:296-Scr-trBa-2_t08,Pacnes_C1,S525N722,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:227-Stp-No64-1_t08,Pacnes_C1,S532N721,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:226-Stp-No65-1_t08,Pacnes_C1,S531N721,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:261-Stp-Lc85-1_t08,Pacnes_C1,S530N721,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:246-Stp-Rc68-1_t08,Pacnes_C1,S529N721,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:258-Stp-Lc82-1_t08,Pacnes_C1,S527N721,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:288-Scr-clCh-1_t08,Pacnes_C1,S526N721,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:296-Scr-trBa-1_t08,Pacnes_C1,S525N721,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:250-Stp-Fo74-2_t08,Pacnes_C1,S532N720,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:291-Scr-crCh-4_t08,Pacnes_C1,S531N720,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:287-Scr-crFo-4_t08,Pacnes_C1,S530N720,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:257-Stp-Lc83-2_t08,Pacnes_C1,S529N720,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:293-Scr-trBa-1_t08,Pacnes_C1,S530N713,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:295-Scr-crBa-4_t08,Pacnes_C1,S527N720,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:289-Scr-Rch-4_t08,Pacnes_C1,S526N720,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:229-Stp-No67-2_t08,Pacnes_C1,S525N720,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:250-Stp-Fo74-1_t08,Pacnes_C1,S532N719,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:291-Scr-crCh-3_t08,Pacnes_C1,S531N719,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:287-Scr-crFo-3_t08,Pacnes_C1,S530N719,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:257-Stp-Lc83-1_t08,Pacnes_C1,S529N719,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:295-Scr-crBa-3_t08,Pacnes_C1,S527N719,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:289-Scr-Rch-3_t08,Pacnes_C1,S526N719,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:290-Scr-clCh-1_t08,Pacnes_C1,S529N713,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:229-Stp-No67-1_t08,Pacnes_C1,S525N719,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:260-Stp-Lc84-2_t08,Pacnes_C1,S532N718,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:291-Scr-crCh-2_t08,Pacnes_C1,S531N718,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:287-Scr-crFo-2_t08,Pacnes_C1,S530N718,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:283-Ext-tcMoWs-2_t08,Pacnes_C1,S529N718,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:295-Scr-crBa-2_t08,Pacnes_C1,S527N718,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:289-Scr-Rch-2_t08,Pacnes_C1,S526N718,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:274-Ext-crFoB-2_t08,Pacnes_C1,S525N718,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:260-Stp-Lc84-1_t08,Pacnes_C1,S532N717,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:291-Scr-crCh-1_t08,Pacnes_C1,S531N717,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:287-Scr-crFo-1_t08,Pacnes_C1,S530N717,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:283-Ext-tcMoWs-1_t08,Pacnes_C1,S529N717,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:295-Scr-crBa-1_t08,Pacnes_C1,S527N717,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:289-Scr-Rch-1_t08,Pacnes_C1,S526N717,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:274-Ext-crFoB-1_t08,Pacnes_C1,S525N717,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:284-Ext-brFoMx-4_t08,Pacnes_C1,S532N716,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:294-Scr-clBa-3_t08,Pacnes_C1,S531N716,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:293-Scr-trBa-4_t08,Pacnes_C1,S530N716,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:255-Stp-Lc79-1_t08,Pacnes_C1,S527N713,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:290-Scr-clCh-4_t08,Pacnes_C1,S529N716,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:276-Ext-tlLcW-4_t08,Pacnes_C1,S526N716,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:254-Stp-Lc79-2_t08,Pacnes_C1,S525N716,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:284-Ext-brFoMx-3_t08,Pacnes_C1,S532N715,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:294-Scr-clBa-2_t08,Pacnes_C1,S531N715,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:293-Scr-trBa-3_t08,Pacnes_C1,S530N715,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:290-Scr-clCh-3_t08,Pacnes_C1,S529N715,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:276-Ext-tlLcW-1_t08,Pacnes_C1,S526N713,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:276-Ext-tlLcW-3_t08,Pacnes_C1,S526N715,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:254-Stp-Lc79-1_t08,Pacnes_C1,S525N715,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:284-Ext-brFoMx-2_t08,Pacnes_C1,S532N714,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:294-Scr-clBa-1_t08,Pacnes_C1,S531N714,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:293-Scr-trBa-2_t08,Pacnes_C1,S530N714,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:290-Scr-clCh-2_t08,Pacnes_C1,S529N714,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:255-Stp-Lc79-2_t08,Pacnes_C1,S527N714,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:276-Ext-tlLcW-2_t08,Pacnes_C1,S526N714,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:275-Ext-tcFoB-1_t08,Pacnes_C1,S525N713,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:099-Scr-blBa-4_t00,Pacnes_C1,N704S507,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:099-Scr-blBa-3_t00,Pacnes_C1,N703S507,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:098-Scr-trBa-4_t00,Pacnes_C1,N704S506,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:098-Scr-trBa-3_t00,Pacnes_C1,N703S506,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:097-Scr-tlBa-4_t00,Pacnes_C1,N704S505,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:097-Scr-tlBa-3_t00,Pacnes_C1,N703S505,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:096-Scr-Ch-4_t00,Pacnes_C1,N703S504,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:096-Scr-Ch-3_t00,Pacnes_C1,N712S504,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:095-Scr-Rc-4_t00,Pacnes_C1,N704S503,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:095-Scr-Rc-3_t00,Pacnes_C1,N703S503,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:094-Scr-Lc-4_t00,Pacnes_C1,N704S502,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:094-Scr-Lc-3_t00,Pacnes_C1,N703S502,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:094-Scr-Lc-1_t00,Pacnes_C1,N701S502,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:093-Scr-Fo-4_t00,Pacnes_C1,N704S501,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:093-Scr-Fo-3_t00,Pacnes_C1,N703S501,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:093-Scr-Fo-1_t00,Pacnes_C1,N701S501,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:100-Scr-brBa-4_t00,Pacnes_C1,N704S508,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:100-Scr-brBa-3_t00,Pacnes_C1,N703S508,E
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:048-Scr-Rc-1_t00,Pacnes_C1,N712S513,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:048-Scr-Rc-2_t00,Pacnes_C1,N711S513,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:062-Scr-tlBa-1_t00,Pacnes_C1,N707S513,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:062-Scr-tlBa-2_t00,Pacnes_C1,N706S513,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:062-Scr-tlBa-3_t00,Pacnes_C1,N705S513,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:063-Scr-trBa-2_t00,Pacnes_C1,N706S512,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:064-Scr-blBa-1_t00,Pacnes_C1,N705S512,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,B:074-Scr-tlBa-1_t00,Pacnes_C1,N708S511,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,B:074-Scr-tlBa-2_t00,Pacnes_C1,N707S511,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,B:074-Scr-tlBa-3_t00,Pacnes_C1,N706S511,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,B:074-Scr-tlBa-4_t00,Pacnes_C1,N705S511,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:023-Ext-tcChBp-1_t00,Pacnes_C1,N708S509,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:023-Ext-tcChBp-3_t00,Pacnes_C1,N706S509,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:023-Ext-tcChBp-4_t00,Pacnes_C1,N705S509,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:024-Ext-bcChBs-1_t00,Pacnes_C1,N704S516,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:024-Ext-bcChBs-2_t00,Pacnes_C1,N703S516,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:024-Ext-bcChBs-3_t00,Pacnes_C1,N702S516,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:057-Scr-brBa-4_t00,Pacnes_C1,N712S503,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:057-Scr-brBa-3_t00,Pacnes_C1,N711S503,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:056-Scr-blBa-4_t00,Pacnes_C1,N711S504,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:056-Scr-blBa-3_t00,Pacnes_C1,N710S504,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:056-Scr-blBa-1_t00,Pacnes_C1,N708S504,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:055-Scr-trBa-4_t00,Pacnes_C1,N712S502,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:055-Scr-trBa-3_t00,Pacnes_C1,N711S502,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:055-Scr-trBa-2_t00,Pacnes_C1,N710S502,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:055-Scr-trBa-1_t00,Pacnes_C1,N709S502,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:054-Scr-tlBa-4_t00,Pacnes_C1,N712S501,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:054-Scr-tlBa-3_t00,Pacnes_C1,N711S501,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:054-Scr-tlBa-2_t00,Pacnes_C1,N710S501,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:054-Scr-tlBa-1_t00,Pacnes_C1,N709S501,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:053-Scr-Ch-4_t00,Pacnes_C1,N707S504,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:053-Scr-Ch-3_t00,Pacnes_C1,N706S504,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:053-Scr-Ch-2_t00,Pacnes_C1,N705S504,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:053-Scr-Ch-1_t00,Pacnes_C1,N704S504,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:052-Scr-Rc-4_t00,Pacnes_C1,N708S503,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:052-Scr-Rc-3_t00,Pacnes_C1,N707S503,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:052-Scr-Rc-2_t00,Pacnes_C1,N706S503,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:052-Scr-Rc-1_t00,Pacnes_C1,N705S503,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:051-Scr-Lc-4_t00,Pacnes_C1,N708S502,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:051-Scr-Lc-3_t00,Pacnes_C1,N707S502,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:051-Scr-Lc-2_t00,Pacnes_C1,N706S502,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:051-Scr-Lc-1_t00,Pacnes_C1,N705S502,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:050-Scr-Fo-4_t00,Pacnes_C1,N708S501,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:050-Scr-Fo-3_t00,Pacnes_C1,N707S501,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:050-Scr-Fo-2_t00,Pacnes_C1,N706S501,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,C:050-Scr-Fo-1_t00,Pacnes_C1,N705S501,C
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:410-Ext-blFoBs-2_t15,Pacnes_C1,N706S501,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:410-Ext-blFoBs-1_t15,Pacnes_C1,N704S501,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:409-Ext-ccLcBs-5_t15,Pacnes_C1,N721S508,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:409-Ext-ccLcBs-4_t15,Pacnes_C1,N719S508,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:409-Ext-ccLcBs-3_t15,Pacnes_C1,N717S508,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:409-Ext-ccLcBs-2_t15,Pacnes_C1,N715S508,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:409-Ext-ccLcBs-1_t15,Pacnes_C1,N713S508,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:405-Ext-tlLcB-5_t15,Pacnes_C1,N711S508,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:396-Ext-tlBaB-1_t15,Pacnes_C1,N717S501,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:405-Ext-tlLcB-4_t15,Pacnes_C1,N709S508,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:405-Ext-tlLcB-3_t15,Pacnes_C1,N707S508,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:405-Ext-tlLcB-2_t15,Pacnes_C1,N705S508,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:405-Ext-tlLcB-1_t15,Pacnes_C1,N701S508,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:403-Scr-ccBa-4_t15,Pacnes_C1,N723S507,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:407-Ext-ChB-6_t15,Pacnes_C1,N719S507,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:407-Ext-ChB-5_t15,Pacnes_C1,N717S507,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:407-Ext-ChB-4_t15,Pacnes_C1,N715S507,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:407-Ext-ChB-3_t15,Pacnes_C1,N713S507,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:404-Scr-Lc-5_t15,Pacnes_C1,N709S507,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:404-Scr-Lc-4_t15,Pacnes_C1,N707S507,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:404-Scr-Lc-3_t15,Pacnes_C1,N705S507,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:404-Scr-Lc-2_t15,Pacnes_C1,N703S507,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:404-Scr-Lc-1_t15,Pacnes_C1,N701S507,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:403-Scr-ccBa-3_t15,Pacnes_C1,N721S506,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:403-Scr-ccBa-2_t15,Pacnes_C1,N719S506,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:394-Ext-clChB-7_t15,Pacnes_C1,N713S501,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:403-Scr-ccBa-1_t15,Pacnes_C1,N717S506,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:402-Scr-tlBa-6_t15,Pacnes_C1,N713S506,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:402-Scr-tlBa-5_t15,Pacnes_C1,N711S506,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:402-Scr-tlBa-4_t15,Pacnes_C1,N709S506,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:402-Scr-tlBa-3_t15,Pacnes_C1,N707S506,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:402-Scr-tlBa-2_t15,Pacnes_C1,N705S506,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:402-Scr-tlBa-1_t15,Pacnes_C1,N703S506,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:402-Scr-tlBa-8_t15,Pacnes_C1,N723S505,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:394-Ext-clChB-6_t15,Pacnes_C1,N711S501,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:402-Scr-tlBa-7_t15,Pacnes_C1,N721S505,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:401-Scr-trBa-6_t15,Pacnes_C1,N719S505,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:401-Scr-trBa-5_t15,Pacnes_C1,N717S505,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:401-Scr-trBa-4_t15,Pacnes_C1,N715S505,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:401-Scr-trBa-3_t15,Pacnes_C1,N713S505,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:401-Scr-trBa-2_t15,Pacnes_C1,N711S505,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:401-Scr-trBa-1_t15,Pacnes_C1,N709S505,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:400-Scr-tcBa-4_t15,Pacnes_C1,N707S505,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:400-Scr-tcBa-3_t15,Pacnes_C1,N705S505,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:400-Scr-tcBa-2_t15,Pacnes_C1,N703S505,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:394-Ext-clChB-5_t15,Pacnes_C1,N709S501,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:400-Scr-tcBa-1_t15,Pacnes_C1,N701S505,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:397-Ext-tcBaB-5_t15,Pacnes_C1,N721S504,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:397-Ext-tcBaB-4_t15,Pacnes_C1,N719S504,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:397-Ext-tcBaB-2_t15,Pacnes_C1,N717S504,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:400-Scr-tcBa-7_t15,Pacnes_C1,N715S504,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:400-Scr-tcBa-6_t15,Pacnes_C1,N713S504,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:400-Scr-tcBa-5_t15,Pacnes_C1,N711S504,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:399-Ext-ccBaB-3_t15,Pacnes_C1,N707S504,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:394-Ext-clChB-4_t15,Pacnes_C1,N707S501,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:399-Ext-ccBaB-2_t15,Pacnes_C1,N703S504,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:399-Ext-ccBaB-1_t15,Pacnes_C1,N701S504,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:396-Ext-tlBaB-8_t15,Pacnes_C1,N723S503,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:396-Ext-tlBaB-6_t15,Pacnes_C1,N721S503,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:397-Ext-tcBaB-3_t15,Pacnes_C1,N719S503,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:397-Ext-tcBaB-1_t15,Pacnes_C1,N717S503,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:398-Ext-tlBaB-7_t15,Pacnes_C1,N715S503,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:398-Ext-tlBaB-6_t15,Pacnes_C1,N713S503,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:398-Ext-tlBaB-5_t15,Pacnes_C1,N711S503,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:394-Ext-clChB-3_t15,Pacnes_C1,N705S501,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:398-Ext-tlBaB-4_t15,Pacnes_C1,N709S503,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:398-Ext-tlBaB-3_t15,Pacnes_C1,N705S503,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:398-Ext-tlBaB-2_t15,Pacnes_C1,N703S503,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:398-Ext-tlBaB-1_t15,Pacnes_C1,N701S503,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:396-Ext-tlBaB-5_t15,Pacnes_C1,N721S502,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:396-Ext-tlBaB-3_t15,Pacnes_C1,N719S502,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:395-Ext-trBaB-8_t15,Pacnes_C1,N717S502,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:395-Ext-trBaB-7_t15,Pacnes_C1,N715S502,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:394-Ext-clChB-2_t15,Pacnes_C1,N703S501,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:395-Ext-trBaB-5_t15,Pacnes_C1,N711S502,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:395-Ext-trBaB-4_t15,Pacnes_C1,N709S502,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:395-Ext-trBaB-3_t15,Pacnes_C1,N705S502,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:395-Ext-trBaB-2_t15,Pacnes_C1,N703S502,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:395-Ext-trBaB-1_t15,Pacnes_C1,N701S502,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:407-Ext-ChB-2_t15,Pacnes_C1,N704S503,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:407-Ext-ChB-1_t15,Pacnes_C1,N702S503,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:408-Ext-ccRcB-8_t15,Pacnes_C1,N724S502,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:396-Ext-tlBaB-7_t15,Pacnes_C1,N723S501,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:408-Ext-ccRcB-6_t15,Pacnes_C1,N722S502,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:408-Ext-ccRcB-5_t15,Pacnes_C1,N720S502,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:406-Ext-ChB-7_t15,Pacnes_C1,N716S502,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:406-Ext-ChB-6_t15,Pacnes_C1,N714S502,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:406-Ext-ChB-5_t15,Pacnes_C1,N712S502,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:406-Ext-ChB-4_t15,Pacnes_C1,N708S502,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:406-Ext-ChB-3_t15,Pacnes_C1,N706S502,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:406-Ext-ChB-2_t15,Pacnes_C1,N704S502,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:396-Ext-tlBaB-4_t15,Pacnes_C1,N721S501,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:406-Ext-ChB-1_t15,Pacnes_C1,N702S502,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:408-Ext-ccRcB-7_t15,Pacnes_C1,N724S501,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:408-Ext-ccRcB-4_t15,Pacnes_C1,N720S501,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:408-Ext-ccRcB-3_t15,Pacnes_C1,N718S501,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:408-Ext-ccRcB-2_t15,Pacnes_C1,N716S501,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:408-Ext-ccRcB-1_t15,Pacnes_C1,N714S501,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:410-Ext-blFoBs-5_t15,Pacnes_C1,N712S501,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:410-Ext-blFoBs-4_t15,Pacnes_C1,N710S501,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:410-Ext-blFoBs-3_t15,Pacnes_C1,N708S501,R
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:396-Ext-tlBaB-2_t15,Pacnes_C1,N719S501,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,Q:394-Ext-clChB-1_t15,Pacnes_C1,N701S501,Q
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:020-Ext-crChB-4_t00,Pacnes_C1,N701S514,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:091-Ext-blNoBs-4_t00,Pacnes_C1,N712S518,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:091-Ext-blNoBs-3_t00,Pacnes_C1,N711S518,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:091-Ext-blNoBs-2_t00,Pacnes_C1,N710S518,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:090-Ext-crChBs-2_t00,Pacnes_C1,N711S517,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:090-Ext-crChBs-1_t00,Pacnes_C1,N710S517,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:016-Ext-trRcBl-4_t00,Pacnes_C1,N708S517,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:089-Ext-clChBs-4_t00,Pacnes_C1,N708S524,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:089-Ext-clChBs-3_t00,Pacnes_C1,N707S524,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:089-Ext-clChBs-2_t00,Pacnes_C1,N706S524,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:089-Ext-clChBs-1_t00,Pacnes_C1,N705S524,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:088-Ext-ccChBs-4_t00,Pacnes_C1,N708S523,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:088-Ext-ccChBs-3_t00,Pacnes_C1,N707S523,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:088-Ext-ccChBs-2_t00,Pacnes_C1,N706S523,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:088-Ext-ccChBs-1_t00,Pacnes_C1,N705S523,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:087-Ext-brNoBs-4_t00,Pacnes_C1,N708S522,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:087-Ext-brNoBs-3_t00,Pacnes_C1,N707S522,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:087-Ext-brNoBs-2_t00,Pacnes_C1,N706S522,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:087-Ext-brNoBs-1_t00,Pacnes_C1,N705S522,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:025-Ext-clChWp-1_t00,Pacnes_C1,N704S515,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:025-Ext-clChWp-2_t00,Pacnes_C1,N703S515,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:020-Ext-crChB-1_t00,Pacnes_C1,N702S515,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:020-Ext-crChB-2_t00,Pacnes_C1,N701S515,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:083-Ext-crNoBs-4_t00,Pacnes_C1,N712S523,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:083-Ext-crNoBs-3_t00,Pacnes_C1,N711S523,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:083-Ext-crNoBs-2_t00,Pacnes_C1,N710S523,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:083-Ext-crNoBs-1_t00,Pacnes_C1,N709S523,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:082-Ext-clNoBs-4_t00,Pacnes_C1,N712S522,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:082-Ext-clNoBs-3_t00,Pacnes_C1,N711S522,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:082-Ext-clNoBs-2_t00,Pacnes_C1,N710S522,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:082-Ext-clNoBs-1_t00,Pacnes_C1,N709S522,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:080-Ext-RcBs-4_t00,Pacnes_C1,N712S520,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:080-Ext-RcBs-3_t00,Pacnes_C1,N711S520,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:080-Ext-RcBs-2_t00,Pacnes_C1,N710S520,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:080-Ext-RcBs-1_t00,Pacnes_C1,N709S520,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:079-Ext-LcFoBs-3_t00,Pacnes_C1,N711S519,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:079-Ext-LcFoBs-2_t00,Pacnes_C1,N710S519,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:079-Ext-LcFoBs-1_t00,Pacnes_C1,N709S519,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:078-Ext-trFoBp-4_t00,Pacnes_C1,N720S508,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:078-Ext-trFoBp-3_t00,Pacnes_C1,N719S508,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:078-Ext-trFoBp-2_t00,Pacnes_C1,N718S508,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:078-Ext-trFoBp-1_t00,Pacnes_C1,N717S508,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:077-Scr-brBa-3_t00,Pacnes_C1,N719S504,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:077-Scr-brBa-2_t00,Pacnes_C1,N718S504,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:077-Scr-brBa-1_t00,Pacnes_C1,N717S504,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:076-Scr-blBa-4_t00,Pacnes_C1,N720S507,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:076-Scr-blBa-3_t00,Pacnes_C1,N719S507,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:076-Scr-blBa-2_t00,Pacnes_C1,N718S507,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:076-Scr-blBa-1_t00,Pacnes_C1,N717S507,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:075-Scr-trBa-4_t00,Pacnes_C1,N720S506,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:075-Scr-trBa-3_t00,Pacnes_C1,N719S506,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:075-Scr-trBa-2_t00,Pacnes_C1,N718S506,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:075-Scr-trBa-1_t00,Pacnes_C1,N717S506,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:061-Scr-Ch-3_t00,Pacnes_C1,N706S514,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:073-Scr-Ch-4_t00,Pacnes_C1,N716S503,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:073-Scr-Ch-3_t00,Pacnes_C1,N715S503,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:073-Scr-Ch-2_t00,Pacnes_C1,N714S503,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:073-Scr-Ch-1_t00,Pacnes_C1,N713S503,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:072-Scr-Rc-4_t00,Pacnes_C1,N716S504,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:072-Scr-Rc-3_t00,Pacnes_C1,N715S504,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:072-Scr-Rc-2_t00,Pacnes_C1,N714S504,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:072-Scr-Rc-1_t00,Pacnes_C1,N713S504,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:071-Scr-Lc-4_t00,Pacnes_C1,N716S505,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:071-Scr-Lc-3_t00,Pacnes_C1,N715S505,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:071-Scr-Lc-2_t00,Pacnes_C1,N714S505,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:071-Scr-Lc-1_t00,Pacnes_C1,N713S505,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:070-Scr-Fo-4_t00,Pacnes_C1,N716S502,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:070-Scr-Fo-3_t00,Pacnes_C1,N715S502,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:070-Scr-Fo-2_t00,Pacnes_C1,N714S502,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:070-Scr-Fo-1_t00,Pacnes_C1,N713S502,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:009-Ext-trFoBs-4_t00,Pacnes_C1,N724S502,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:009-Ext-trFoBs-3_t00,Pacnes_C1,N723S502,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:009-Ext-trFoBs-2_t00,Pacnes_C1,N722S502,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:009-Ext-trFoBs-1_t00,Pacnes_C1,N721S502,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:008-Ext-trFoW-2_t00,Pacnes_C1,N722S501,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:007-Ext-bcFoBs-3_t00,Pacnes_C1,N719S505,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:007-Ext-bcFoBs-2_t00,Pacnes_C1,N718S505,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:007-Ext-bcFoBs-1_t00,Pacnes_C1,N717S505,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:069-Scr-brBa-3_t00,Pacnes_C1,N703S523,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:069-Scr-brBa-2_t00,Pacnes_C1,N702S523,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:069-Scr-brBa-1_t00,Pacnes_C1,N701S523,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:004-Ext-clFoW-1_t00,Pacnes_C1,N712S516,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:004-Ext-clFoW-2_t00,Pacnes_C1,N711S516,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:004-Ext-clFoW-3_t00,Pacnes_C1,N710S516,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:004-Ext-clFoW-4_t00,Pacnes_C1,N709S516,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:046-Scr-Fo-1_t00,Pacnes_C1,N712S515,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:046-Scr-Fo-2_t00,Pacnes_C1,N711S515,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:046-Scr-Fo-3_t00,Pacnes_C1,N710S515,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:046-Scr-Fo-4_t00,Pacnes_C1,N709S515,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:047-Scr-Lc-2_t00,Pacnes_C1,N711S514,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-9_t00,Pacnes_C1,N705S506,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-8_t00,Pacnes_C1,N712S505,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-7_t00,Pacnes_C1,N711S505,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-4_t00,Pacnes_C1,N708S505,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-3_t00,Pacnes_C1,N707S505,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-20_t00,Pacnes_C1,N708S508,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-2_t00,Pacnes_C1,N706S505,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-19_t00,Pacnes_C1,N707S508,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-18_t00,Pacnes_C1,N706S508,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-17_t00,Pacnes_C1,N705S508,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-16_t00,Pacnes_C1,N708S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-15_t00,Pacnes_C1,N707S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-14_t00,Pacnes_C1,N706S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-13_t00,Pacnes_C1,N705S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-12_t00,Pacnes_C1,N708S506,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-11_t00,Pacnes_C1,N707S506,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-10_t00,Pacnes_C1,N706S506,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:005-Ext-brFoBr-1_t00,Pacnes_C1,N705S505,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:067-Scr-trBa-5_t00,Pacnes_C1,N704S509,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:067-Scr-trBa-6_t00,Pacnes_C1,N703S509,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:068-Scr-blBa-1_t00,Pacnes_C1,N702S509,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:068-Scr-blBa-2_t00,Pacnes_C1,N701S509,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:062-Scr-tlBa-4_t00,Pacnes_C1,N704S513,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:021-Ext-brChBp-1_t00,Pacnes_C1,N703S513,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:065-Scr-brBa-1_t00,Pacnes_C1,N704S512,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:065-Scr-brBa-2_t00,Pacnes_C1,N703S512,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:065-Scr-brBa-4_t00,Pacnes_C1,N701S512,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:066-Scr-tlBa-1_t00,Pacnes_C1,N704S511,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:066-Scr-tlBa-2_t00,Pacnes_C1,N703S511,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:066-Scr-tlBa-4_t00,Pacnes_C1,N701S511,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:067-Scr-trBa-2_t00,Pacnes_C1,N703S510,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:044-Ext-trFoB-8_t00,Pacnes_C1,N712S524,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:044-Ext-trFoB-4_t00,Pacnes_C1,N716S501,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:044-Ext-trFoB-3_t00,Pacnes_C1,N715S501,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:044-Ext-trFoB-2_t00,Pacnes_C1,N714S501,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:044-Ext-trFoB-1_t00,Pacnes_C1,N713S501,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:043-Ext-brChB-4_t00,Pacnes_C1,N712S523,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:043-Ext-brChB-3_t00,Pacnes_C1,N711S523,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:043-Ext-brChB-2_t00,Pacnes_C1,N710S523,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:041-Ext-brChB-9_t00,Pacnes_C1,N709S521,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:041-Ext-brChB-8_t00,Pacnes_C1,N712S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:041-Ext-brChB-7_t00,Pacnes_C1,N711S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:041-Ext-brChB-6_t00,Pacnes_C1,N710S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:041-Ext-brChB-5_t00,Pacnes_C1,N709S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:041-Ext-brChB-4_t00,Pacnes_C1,N712S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:041-Ext-brChB-3_t00,Pacnes_C1,N711S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:041-Ext-brChB-2_t00,Pacnes_C1,N710S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:041-Ext-brChB-14_t00,Pacnes_C1,N710S522,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:041-Ext-brChB-12_t00,Pacnes_C1,N712S521,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:041-Ext-brChB-11_t00,Pacnes_C1,N711S521,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:041-Ext-brChB-1_t00,Pacnes_C1,N709S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:040-Ext-trRcBt-4_t00,Pacnes_C1,N712S518,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:003-Ext-blFoB-4_t00,Pacnes_C1,N712S508,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:003-Ext-blFoB-3_t00,Pacnes_C1,N711S508,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:003-Ext-blFoB-2_t00,Pacnes_C1,N710S508,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:003-Ext-blFoB-1_t00,Pacnes_C1,N709S508,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:039-Ext-bcNoBl-4_t00,Pacnes_C1,N712S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:039-Ext-bcNoBl-3_t00,Pacnes_C1,N711S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:039-Ext-bcNoBl-1_t00,Pacnes_C1,N709S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:038-Ext-ccNoB-4_t00,Pacnes_C1,N708S524,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:038-Ext-ccNoB-3_t00,Pacnes_C1,N707S524,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:038-Ext-ccNoB-2_t00,Pacnes_C1,N706S524,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:038-Ext-ccNoB-1_t00,Pacnes_C1,N705S524,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:037-Ext-ccNoBs-3_t00,Pacnes_C1,N705S523,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:037-Ext-ccNoBs-2_t00,Pacnes_C1,N708S522,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:037-Ext-ccNoBs-1_t00,Pacnes_C1,N707S522,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:035-Ext-trMoBs-5_t00,Pacnes_C1,N704S524,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:035-Ext-trMoBs-4_t00,Pacnes_C1,N703S524,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:035-Ext-trMoBs-3_t00,Pacnes_C1,N702S524,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:035-Ext-trMoBs-2_t00,Pacnes_C1,N701S524,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:035-Ext-trMoBs-1_t00,Pacnes_C1,N704S523,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:034-Ext-crNoBs-9_t00,Pacnes_C1,N705S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:034-Ext-crNoBs-8_t00,Pacnes_C1,N708S518,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:034-Ext-crNoBs-6_t00,Pacnes_C1,N706S518,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:034-Ext-crNoBs-5_t00,Pacnes_C1,N705S518,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:034-Ext-crNoBs-3_t00,Pacnes_C1,N707S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:034-Ext-crNoBs-20_t00,Pacnes_C1,N708S521,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:034-Ext-crNoBs-2_t00,Pacnes_C1,N706S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:034-Ext-crNoBs-19_t00,Pacnes_C1,N707S521,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:034-Ext-crNoBs-18_t00,Pacnes_C1,N706S521,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:034-Ext-crNoBs-16_t00,Pacnes_C1,N708S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:034-Ext-crNoBs-15_t00,Pacnes_C1,N707S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:034-Ext-crNoBs-14_t00,Pacnes_C1,N706S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:034-Ext-crNoBs-13_t00,Pacnes_C1,N705S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:034-Ext-crNoBs-11_t00,Pacnes_C1,N707S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:034-Ext-crNoBs-10_t00,Pacnes_C1,N706S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:034-Ext-crNoBs-1_t00,Pacnes_C1,N705S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:033-Ext-crNoBs-9_t00,Pacnes_C1,N701S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:033-Ext-crNoBs-8_t00,Pacnes_C1,N704S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:033-Ext-crNoBs-7_t00,Pacnes_C1,N703S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:033-Ext-crNoBs-6_t00,Pacnes_C1,N702S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:033-Ext-crNoBs-4_t00,Pacnes_C1,N704S518,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:033-Ext-crNoBs-3_t00,Pacnes_C1,N703S518,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:033-Ext-crNoBs-2_t00,Pacnes_C1,N702S518,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:033-Ext-crNoBs-19_t00,Pacnes_C1,N703S522,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:033-Ext-crNoBs-18_t00,Pacnes_C1,N702S522,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:033-Ext-crNoBs-17_t00,Pacnes_C1,N701S522,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:033-Ext-crNoBs-13_t00,Pacnes_C1,N701S521,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:033-Ext-crNoBs-12_t00,Pacnes_C1,N704S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:033-Ext-crNoBs-1_t00,Pacnes_C1,N701S518,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:032-Ext-trNoBb-4_t00,Pacnes_C1,N704S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:032-Ext-trNoBb-3_t00,Pacnes_C1,N703S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:032-Ext-trNoBb-2_t00,Pacnes_C1,N702S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:032-Ext-trNoBb-1_t00,Pacnes_C1,N701S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:031-Ext-trNoBs-4_t00,Pacnes_C1,N716S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:031-Ext-trNoBs-3_t00,Pacnes_C1,N715S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:031-Ext-trNoBs-2_t00,Pacnes_C1,N714S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:031-Ext-trNoBs-1_t00,Pacnes_C1,N713S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:030-Ext-tlNoBs-4_t00,Pacnes_C1,N716S506,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:030-Ext-tlNoBs-3_t00,Pacnes_C1,N715S506,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:030-Ext-tlNoBs-2_t00,Pacnes_C1,N714S506,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:030-Ext-tlNoBs-1_t00,Pacnes_C1,N713S506,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:002-Ext-blFoB-4_t00,Pacnes_C1,N712S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:002-Ext-blFoB-3_t00,Pacnes_C1,N711S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:002-Ext-blFoB-2_t00,Pacnes_C1,N710S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:029-Ext-tlNoBs-3_t00,Pacnes_C1,N719S501,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:029-Ext-tlNoBs-2_t00,Pacnes_C1,N718S501,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:029-Ext-tlNoBs-1_t00,Pacnes_C1,N717S501,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:028-Ext-tlMoWd-4_t00,Pacnes_C1,N716S508,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:028-Ext-tlMoWd-3_t00,Pacnes_C1,N715S508,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:028-Ext-tlMoWd-2_t00,Pacnes_C1,N714S508,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:028-Ext-tlMoWd-1_t00,Pacnes_C1,N713S508,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:027-Ext-tlLcWr-5_t00,Pacnes_C1,N720S504,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:027-Ext-tlLcWr-4_t00,Pacnes_C1,N720S503,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:027-Ext-tlLcWr-2_t00,Pacnes_C1,N720S502,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:027-Ext-tlLcWr-1_t00,Pacnes_C1,N719S502,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:026-Ext-clMoB-4_t00,Pacnes_C1,N718S503,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:026-Ext-clMoB-3_t00,Pacnes_C1,N717S503,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:026-Ext-clMoB-2_t00,Pacnes_C1,N718S502,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:026-Ext-clMoB-1_t00,Pacnes_C1,N717S502,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,B:092-Scr-Nk-3_t00,Pacnes_C1,N710S511,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,B:085-Ext-blFoBs-3_t00,Pacnes_C1,N710S510,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:058-Scr-Fo-1_t00,Pacnes_C1,N712S509,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:058-Scr-Fo-2_t00,Pacnes_C1,N711S509,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:058-Scr-Fo-3_t00,Pacnes_C1,N710S509,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:058-Scr-Fo-4_t00,Pacnes_C1,N709S509,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:059-Scr-Lc-1_t00,Pacnes_C1,N708S516,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:059-Scr-Lc-2_t00,Pacnes_C1,N707S516,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:059-Scr-Lc-3_t00,Pacnes_C1,N706S516,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:059-Scr-Lc-4_t00,Pacnes_C1,N705S516,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:060-Scr-Rc-1_t00,Pacnes_C1,N708S515,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:060-Scr-Rc-2_t00,Pacnes_C1,N707S515,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:060-Scr-Rc-3_t00,Pacnes_C1,N706S515,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,D:060-Scr-Rc-4_t00,Pacnes_C1,N705S515,D
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:021-Ext-brChBp-4_t00,Pacnes_C1,N712S512,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:049-Scr-Ch-1_t00,Pacnes_C1,N711S512,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:049-Scr-Ch-2_t00,Pacnes_C1,N710S512,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,B:092-Scr-Nk-1_t00,Pacnes_C1,N712S511,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,B:092-Scr-Nk-2_t00,Pacnes_C1,N711S511,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,B:085-Ext-blFoBs-2_t00,Pacnes_C1,N711S510,B
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:001-Ext-tcNoW-4_t00,Pacnes_C1,N712S506,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:001-Ext-tcNoW-3_t00,Pacnes_C1,N711S506,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:001-Ext-tcNoW-2_t00,Pacnes_C1,N710S506,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:019-Ext-trChBy-4_t00,Pacnes_C1,N708S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:019-Ext-trChBy-3_t00,Pacnes_C1,N707S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:019-Ext-trChBy-2_t00,Pacnes_C1,N706S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:019-Ext-trChBy-1_t00,Pacnes_C1,N705S520,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:018-Ext-crMoBl-4_t00,Pacnes_C1,N708S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:018-Ext-crMoBl-3_t00,Pacnes_C1,N707S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:018-Ext-crMoBl-2_t00,Pacnes_C1,N706S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:018-Ext-crMoBl-1_t00,Pacnes_C1,N705S519,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:017-Ext-crMoB-4_t00,Pacnes_C1,N708S518,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:017-Ext-crMoB-3_t00,Pacnes_C1,N707S518,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:017-Ext-crMoB-2_t00,Pacnes_C1,N706S518,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:017-Ext-crMoB-1_t00,Pacnes_C1,N705S518,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:016-Ext-trRcBl-3_t00,Pacnes_C1,N707S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:016-Ext-trRcBl-1_t00,Pacnes_C1,N706S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:090-Ext-crChBs-4_t00,Pacnes_C1,N705S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:090-Ext-crChBs-3_t00,Pacnes_C1,N712S517,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:015-Ext-bcRcBs-4_t00,Pacnes_C1,N724S508,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:015-Ext-bcRcBs-3_t00,Pacnes_C1,N723S508,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:015-Ext-bcRcBs-2_t00,Pacnes_C1,N722S508,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:015-Ext-bcRcBs-1_t00,Pacnes_C1,N721S508,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:014-Ext-blRcB-4_t00,Pacnes_C1,N724S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:014-Ext-blRcB-3_t00,Pacnes_C1,N723S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:014-Ext-blRcB-2_t00,Pacnes_C1,N722S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:014-Ext-blRcB-1_t00,Pacnes_C1,N721S507,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:013-Ext-blRcB-4_t00,Pacnes_C1,N724S506,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:013-Ext-blRcB-3_t00,Pacnes_C1,N723S506,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:013-Ext-blRcB-2_t00,Pacnes_C1,N722S506,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:013-Ext-blRcB-1_t00,Pacnes_C1,N721S506,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:012-Ext-ccRcBs-4_t00,Pacnes_C1,N724S505,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:012-Ext-ccRcBs-3_t00,Pacnes_C1,N723S505,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:012-Ext-ccRcBs-2_t00,Pacnes_C1,N722S505,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:012-Ext-ccRcBs-1_t00,Pacnes_C1,N721S505,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:011-Ext-ccRcBp-4_t00,Pacnes_C1,N724S504,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:011-Ext-ccRcBp-3_t00,Pacnes_C1,N723S504,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:011-Ext-ccRcBp-2_t00,Pacnes_C1,N722S504,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:011-Ext-ccRcBp-1_t00,Pacnes_C1,N721S504,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:010-Ext-blFoW-4_t00,Pacnes_C1,N724S503,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:010-Ext-blFoW-3_t00,Pacnes_C1,N723S503,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:010-Ext-blFoW-2_t00,Pacnes_C1,N722S503,A
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:010-Ext-blFoW-1_t00,Pacnes_C1,N721S503,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:411-Scr-Fo-1_t35,Pacnes_C1,N701S501,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:413-Scr-Rc-1_t35,Pacnes_C1,N701S502,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:412-Scr-Lc-1_t35,Pacnes_C1,N701S503,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:416-Scr-tlBa-1_t35,Pacnes_C1,N701S504,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:411-Scr-Fo-2_t35,Pacnes_C1,N702S501,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:413-Scr-Rc-2_t35,Pacnes_C1,N702S502,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:412-Scr-Lc-2_t35,Pacnes_C1,N702S503,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:416-Scr-tlBa-2_t35,Pacnes_C1,N702S504,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:411-Scr-Fo-3_t35,Pacnes_C1,N703S501,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:413-Scr-Rc-3_t35,Pacnes_C1,N703S502,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:412-Scr-Lc-3_t35,Pacnes_C1,N703S503,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:416-Scr-tlBa-3_t35,Pacnes_C1,N703S504,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:411-Scr-Fo-4_t35,Pacnes_C1,N704S501,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:413-Scr-Rc-4_t35,Pacnes_C1,N704S502,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:412-Scr-Lc-4_t35,Pacnes_C1,N704S503,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:416-Scr-tlBa-4_t35,Pacnes_C1,N704S504,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:411-Scr-Fo-5_t35,Pacnes_C1,N705S501,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:413-Scr-Rc-5_t35,Pacnes_C1,N705S502,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:414-Scr-Ch-1_t35,Pacnes_C1,N705S503,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:417-Scr-blBa-1_t35,Pacnes_C1,N705S504,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:411-Scr-Fo-6_t35,Pacnes_C1,N706S501,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:413-Scr-Rc-6_t35,Pacnes_C1,N706S502,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:414-Scr-Ch-2_t35,Pacnes_C1,N706S503,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:417-Scr-blBa-2_t35,Pacnes_C1,N706S504,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:411-Scr-Fo-7_t35,Pacnes_C1,N707S501,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:413-Scr-Rc-7_t35,Pacnes_C1,N707S502,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:414-Scr-Ch-3_t35,Pacnes_C1,N707S503,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:417-Scr-blBa-3_t35,Pacnes_C1,N707S504,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:411-Scr-Fo-8_t35,Pacnes_C1,N708S501,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:413-Scr-Rc-8_t35,Pacnes_C1,N708S502,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:414-Scr-Ch-4_t35,Pacnes_C1,N708S503,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:417-Scr-blBa-4_t35,Pacnes_C1,N708S504,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:411-Scr-Fo-9_t35,Pacnes_C1,N709S501,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:413-Scr-Rc-9_t35,Pacnes_C1,N709S502,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:415-Scr-trBa-1_t35,Pacnes_C1,N709S503,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:418-Scr-brBa-1_t35,Pacnes_C1,N709S504,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:411-Scr-Fo-10_t35,Pacnes_C1,N710S501,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:413-Scr-Rc-10_t35,Pacnes_C1,N710S502,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:415-Scr-trBa-2_t35,Pacnes_C1,N710S503,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:418-Scr-brBa-2_t35,Pacnes_C1,N710S504,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:411-Scr-Fo-11_t35,Pacnes_C1,N711S501,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:413-Scr-Rc-11_t35,Pacnes_C1,N711S502,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:415-Scr-trBa-3_t35,Pacnes_C1,N711S503,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:418-Scr-brBa-3_t35,Pacnes_C1,N711S504,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:411-Scr-Fo-12_t35,Pacnes_C1,N712S501,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:413-Scr-Rc-12_t35,Pacnes_C1,N712S502,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:415-Scr-trBa-4_t35,Pacnes_C1,N712S503,A
+/scratch/mit_lieberman/raw_data/2018/2018_07_27_Lie_D18-7237/2018_07_Nextseq_Pacnes/split/,A:418-Scr-brBa-4_t35,Pacnes_C1,N712S504,A
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:419-Scr-Fo-1_t35,Pacnes_C1,N901S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:419-Scr-Fo-2_t35,Pacnes_C1,N902S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:419-Scr-Fo-3_t35,Pacnes_C1,N903S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:419-Scr-Fo-4_t35,Pacnes_C1,N904S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:419-Scr-Fo-5_t35,Pacnes_C1,N905S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:419-Scr-Fo-6_t35,Pacnes_C1,N906S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:420-Scr-Lc-1_t35,Pacnes_C1,N907S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:420-Scr-Lc-2_t35,Pacnes_C1,N908S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:420-Scr-Lc-3_t35,Pacnes_C1,N909S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:420-Scr-Lc-4_t35,Pacnes_C1,N910S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:420-Scr-Lc-5_t35,Pacnes_C1,N911S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:420-Scr-Lc-6_t35,Pacnes_C1,N912S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:421-Scr-Rc-1_t35,Pacnes_C1,N913S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:421-Scr-Rc-2_t35,Pacnes_C1,N914S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:421-Scr-Rc-3_t35,Pacnes_C1,N915S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:421-Scr-Rc-4_t35,Pacnes_C1,N916S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:421-Scr-Rc-5_t35,Pacnes_C1,N917S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:421-Scr-Rc-6_t35,Pacnes_C1,N918S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:422-Scr-Ch-1_t35,Pacnes_C1,N919S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:422-Scr-Ch-2_t35,Pacnes_C1,N920S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:422-Scr-Ch-3_t35,Pacnes_C1,N921S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:422-Scr-Ch-4_t35,Pacnes_C1,N922S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:422-Scr-Ch-5_t35,Pacnes_C1,N923S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:422-Scr-Ch-6_t35,Pacnes_C1,N924S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,0:423Control-Neg-1_t35,Pacnes_C1,N925S921,0
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:424-Scr-tlBa-1_t35,Pacnes_C1,N926S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:425-Scr-trBa-1_t35,Pacnes_C1,N927S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:425-Scr-trBa-2_t35,Pacnes_C1,N928S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:425-Scr-trBa-3_t35,Pacnes_C1,N929S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:425-Scr-trBa-4_t35,Pacnes_C1,N930S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:425-Scr-trBa-5_t35,Pacnes_C1,N931S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:425-Scr-trBa-6_t35,Pacnes_C1,N932S921,X
+/scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3402L/split/ /scratch/mit_lieberman/raw_data/2018/2018_10_15_Lie_D18-9813/D18-9813-3407G/split/,X:426-Scr-blBa-1_t35,Pacnes_C1,N933S921,X
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:434-Scr-Rc-1_t60,Pacnes_C1,N701S517,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:434-Scr-Rc-2_t60,Pacnes_C1,N702S517,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:434-Scr-Rc-3_t60,Pacnes_C1,N703S517,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:434-Scr-Rc-4_t60,Pacnes_C1,N704S517,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:434-Scr-Rc-5_t60,Pacnes_C1,N705S517,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:434-Scr-Rc-6_t60,Pacnes_C1,N706S517,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:438-Scr-Fo-1_t60,Pacnes_C1,N708S517,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:438-Scr-Fo-2_t60,Pacnes_C1,N709S517,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:438-Scr-Fo-3_t60,Pacnes_C1,N710S517,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:438-Scr-Fo-4_t60,Pacnes_C1,N711S517,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:438-Scr-Fo-5_t60,Pacnes_C1,N712S517,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:438-Scr-Fo-6_t60,Pacnes_C1,N713S517,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:442-Scr-trBa-1_t60,Pacnes_C1,N701S518,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:442-Scr-trBa-2_t60,Pacnes_C1,N702S518,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:442-Scr-trBa-3_t60,Pacnes_C1,N703S518,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:442-Scr-trBa-4_t60,Pacnes_C1,N704S518,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:442-Scr-trBa-5_t60,Pacnes_C1,N705S518,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:442-Scr-trBa-6_t60,Pacnes_C1,N706S518,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:440-Scr-Ch-1_t60,Pacnes_C1,N708S518,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:440-Scr-Ch-2_t60,Pacnes_C1,N709S518,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:440-Scr-Ch-3_t60,Pacnes_C1,N710S518,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:440-Scr-Ch-4_t60,Pacnes_C1,N711S518,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:440-Scr-Ch-5_t60,Pacnes_C1,N712S518,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:440-Scr-Ch-6_t60,Pacnes_C1,N713S518,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:444-Scr-tlBa-1_t60,Pacnes_C1,N701S519,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:444-Scr-tlBa-2_t60,Pacnes_C1,N702S519,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:444-Scr-tlBa-3_t60,Pacnes_C1,N703S519,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:444-Scr-tlBa-4_t60,Pacnes_C1,N704S519,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:444-Scr-tlBa-5_t60,Pacnes_C1,N705S519,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:435-Scr-Rc-7_t60,Pacnes_C1,N706S519,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:435-Scr-Rc-8_t60,Pacnes_C1,N708S519,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:444-Scr-tlBa-6_t60,Pacnes_C1,N709S519,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:435-Scr-Rc-9_t60,Pacnes_C1,N710S519,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:435-Scr-Rc-10_t60,Pacnes_C1,N711S519,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:435-Scr-Rc-11_t60,Pacnes_C1,N712S519,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:435-Scr-Rc-12_t60,Pacnes_C1,N713S519,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:437-Scr-Lc-1_t60,Pacnes_C1,N701S520,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:437-Scr-Lc-2_t60,Pacnes_C1,N702S520,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:437-Scr-Lc-3_t60,Pacnes_C1,N703S520,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:437-Scr-Lc-4_t60,Pacnes_C1,N704S520,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:437-Scr-Lc-5_t60,Pacnes_C1,N705S520,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:437-Scr-Lc-6_t60,Pacnes_C1,N706S520,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:437-Scr-Lc-7_t60,Pacnes_C1,N708S520,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:437-Scr-Lc-8_t60,Pacnes_C1,N709S520,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:437-Scr-Lc-9_t60,Pacnes_C1,N710S520,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:437-Scr-Lc-10_t60,Pacnes_C1,N711S520,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:437-Scr-Lc-11_t60,Pacnes_C1,N712S520,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:437-Scr-Lc-12_t60,Pacnes_C1,N713S520,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:439-Scr-Fo-7_t60,Pacnes_C1,N701S521,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:439-Scr-Fo-8_t60,Pacnes_C1,N702S521,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:439-Scr-Fo-9_t60,Pacnes_C1,N703S521,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:439-Scr-Fo-10_t60,Pacnes_C1,N704S521,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:439-Scr-Fo-11_t60,Pacnes_C1,N705S521,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:439-Scr-Fo-12_t60,Pacnes_C1,N706S521,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:441-Scr-Ch-7_t60,Pacnes_C1,N708S521,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:441-Scr-Ch-8_t60,Pacnes_C1,N709S521,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:441-Scr-Ch-9_t60,Pacnes_C1,N710S521,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:441-Scr-Ch-10_t60,Pacnes_C1,N711S521,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:441-Scr-Ch-11_t60,Pacnes_C1,N712S521,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:441-Scr-Ch-12_t60,Pacnes_C1,N713S521,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:443-Scr-trBa-7_t60,Pacnes_C1,N701S522,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:443-Scr-trBa-8_t60,Pacnes_C1,N702S522,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:443-Scr-trBa-9_t60,Pacnes_C1,N703S522,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:443-Scr-trBa-10_t60,Pacnes_C1,N704S522,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:443-Scr-trBa-11_t60,Pacnes_C1,N705S522,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:443-Scr-trBa-12_t60,Pacnes_C1,N706S522,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:444-Scr-tlBa-7_t60,Pacnes_C1,N708S522,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:444-Scr-tlBa-8_t60,Pacnes_C1,N709S522,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:444-Scr-tlBa-9_t60,Pacnes_C1,N710S522,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:444-Scr-tlBa-10_t60,Pacnes_C1,N711S522,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:444-Scr-tlBa-11_t60,Pacnes_C1,N712S522,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:444-Scr-tlBa-12_t60,Pacnes_C1,N713S522,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:444-Scr-tlBa-13_t60,Pacnes_C1,N701S523,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:444-Scr-tlBa-14_t60,Pacnes_C1,N702S523,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:444-Scr-tlBa-15_t60,Pacnes_C1,N703S523,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:443-Scr-trBa-13_t60,Pacnes_C1,N704S523,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:443-Scr-trBa-14_t60,Pacnes_C1,N705S523,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:443-Scr-trBa-15_t60,Pacnes_C1,N706S523,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:441-Scr-Ch-13_t60,Pacnes_C1,N708S523,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:441-Scr-Ch-14_t60,Pacnes_C1,N709S523,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:441-Scr-Ch-15_t60,Pacnes_C1,N710S523,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:439-Scr-Fo-13_t60,Pacnes_C1,N711S523,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:439-Scr-Fo-14_t60,Pacnes_C1,N712S523,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:439-Scr-Fo-15_t60,Pacnes_C1,N713S523,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:434-Scr-Rc-13_t60,Pacnes_C1,N701S524,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:434-Scr-Rc-14_t60,Pacnes_C1,N702S524,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:434-Scr-Rc-15_t60,Pacnes_C1,N703S524,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:438-Scr-Fo-16_t60,Pacnes_C1,N704S524,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:438-Scr-Fo-17_t60,Pacnes_C1,N705S524,A
+/scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4620F/split_next/ /scratch/mit_lieberman/raw_data/2020/200908Lie/D20-3874-4623R/split_next/,A:438-Scr-Fo-18_t60,Pacnes_C1,N706S524,A

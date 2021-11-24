@@ -1,0 +1,51 @@
+Path,Sample,ReferenceGenome,ProviderName,Subject 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:017-Ext-crMoB-2_t00,C_GRANULOSUM_REF_GENOME_NAME,N706S518,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:017-Ext-crMoB-3_t00,C_GRANULOSUM_REF_GENOME_NAME,N707S518,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:017-Ext-crMoB-4_t00,C_GRANULOSUM_REF_GENOME_NAME,N708S518,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:018-Ext-crMoBl-1_t00,C_GRANULOSUM_REF_GENOME_NAME,N705S519,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:018-Ext-crMoBl-2_t00,C_GRANULOSUM_REF_GENOME_NAME,N706S519,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:018-Ext-crMoBl-3_t00,C_GRANULOSUM_REF_GENOME_NAME,N707S519,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:018-Ext-crMoBl-4_t00,C_GRANULOSUM_REF_GENOME_NAME,N708S519,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:023-Ext-tcChBp-1_t00,C_GRANULOSUM_REF_GENOME_NAME,N708S509,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:023-Ext-tcChBp-4_t00,C_GRANULOSUM_REF_GENOME_NAME,N705S509,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:028-Ext-tlMoWd-3_t00,C_GRANULOSUM_REF_GENOME_NAME,N715S508,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:246-Stp-Rc68-4_t08,C_GRANULOSUM_REF_GENOME_NAME,S525N724,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:258-Stp-Lc82-1_t08,C_GRANULOSUM_REF_GENOME_NAME,S527N721,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:259-Stp-Lc82-1_t08,C_GRANULOSUM_REF_GENOME_NAME,S527N723,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:259-Stp-Lc82-2_t08,C_GRANULOSUM_REF_GENOME_NAME,S527N724,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:280-Ext-crMoW-1_t08,C_GRANULOSUM_REF_GENOME_NAME,S529N703,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:280-Ext-crMoW-3_t08,C_GRANULOSUM_REF_GENOME_NAME,S529N704,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:281-Ext-crMoW-1_t08,C_GRANULOSUM_REF_GENOME_NAME,S501N707,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:288-Scr-clCh-4_t08,C_GRANULOSUM_REF_GENOME_NAME,S526N724,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:378-Scr-Ch-6_t11,C_GRANULOSUM_REF_GENOME_NAME,N724S520,A 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:070-Scr-Fo-3_t00,C_GRANULOSUM_REF_GENOME_NAME,N715S502,B 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:073-Scr-Ch-3_t00,C_GRANULOSUM_REF_GENOME_NAME,N715S503,B 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:075-Scr-trBa-4_t00,C_GRANULOSUM_REF_GENOME_NAME,N720S506,B 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:076-Scr-blBa-2_t00,C_GRANULOSUM_REF_GENOME_NAME,N718S507,B 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:078-Ext-trFoBp-4_t00,C_GRANULOSUM_REF_GENOME_NAME,N720S508,B 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:087-Ext-brNoBs-1_t00,C_GRANULOSUM_REF_GENOME_NAME,N705S522,B 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:087-Ext-brNoBs-2_t00,C_GRANULOSUM_REF_GENOME_NAME,N706S522,B 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:088-Ext-ccChBs-1_t00,C_GRANULOSUM_REF_GENOME_NAME,N705S523,B 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:088-Ext-ccChBs-4_t00,C_GRANULOSUM_REF_GENOME_NAME,N708S523,B 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:302-Scr-Fo-1_t11,C_GRANULOSUM_REF_GENOME_NAME,N724S516,B 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:303-Scr-Rc-3_t11,C_GRANULOSUM_REF_GENOME_NAME,N722S512,B 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:303-Scr-Rc-6_t11,C_GRANULOSUM_REF_GENOME_NAME,N719S512,B 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:304-Scr-Lc-3_t11,C_GRANULOSUM_REF_GENOME_NAME,N722S514,B 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:306-Scr-clCh-2_t11,C_GRANULOSUM_REF_GENOME_NAME,N717S511,B 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:306-Scr-clCh-5_t11,C_GRANULOSUM_REF_GENOME_NAME,N714S511,B 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:096-Scr-Ch-3_t00,C_GRANULOSUM_REF_GENOME_NAME,N712S504,E 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:103-Stp-Fo2-2_t07,C_GRANULOSUM_REF_GENOME_NAME,S503N716,F 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:323-Scr-Rc-3_t11,C_GRANULOSUM_REF_GENOME_NAME,N715S526,J 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:327-Scr-Ch-4_t11,C_GRANULOSUM_REF_GENOME_NAME,N716S529,J 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:327-Scr-Ch-5_t11,C_GRANULOSUM_REF_GENOME_NAME,N717S529,J 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:327-Scr-Ch-6_t11,C_GRANULOSUM_REF_GENOME_NAME,N718S529,J 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:345-Scr-clNo-3_t11,C_GRANULOSUM_REF_GENOME_NAME,N719S507,K 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:357-Scr-Fo-4_t11,C_GRANULOSUM_REF_GENOME_NAME,N716S520,L 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:354-Scr-Ch-3_t11,C_GRANULOSUM_REF_GENOME_NAME,N715S505,M 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:354-Scr-Ch-4_t11,C_GRANULOSUM_REF_GENOME_NAME,N716S505,M 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:354-Scr-Ch-5_t11,C_GRANULOSUM_REF_GENOME_NAME,N723S504,M 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:354-Scr-Ch-6_t11,C_GRANULOSUM_REF_GENOME_NAME,N724S504,M 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:370-Scr-Ch-1_t11,C_GRANULOSUM_REF_GENOME_NAME,N719S510,N 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:370-Scr-Ch-2_t11,C_GRANULOSUM_REF_GENOME_NAME,N720S510,N 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:370-Scr-Ch-5_t11,C_GRANULOSUM_REF_GENOME_NAME,N723S510,N 
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:405-Ext-tlLcB-5_t15,C_GRANULOSUM_REF_GENOME_NAME,N711S508,R 

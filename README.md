@@ -144,16 +144,17 @@ Re-analysis of spatial biogeography from [Oh et al., 2014](https://www.ncbi.nlm.
 
 Data relating to these analyses are available from the following sources:
 
-* Raw sequencing reads: SRA Accession [PRJNA771717](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA771717) 
-* Assembled pan-genomes for each lineage: available here (see relevant directory)
+* Raw sequencing reads: NCBI-SRA BioProject [PRJNA771717](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA771717) 
+* Assembled pan-genomes for each lineage: `/genome_assemblies/lineage_assemblies`
+* Hybrid assembled genomes for select _C. acnes_ colonies with plasmids: `/genome_assemblies/hybrid_assemblies`
 * Matlab data files: _not yet available_ <!-- [TODO](TODO). -->
 
 
 
 # Acknowledgments
 
+* A. Delphine Tripp wrote the growth curve analysis code.
 * Ravalika Damerla wrote the plasmid hybrid assembly code.
 * Alex Poret wrote the _C. granulosum_ analysis code and the 16S data analysis pipeline.
-* A. Delphine Tripp wrote the growth curve analysis code.
 
 

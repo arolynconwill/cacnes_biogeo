@@ -1,0 +1,5 @@
+Lineage_3e,,,,,,,,,,,
+sample_name_simple,subject,sampling_method,pore_multiplicity,sample_number,colony_number,sebaceous_skin_region,time_in_months,median_coverage,read_length,plasmid_presence,transposon_presence,
+subj-3_scrape-182_col-1,3,scrape,scrape,182,1,left_cheek,7,40,75,0,0,
+subj-3_scrape-190_col-2,3,scrape,scrape,190,2,shoulder,7,56,75,0,0,
+subj-3_scrape-185_col-1,3,scrape,scrape,185,1,forehead,7,44,75,0,0,

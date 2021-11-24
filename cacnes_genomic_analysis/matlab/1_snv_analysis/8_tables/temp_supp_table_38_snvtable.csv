@@ -1,0 +1,5 @@
+Lineage_16a,,,,,,,,,,,,
+,,,,,,,sample_name_simple,subj-16_scrape-96_col-1,subj-16_scrape-94_col-1,subj-16_scrape-93_col-1,subj-16_scrape-93_col-2,
+position_on_ref_genome,protein_id,locus_tag,annontation,mutation_type,mutation_info,ancestral_allele,,,,,,
+156199,WP_002518625.1,PAC1_RS00680,hypothetical protein,N,H16Y,C,,T,C,C,C,
+612847,WP_015011410.1,PAC1_RS02860,oligopeptide transporter OPT family,N,G175S,G,,G,G,G,A,
