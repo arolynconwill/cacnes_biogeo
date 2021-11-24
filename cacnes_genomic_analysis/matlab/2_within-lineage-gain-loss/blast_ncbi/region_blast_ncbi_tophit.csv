@@ -1,0 +1,26 @@
+Region,TopHit_Name,TopHit_Species,Query_Cover,Evalue,Percent_Identity,Accession_Length,TopHit_Accession
+C-10_reg-1,Cutibacterium acnes TP-CU389 DNA complete genome,Cutibacterium acnes,100%,0,98.30%,2494387,AP019664.1
+C-12_reg-1,Propionibacterium jensenii plasmid pZGX01 complete sequence,Acidipropionibacterium jensenii (plasmid),1%,1.00E-11,84.88%,6868,JQ728013.1
+C-13_reg-1,Cutibacterium acnes KPA171202 chromosome complete genome,Cutibacterium acnes,100%,0,100.00%,2560634,CP025935.1
+C-1_reg-1,Cutibacterium acnes SZ2 DNA complete genome,Cutibacterium acnes,100%,0,100.00%,2504552,AP022845.1
+C-1_reg-2,"Staphylococcus epidermidis strain HD47-1 plasmid pHD47-1_2, complete sequence",Staphylococcus epidermidis (plasmid),100%,0,97.11%,2491,CP066372.1
+C-1_reg-3,"Staphylococcus epidermidis strain SE456 plasmid pSE456_4, complete sequence",Staphylococcus epidermidis (plasmid),100%,0,100.00%,2348,MW364981.1
+C-1_reg-4,Staphylococcus epidermidis strain SESURV_p3_1362 plasmid unnamed1,Staphylococcus epidermidis (plasmid),100%,0,100.00%,7208,CP043802.1
+C-1_reg-5,Propionibacterium phage PHL113M01 complete genome,Propionibacterium phage,100%,0,98.21%,29200,JX570713.1
+C-1_reg-6,Staphylococcus epidermidis strain SESURV_p3_1362 plasmid unnamed1,Staphylococcus epidermidis (plasmid),99%,0,99.14%,7208,CP043802.1
+C-22_reg-1,"Cutibacterium acnes SZ2 DNA, complete genome",Cutibacterium acnes,100%,0,100.00%,2504552,AP022845.1
+C-2_reg-1,Cutibacterium acnes strain FDAARGOS_577 chromosome complete genome,Cutibacterium acnes,100%,0,100.00%,2495332,CP033718.1
+C-2_reg-2,Cutibacterium avidum 44067 complete genome,Cutibacterium avidum,73%,0,93.70%,2526138,CP005287.1
+C-2_reg-3,"Staphylococcus epidermidis strain HD47-1 plasmid pHD47-1_2, complete sequence",Staphylococcus epidermidis (plasmid),100%,0,96.47%,2491,CP052957.1
+C-2_reg-4,Propionibacterium freudenreichii isolate PFRJS14 genome assembly chromosome: I,Propionibacterium freudenreichii,96%,0,98.60%,2507188,LT593929.1
+C-2_reg-5,Staphylococcus aureus strain UP_419 plasmid unnamed complete sequence,Staphylococcus aureus (plasmid),100%,0,100.00%,2348,CP047868.1
+C-2_reg-6,Staphylococcus hominis strain FDAARGOS_661 plasmid unnamed2 complete sequence,Staphylococcus hominis (plasmid),62%,0,93.81%,43095,CP054551.1
+C-4_reg-1,Cutibacterium acnes strain PA_15_2_L1 chromosome complete genome,Cutibacterium acnes,100%,0,100.00%,2540008,CP012352.1
+C-50_reg-1,Cutibacterium acnes strain KCOM 1315 chromosome complete genome,Cutibacterium acnes,100%,0,100.00%,2560321,CP031442.1
+C-5_reg-1,Listeria monocytogenes strain LM-C-273 plasmid pLM-C-273 clone contig000005 genomic sequence,Listeria monocytogenes (plasmid),99%,0,92.01%,2357,KX467254.1
+C-5_reg-2,Staphylococcus capitis strain FDAARGOS_753 plasmid unnamed2 complete sequence,Staphylococcus capitis (plasmid),100%,0,100.00%,2390,CP053959.1
+C-5_reg-3,"Staphylococcus epidermidis strain HD40-5 plasmid pHD40-5_1, complete sequence",Staphylococcus epidermidis (plasmid),50%,1.00E-71,86.08%,24920,CP052964.1
+C-5_reg-4,Staphylococcus capitis strain FDAARGOS_753 plasmid unnamed2 complete sequence,Staphylococcus capitis (plasmid),100%,0,99.73%,2390,CP053959.1
+C-5_reg-5,Staphylococcus epidermidis strain FDAARGOS_161 chromosome complete genome,Staphylococcus epidermidis,90%,1.00E-136,93.10%,2485441,CP014132.1
+C-6_reg-1,orfs [Corynebacterium glutamicum plasmid pXZ10145 1014-6T Plasmid 4887 nt],Corynebacterium glutamicum (plasmid),1%,0.004,94.59%,4887,S74034.1
+C-8_reg-1,Cutibacterium acnes strain FDAARGOS_577 chromosome complete genome,Cutibacterium acnes,100%,0,100.00%,2495332,CP033718.1
