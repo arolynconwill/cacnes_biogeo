@@ -14,7 +14,7 @@
 #
 # launch snakemake to run jobs via SLURM
 # ntasks
-SM_PARAMS="job-name ntasks partition time mail-user mail-type error output"
+SM_PARAMS="job-name ntasks exclude partition time mail-user mail-type error output"
 
 SM_ARGS=" --parsable --cpus-per-task {cluster.cpus-per-task} --mem-per-cpu {cluster.mem-per-cpu-mb}"
 
@@ -40,7 +40,7 @@ snakemake -p \
     --cluster "sbatch $SM_ARGS" \
     --cluster-status /scratch/mit_lieberman/projects/aro_cacnes_biogeo/lab_scripts/slurm_status.py \
     --rerun-incomplete \
-    --restart-times 2 \
+    --restart-times 5 \
     --keep-going \
     --use-conda \
     --conda-prefix ../../envs_conda

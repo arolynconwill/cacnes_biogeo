@@ -1,0 +1,138 @@
+###################################################
+# SNAKEFILE FOR MAPPING READS TO REFERENCE GENOME #
+###################################################
+
+# Reminders:
+# # Put your own email address in cluster.slurm.json so that you get emails about failures. No one else wants your slurm emails.
+
+
+
+''' VARIABLES '''
+
+# csv file listing all samples names and locations of data
+spls = "samples.csv"
+
+import sys
+SCRIPTS_DIRECTORY = "/scratch/mit_lieberman/projects/aro_cacnes_biogeo/lab_scripts"
+sys.path.insert(0, SCRIPTS_DIRECTORY)
+
+from read_move_link_samplesCSV import *
+
+# where to find processed raw data
+DIR_PROCESSED_DATA = "/scratch/mit_lieberman/projects/aro_cacnes_biogeo/1_process_raw_data/"
+
+# where to find reference genome
+DIR_REFERENCE_GENOMES = "/scratch/mit_lieberman/projects/aro_cacnes_biogeo/9_plasmid_alignments/reference_genomes_plasmids/"
+
+
+
+''' PRE-SNAKEMAKE '''
+
+## define couple of lists from samples.csv
+## Format: Path,Sample,ReferenceGenome,ProviderName,Subject
+[PATH_ls, SAMPLE_ls, REF_Genome_ls, PROVIDER_ls, PATIENTID_ls_all] = read_samplesCSV(spls)
+## Write sample_info.csv for each sample
+split_samplesCSV(PATH_ls,SAMPLE_ls,REF_Genome_ls,PROVIDER_ls,PATIENTID_ls_all)
+
+
+''' SNAKEMAKE '''
+
+rule all:
+    input:
+    	# # Through all steps # #
+        expand(DIR_REFERENCE_GENOMES+"{reference}/genome_bowtie2.1.bt2",reference=set(REF_Genome_ls)),
+        expand("5-quals/{sampleID}_ref_{reference}_aligned.sorted.strain.variant.quals.mat", zip, sampleID=SAMPLE_ls, reference=REF_Genome_ls),
+        expand("6-diversity/{sampleID}_ref_{reference}_aligned.sorted.strain.variant.diversity.mat", zip, sampleID=SAMPLE_ls, reference=REF_Genome_ls),
+
+
+rule refGenome_index: # NOTE: Change paths so that they point to where the plasmid fasta files are
+	input:
+		fasta=DIR_REFERENCE_GENOMES+"{reference}/genome.fasta"
+	params:
+		prefix=DIR_REFERENCE_GENOMES+"{reference}/genome_bowtie2",
+	output:
+		bowtie2idx=DIR_REFERENCE_GENOMES+"{reference}/genome_bowtie2.1.bt2"
+	conda:
+		"envs/bowtie2.yaml"
+	shell:
+		"bowtie2-build -q {input.fasta} {params.prefix} "
+
+rule bowtie2:
+	input:
+		fq1=DIR_PROCESSED_DATA+"2-sickle2050/{sampleID}_filt1.fq.gz",
+		fq2=DIR_PROCESSED_DATA+"2-sickle2050/{sampleID}_filt2.fq.gz",
+		bowtie2idx=rules.refGenome_index.output.bowtie2idx # put here, so rule botie2 only executed after rule refGenome_index done
+	params:
+		refGenome=DIR_REFERENCE_GENOMES+"{reference}/genome_bowtie2",
+	output:
+		samA="3-bowtie2/{sampleID}_ref_{reference}_aligned.sam",
+	conda:
+		"envs/bowtie2.yaml"
+	shell:
+		# 8 threads coded into json
+		"bowtie2 --threads 8 -X 2000 --no-mixed --dovetail -x {params.refGenome} -1 {input.fq1} -2 {input.fq2} -S {output.samA} "
+
+rule sam2bam:
+	input:
+		samA=rules.bowtie2.output.samA,
+	output:
+		bamA="3-bowtie2/{sampleID}_ref_{reference}_aligned.sorted.bam",
+	conda:
+		"envs/samtools15_bcftools12.yaml"
+	shell:
+		# 8 threads coded into json
+		" samtools view -bS {input.samA} | samtools sort - -o {output.bamA} ;"
+		" samtools index {output.bamA} ;"
+		" rm {input.samA} ;"
+
+rule mpileup2vcf:
+	input:
+		bamA=rules.sam2bam.output.bamA,
+		ref=DIR_REFERENCE_GENOMES+"{reference}/genome.fasta"
+	output:
+		pileup="4-vcf/{sampleID}_ref_{reference}_aligned.sorted.pileup",
+		variants="4-vcf/{sampleID}_ref_{reference}_aligned.sorted.strain.variant.vcf.gz",
+		vcf_strain="4-vcf/{sampleID}_ref_{reference}_aligned.sorted.strain.vcf.gz",
+	params:
+		vcf_raw="4-vcf/{sampleID}_ref_{reference}_aligned.sorted.strain.gz",
+	conda:
+		"envs/samtools15_bcftools12.yaml"
+	shell:
+		" samtools faidx {input.ref} ; "
+		" samtools mpileup -q30 -x -s -O -d3000 -f {input.ref} {input.bamA} > {output.pileup} ;" 
+		" samtools mpileup -q30 -t SP -d3000 -vf {input.ref} {input.bamA} > {params.vcf_raw} ;"
+		" bcftools call -c -Oz -o {output.vcf_strain} {params.vcf_raw} ;"
+		" bcftools view -Oz -v snps -q .75 {output.vcf_strain} > {output.variants} ;"
+		" tabix -p vcf {output.variants} ;"
+		" rm {params.vcf_raw}"
+
+# strain.vcf ==> vcf_to_quals.m ==> quals.mat
+rule vcf2quals:
+	input:
+		vcf_strain = rules.mpileup2vcf.output.vcf_strain,
+	params:
+		refGenomeDir=DIR_REFERENCE_GENOMES+"{reference}/",
+	output:
+		file_quals = "5-quals/{sampleID}_ref_{reference}_aligned.sorted.strain.variant.quals.mat", 
+	shell:
+		"""
+		module add mit/matlab/2015b; 
+		matlab -r "path('{SCRIPTS_DIRECTORY}',path); vcf_to_quals_snakemake( '{input.vcf_strain}', '{output.file_quals}', '{params.refGenomeDir}' )"
+		"""
+
+# strain.pileup ==> pileup_to_diversity.m ==> diversity.mat
+rule pileup2diversity_matrix:
+	input:
+		pileup = rules.mpileup2vcf.output.pileup,
+	params:
+		refGenomeDir=DIR_REFERENCE_GENOMES+"{reference}/",
+	output:
+		file_diversity = "6-diversity/{sampleID}_ref_{reference}_aligned.sorted.strain.variant.diversity.mat",
+		file_coverage = "6-diversity/{sampleID}_ref_{reference}_aligned.sorted.strain.variant.coverage.mat",
+	shell:
+		"""
+		module add mit/matlab/2015b; 
+		matlab -r "path('{SCRIPTS_DIRECTORY}',path); pileup_to_diversity_matrix_snakemake( '{input.pileup}', '{output.file_diversity}', '{output.file_coverage}', '{params.refGenomeDir}' )" ;
+		rm {input.pileup};
+		"""
+

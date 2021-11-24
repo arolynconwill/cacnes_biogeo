@@ -2,6 +2,9 @@
 # SNAKEFILE FOR LINEAGE PAN-GENOME ASSEMBLIES CASE STEP #
 #########################################################
 
+# Notes:
+# # This is a simplified case step that only generates a coverage matrix and does not attempt to find variant positions.
+
 # Reminders:
 # # Put your own email address in cluster.slurm.json so that you get emails about failures. No one else wants your slurm emails.
 
@@ -43,9 +46,7 @@ DIR_ASSEMBLY_MAPPING = "/scratch/mit_lieberman/projects/aro_cacnes_biogeo/5_line
 rule all:
     input:
         # # Data links only # #
-        # expand("data/vcf/{sampleID}_clade_{references}_outgroup{outgroup}.vcf.gz",zip,sampleID=SAMPLE_ls, reference=REF_Genome_ls, outgroup=OUTGROUP_ls),
-        # expand("data/qual/{sampleID}_clade_{references}_outgroup{outgroup}.quals.mat",zip,sampleID=SAMPLE_ls, reference=REF_Genome_ls, outgroup=OUTGROUP_ls),
-        # expand("data/diversity/{sampleID}_clade_{references}_outgroup{outgroup}.diversity.mat",zip,sampleID=SAMPLE_ls, reference=REF_Genome_ls, outgroup=OUTGROUP_ls),
+        expand("data/diversity/{sampleID}_clade_{references}_outgroup{outgroup}.diversity.mat",zip,sampleID=SAMPLE_ls, references=REF_Genome_ls, outgroup=OUTGROUP_ls),
         # # Everything # #
         "2-candidate_mutation_table/coverage_matrix.mat",
         # # Including cleanup step # #
@@ -54,8 +55,6 @@ rule all:
 
 rule build_data_links:
 	output:
-		vcf_links = expand("data/vcf/{sampleID}_clade_{references}_outgroup{outgroup}.vcf.gz",zip,sampleID=SAMPLE_ls, references=REF_Genome_ls, outgroup=OUTGROUP_ls),
-		qual_mat_links = expand("data/qual/{sampleID}_clade_{references}_outgroup{outgroup}.quals.mat",zip,sampleID=SAMPLE_ls, references=REF_Genome_ls, outgroup=OUTGROUP_ls),
 		div_mat_links = expand("data/diversity/{sampleID}_clade_{references}_outgroup{outgroup}.diversity.mat",zip,sampleID=SAMPLE_ls, references=REF_Genome_ls, outgroup=OUTGROUP_ls),
 	run:
 		import subprocess
@@ -63,43 +62,6 @@ rule build_data_links:
 		subprocess.run( "mkdir -p data/vcf/ data/qual/ data/diversity/ " ,shell=True)
 		for i in range(len(SAMPLE_ls)):
 			subprocess.run( "ln -fs -T " + PATH_ls[i] + "/11-diversity/" + SAMPLE_ls[i] + "_clade_" + REF_Genome_ls[i] + "*diversity.mat data/diversity/" + SAMPLE_ls[i] + "_clade_" + REF_Genome_ls[i] + "_outgroup" + OUTGROUP_ls[i] + ".diversity.mat" ,shell=True)
-			subprocess.run( "ln -fs -T " + PATH_ls[i] + "/10-quals/" + SAMPLE_ls[i] + "_clade_" + REF_Genome_ls[i] + "*quals.mat data/qual/" + SAMPLE_ls[i] + "_clade_" + REF_Genome_ls[i] + "_outgroup" + OUTGROUP_ls[i] + ".quals.mat" ,shell=True)
-			subprocess.run( "ln -fs -T " + PATH_ls[i] + "/9-vcf/" + SAMPLE_ls[i] + "_clade_" + REF_Genome_ls[i] + "*variant.vcf.gz data/vcf/" + SAMPLE_ls[i] + "_clade_" + REF_Genome_ls[i] + "_outgroup" + OUTGROUP_ls[i] + ".vcf.gz " ,shell=True)
-
-
-# finds candidate variant positions for each sample
-rule variants2positions:
-	input:
-		variants = "data/vcf/{sampleID}_clade_{references}_outgroup{outgroup}.vcf.gz",
-	params:
-		REF_GENOME_DIRECTORY = DIR_ASSEMBLY_MAPPING+"/3-spades/clade_{references}/",
-		outgroup_tag = "{outgroup}", # boolean (0==ingroup or 1==outgroup)
-	output:
-		mat_positions = "1-temp_pos/{sampleID}_clade_{references}_outgroup{outgroup}_positions.mat",
-	shell:
-		"""
-		module add mit/matlab/2015b; 
-		matlab -r "path('{SCRIPTS_DIRECTORY}',path); generate_positions_single_sample_snakemake( '{input.variants}', '{output.mat_positions}', {maxFQ}, '{params.REF_GENOME_DIRECTORY}',{params.outgroup_tag}  ) " 
-		"""
-
-
-# finds candidate variant positions across all samples
-rule combine_positions:
-    input:
-        mat_positions = expand("1-temp_pos/{sampleID}_clade_{references}_outgroup{outgroup}_positions.mat",zip,sampleID=SAMPLE_ls, references=REF_Genome_ls, outgroup=OUTGROUP_ls)
-    params:
-        file_other_p_to_consider = "add_positions/other_positions.mat",
-        # REF_GENOME_DIRECTORY = "/scratch/mit_lieberman/reference_genomes/{references}/",
-        REF_GENOME_DIRECTORY = expand(DIR_ASSEMBLY_MAPPING+"/3-spades/clade_{references}/",references=set(REF_Genome_ls)), # expands to single reference genome!
-    output:
-        string_input_p_positions = "1-temp_pos/string_file_other_p_to_consider.txt",
-        mat_positions = "1-temp_pos/allpositions.mat",
-    shell:
-        """
-        module add mit/matlab/2015b; 
-        echo {input.mat_positions} > {output.string_input_p_positions}
-        matlab -r "path('{SCRIPTS_DIRECTORY}',path); combine_positions_snakemake( '{output.string_input_p_positions}', '{params.file_other_p_to_consider}', '{output.mat_positions}', '{params.REF_GENOME_DIRECTORY}', {maxFQ} )" 
-        """
 
 
 # build input for candidate_mutation_table
@@ -114,20 +76,6 @@ rule string_diversity_mat:
 
 
 # build input for candidate_mutation_table
-rule string_quals_mat:
-    input:
-    	quals_mat = expand("data/qual/{sampleID}_clade_{references}_outgroup{outgroup}.quals.mat",zip,sampleID=SAMPLE_ls, references=REF_Genome_ls, outgroup=OUTGROUP_ls),
-    output:
-    	string_qual_mat = "1-temp_pos/string_qual_mat.txt",
-    shell:
-    	"""
-    	for i in {input.quals_mat}; do
-    	 echo $i
-    	done |tr '\n' ' ' |sed "s/ $//" > {output.string_qual_mat};
-        """
-
-
-# build input for candidate_mutation_table
 rule string_sampleID_names:
     params:
     	sampleID_names = expand( "{sampleID}" , sampleID=SAMPLE_ls ),
@@ -138,20 +86,6 @@ rule string_sampleID_names:
     	for i in {params.sampleID_names}; do
     	 echo $i
     	done |tr '\n' ' ' |sed "s/ $//" > {output.string_sampleID_names};
-        """
-
-
-# build input for candidate_mutation_table
-rule string_outgroup_bool:
-    params:
-    	outgroup_bool = expand( "{outgroup}" , outgroup=OUTGROUP_ls ),
-    output:
-    	string_outgroup_bool = "1-temp_pos/string_outgroup_bool.txt",
-    shell:
-    	"""
-    	for i in {params.outgroup_bool}; do
-    	 echo $i
-    	done |tr '\n' ' ' |sed "s/ $//" > {output.string_outgroup_bool};
         """
 
 

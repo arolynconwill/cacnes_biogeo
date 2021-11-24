@@ -14,7 +14,7 @@
         "error"          : "logs/{rule}_%j.out_err.txt",
         "mail-user"      : "aconwill@mit.edu",
         "mail-type"      : "FAIL",
-        "exclude"        : "node001",
+        "exclude"        : "node053,node093,node094,node086,node087,node088,node064",
     },
     "variants2positions" : {
         "mem"            : 64000,

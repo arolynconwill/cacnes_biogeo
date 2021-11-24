@@ -4,7 +4,7 @@
     },
     "__default__" : {
         "job-name"       : "LinAM.SM.{rule}",
-        "partition"      : "defq,sched_mem1TB,sched_mem4TB",
+        "partition"      : "defq,sched_mem1TB,sched_mem4TB,sched_mem1TB_centos7",
         "time"           : "01:00:00",
         "ntasks"         : 1,
         "cpus-per-task"  : 1,
@@ -13,7 +13,8 @@
         "output"         : "logs/{rule}_%j.out_err.txt",
         "error"          : "logs/{rule}_%j.out_err.txt",
         "mail-user"      : "aconwill@mit.edu",
-        "mail-type"      : "FAIL"
+        "mail-type"      : "FAIL",
+        "exclude"        : "node053,node093,node094,node086,node087,node088,node064",
     },
     "make_data_links": {
         "partition": "quicktest,defq,sched_mem1TB",
