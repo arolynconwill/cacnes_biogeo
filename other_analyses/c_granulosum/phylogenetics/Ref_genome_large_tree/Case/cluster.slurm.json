@@ -1,0 +1,32 @@
+{
+    "documenation": {
+        "cmdline": "Use with snakemake --cluster-config cluster.slurm.json --cluster 'sbatch --job-name {cluster.job-name} --ntasks {cluster.ntasks} --cpus-per-task {cluster.cpus-per-task} --mem {cluster.mem} --mem-per-cpu {cluster.mem-per-cpu} --partition {cluster.partition} --time {cluster.time} --mail-user {cluster.mail-user} --mail-type {cluster.mail-type} --error {cluster.error} --output {cluster.output}'"
+    },
+    "__default__" : {
+        "job-name"       : "SM.{rule}",
+        "partition"      : "defq,sched_mem1TB,sched_mem4TB",
+        "time"           : "02:00:00",
+        "ntasks"         : 1,
+        "cpus-per-task"  : 1,
+        "mem"            : 8000,
+        "mem-per-cpu-mb" : 8000,
+        "output"         : "logs/{rule}_%j.out_err.txt",
+        "error"          : "logs/{rule}_%j.out_err.txt",
+        "mail-user"      : "PLACEHOLDER@mit.edu",
+        "mail-type"      : "FAIL"
+    },
+    "variants2positions" : {
+        "mem"            : 64000,
+        "mem-per-cpu"    : 64000, 
+        "cpus-per-task"  : 1,
+        "time"           : "04:00:00",
+        "output"         : "logs/{rule}_{wildcards.sampleID}_ref_{wildcards.reference}_outgroup{wildcards.outgroup}_%j.out_err.txt",
+        "error"          : "logs/{rule}_{wildcards.sampleID}_ref_{wildcards.reference}_outgroup{wildcards.outgroup}_%j.out_err.txt",
+    },
+    "candidate_mutation_table" : {
+        "mem"            : 250000,
+        "mem-per-cpu-mb" : 250000, 
+        "cpus-per-task"  : 1,
+        "time"           : "04:00:00",
+    },
+ }

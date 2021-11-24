@@ -37,6 +37,7 @@ datadata_other
 /cacnes_genomic_analysis/matlab/4_plasmid-presence/data*
 /cacnes_genomic_analysis/matlab/4_plasmid-presence/plasmid_typing*
 /cacnes_genomic_analysis/matlab/4_plasmid-presence/trees*
+/other_analyses/c_granulosum/other
 
 # NOTES TO SELF
 notes*.txt

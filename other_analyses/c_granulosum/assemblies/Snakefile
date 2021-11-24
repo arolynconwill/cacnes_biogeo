@@ -1,0 +1,238 @@
+################################
+# SNAKEFILE FOR ASSEMBLY STEP #1
+################################
+
+# REMINDERS:
+# # Put your own email address in cluster.slurm.json and myjob.slurm so that you get emails about failures. 
+
+# Version History:
+# # 2021.02, Arolyn:
+# # # Fixed conflicting flags in prokka command
+# # 2020.06, Arolyn: 
+# # # # Using SPAdes scaffolds instead of contigs as the resulting genome
+# # # # Removed extra SPAdes options (no longer specifies kmer lengths; do not need to sepecify options redundant with SPAdes defaults)
+# # # # Defaults to taking 250,000 reads per sample for SPAdes assembly
+# # # # Fixed some yaml files that didn't successfully generate environments
+# # # # Log files all specified in json; no redundancies/conflicts in Snakefile
+# # # # Alternative version of get_clade_samples available (uncomment it if you want to provide separate lists of samples in the clade to use in the assembly, omitting some in samples.csv that don't meet some criteria) 
+# # # # This version does not include ortholog step in jsb/fmk version
+# # ????.??, ???: 
+# # # # Switched to conda environments instead of module add on c3ddb
+# # # # Added rule and python functions to concatenate spades input
+# # # # # # This allows assembly to start as soon as all samples for this clade are ready (previously waited for all samples from all clades to be ready)
+# # 2019.09, Arolyn: Adapt for assembling a genome from each clade
+# # 2019, Felix: Assembly in Snakemake
+
+
+''' PRE-SNAKEMAKE '''
+
+import sys
+SCRIPTS_DIRECTORY_MINE = "./scripts"
+sys.path.insert(0, SCRIPTS_DIRECTORY_MINE)
+SCRIPTS_DIRECTORY_LL = "/scratch/mit_lieberman/scripts"
+sys.path.insert(0, SCRIPTS_DIRECTORY_LL)
+
+import basic_snakemake_functions as bsf # generic functions to read samples.csv etc.
+import mergeFQ_runSPAdes as msp # functions for spades file prep rule
+from itertools import compress
+
+# Define some lists from samples.csv
+spls = "samples.csv"
+# Format: Path,Sample,ReferenceGenome,ProviderName,Subject
+[PATH_ls, SAMPLE_ls, REF_Genome_ls, PROVIDER_ls, CLADEID_ls] = bsf.read_samplesCSV(spls)
+CLADES_ls = set(CLADEID_ls) # set(list_patient) provides only unique clade IDs
+# Write sample_info.csv for each sample
+bsf.split_samplesCSV(PATH_ls,SAMPLE_ls,REF_Genome_ls,PROVIDER_ls,CLADEID_ls)
+
+
+''' SNAKEMAKE '''
+rule all:
+	input:
+		###expand("data/{sampleID}/sample_info.csv",sampleID=SAMPLE_ls)
+		# # Only data links # #
+		#expand("data/{sampleID}/R1.fq.gz",sampleID=SAMPLE_ls),
+		#expand("data/{sampleID}/R2.fq.gz",sampleID=SAMPLE_ls),
+		# Through ...
+		#...
+		# Through spades # #
+		expand("3-spades/clade_{cladeID}/scaffolds.fasta",cladeID=CLADES_ls),
+		expand("3-spades/clade_{cladeID}/scaffolds_min500bp.fasta",cladeID=CLADES_ls),
+		# With prokka # #
+		expand("4-annotation/clade_{cladeID}/prokka_out.txt",cladeID=CLADES_ls),
+		# With sumstats # #
+		"5-assemblystats/all_clades_sumStats_assembly_annotation.tsv",
+		# Including cleanup # #
+		#"logs/cleanUp_done.txt",
+
+
+## PART 1: data processing
+
+rule make_data_links:
+	# NOTE: All raw data needs to be names fastq.gz. No fq! The links will be names fq though.
+	input:
+		sample_info_csv="data/{sampleID}/sample_info.csv",
+	output:
+ 		# Recommend using symbolic links to your likely many different input files
+ 		fq1="data/{sampleID}/R1.fq.gz",
+ 		fq2="data/{sampleID}/R2.fq.gz",
+	run:
+		# get stuff out of mini csv file
+		with open(input.sample_info_csv,'r') as f:
+			this_sample_info = f.readline() # only one line to read
+		this_sample_info = this_sample_info.strip('\n').split(',')
+		path = this_sample_info[0] # remember python indexing starts at 0
+		paths = path.split(' ')
+		sample = this_sample_info[1]
+		provider = this_sample_info[3]
+		# make links
+		if len(paths)>1:
+			bsf.cp_append_files(paths, sample, provider)
+		else:
+			bsf.makelink(path, sample, provider)
+
+rule cutadapt:
+	input:
+		# Recommend using symbolic links to your likely many different input files
+		fq1 = rules.make_data_links.output.fq1,
+		fq2 = rules.make_data_links.output.fq2,
+	output:
+		fq1o="0-tmp/{sampleID}_R1_trim.fq.gz",
+		fq2o="0-tmp/{sampleID}_R2_trim.fq.gz",
+	conda:
+		"envs/cutadapt.yaml",
+	shell:
+		"cutadapt -a CTGTCTCTTAT -o {output.fq1o} {input.fq1} ;"
+		"cutadapt -a CTGTCTCTTAT -o {output.fq2o} {input.fq2} ;"
+
+rule sickle2050:
+	input:
+		fq1o = rules.cutadapt.output.fq1o,
+		fq2o = rules.cutadapt.output.fq2o,
+	output:
+		fq1o="1-data_processed/{sampleID}/filt1.fq.gz",
+		fq2o="1-data_processed/{sampleID}/filt2.fq.gz",
+		fqSo="1-data_processed/{sampleID}/filt_sgls.fq.gz",
+	conda:
+		"envs/sickle-trim.yaml", # sickle
+	shell:
+		"sickle pe -g -f {input.fq1o} -r {input.fq2o} -t sanger -o {output.fq1o} -p {output.fq2o} -s {output.fqSo} -q 20 -l 50 -x -n"
+
+
+## PART 2: spades + prokka + sumstats
+
+# Functions required for concatenate_spades_input rule
+
+# get_cladefq returns sample names of samples for the clade specified by arguement
+def get_cladefq(wildcards):
+	SID=get_clade_samples(wildcards.cladeID)
+	fq=expand("1-data_processed/{sampleID}/filt{n}.fq.gz",sampleID=SID,n=[1,2])
+	return fq 
+
+# get_clade_samples returns sample names of samples for the clade specified by arguement
+# default version: grabs all samples with this cladeID from samples.csv
+def get_clade_samples(cladeID):
+        is_clade = [int(i == cladeID) for i in CLADEID_ls]
+        samples_clade = list(compress(SAMPLE_ls,is_clade))
+        return samples_clade
+# alternative version: provide text files (in subdirectory 2-clades) indicating which samples to use in the assembly (ask Arolyn if you have questions) 
+# def get_clade_samples(cladeID):
+# 	file = "2-clades/clade"+cladeID+"_samples.txt"
+# 	samples_clade = []
+# 	with open(file) as fp:
+# 		for line in fp:
+# 			line = line.rstrip('\n')
+# 			samples_clade.append(line)
+# 	return samples_clade
+
+rule concatenate_spades_input:
+	# calls functions from mergeFQ_runSPAdes.py in order to concatenate num_reads from fastq files
+	input:
+		clade_fq=get_cladefq,
+	output:
+		fastq1="0-tmp/in1_spades_{cladeID}.fq.gz", # produced by py script, and used by spades for assemebly
+		fastq2="0-tmp/in2_spades_{cladeID}.fq.gz", # 
+	run:
+		clade_ls = get_clade_samples(wildcards.cladeID)
+		file_names = msp.build_sample_file_list(clade_ls)
+		outfileLs = msp.merge_fq(file_names,wildcards.cladeID,250000) # specify number of reads per sample; see py function for more details
+
+# Genome assembly
+rule spades:
+	input:
+		fastq1=rules.concatenate_spades_input.output.fastq1,
+		fastq2=rules.concatenate_spades_input.output.fastq2,
+	params:
+		threads=28,
+		outdir="3-spades/clade_{cladeID}"
+	conda:
+		"envs/spades.yaml"
+	output:
+		fastascaffolds="3-spades/clade_{cladeID}/scaffolds.fasta", # produced by spades
+	shell:
+		"spades.py --careful -t {params.threads} -1 {input.fastq1} -2 {input.fastq2} -o {params.outdir}"
+# Spades flags to consider adding for some applications: --cov-cutoff auto -k 21,33,55,77,99,127 
+
+# Genome annotation
+rule prokka:
+	# prokka annotations; not currently using --proteins option to specify trusted gbk file
+	input:
+		rules.spades.output.fastascaffolds, # "3-spades/clade_{cladeID}/scaffolds.fasta",
+	params:
+		outdir="4-annotation/clade_{cladeID}",
+	threads: 16
+	output:
+		txt="4-annotation/clade_{cladeID}/prokka_out.txt",
+		faa="4-annotation/clade_{cladeID}/prokka_out.faa",
+	conda:
+		"envs/prokka14.yaml", #prokka
+	shell:
+		"prokka --mincontiglen 500 --centre MIT_Lieberman_Lab --force --cpus {threads} --outdir {params.outdir} --prefix prokka_out {input} ; conda deactivate"
+
+rule sumstats:
+	input:
+		infile="samples.csv",
+		fastq=rules.concatenate_spades_input.output.fastq1,
+		scaffolds=rules.spades.output.fastascaffolds,
+		assembly=rules.prokka.output.txt,
+	output:
+		"5-assemblystats/clade_{cladeID}/sumStats_assembly_annotation.tsv",
+	conda:
+		"envs/py_for_snakemake.yaml",
+	shell:
+		"python3 scripts/getSumStats_SPAdes_prokka_v2.py -s {input.infile} -p {wildcards.cladeID} -f {input.fastq} -c {input.scaffolds} -a {input.assembly} -o {output} ; conda deactivate " 
+
+rule merge_sumstats:
+	input:
+		expand("5-assemblystats/clade_{cladeID}/sumStats_assembly_annotation.tsv",cladeID=CLADES_ls),
+	output:
+		assembliessummary="5-assemblystats/all_clades_sumStats_assembly_annotation.tsv",
+	shell:
+		"cat {input} |sed -n '3~2!p' > {output.assembliessummary}"
+
+rule min500b_scaffold:
+	# limits assembly to scaffolds with length 500b or larger.
+	input:
+		fasta=rules.spades.output.fastascaffolds, # "3-spades/clade_{cladeID}/scaffolds.fasta", # produced by spades
+	output:
+		fastalongscaffolds="3-spades/clade_{cladeID}/scaffolds_min500bp.fasta",
+	conda:
+		"envs/py_for_snakemake.yaml", 
+	shell:
+		" python3 scripts/filter_contigFa_length.py -f {input.fasta} -l 500 -o {output.fastalongscaffolds}  ; conda deactivate "
+
+
+## PART N: clean up step
+
+rule cleanUp:
+	input:
+		rules.merge_sumstats.output.assembliessummary, # "5-assemblystats/all_clades_sumStats_assembly_annotation.tsv",
+	params:
+		data_filt="1-data_processed/",
+		tmp_fld="0-tmp/",
+	output:
+		"logs/cleanUp_done.txt",
+	shell:
+		" rm -r {params.data_filt} ;"
+		" rm -r {params.tmp_fld} ;"
+		" touch {output} ;"
+

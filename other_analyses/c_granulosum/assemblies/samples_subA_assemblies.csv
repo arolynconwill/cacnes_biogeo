@@ -1,0 +1,51 @@
+Path,Sample,ReferenceGenome,ProviderName,Subject
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:018-Ext-crMoBl-1_t00,Cutibacterium_granulosum_NCTC11865,N705S519,1
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:018-Ext-crMoBl-2_t00,Cutibacterium_granulosum_NCTC11865,N706S519,1
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:018-Ext-crMoBl-3_t00,Cutibacterium_granulosum_NCTC11865,N707S519,1
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:018-Ext-crMoBl-4_t00,Cutibacterium_granulosum_NCTC11865,N708S519,1
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:246-Stp-Rc68-4_t08,Cutibacterium_granulosum_NCTC11865,S525N724,3
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:258-Stp-Lc82-1_t08,Cutibacterium_granulosum_NCTC11865,S527N721,4
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:259-Stp-Lc82-1_t08,Cutibacterium_granulosum_NCTC11865,S527N723,5
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:259-Stp-Lc82-2_t08,Cutibacterium_granulosum_NCTC11865,S527N724,6
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:280-Ext-crMoW-1_t08,Cutibacterium_granulosum_NCTC11865,S529N703,7
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:280-Ext-crMoW-3_t08,Cutibacterium_granulosum_NCTC11865,S529N704,8
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:281-Ext-crMoW-1_t08,Cutibacterium_granulosum_NCTC11865,S501N707,9
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,A:288-Scr-clCh-4_t08,Cutibacterium_granulosum_NCTC11865,S526N724,10
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,A:378-Scr-Ch-6_t11,Cutibacterium_granulosum_NCTC11865,N724S520,11
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:017-Ext-crMoB-2_t00,Cutibacterium_granulosum_NCTC11865,N706S518,2
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:017-Ext-crMoB-3_t00,Cutibacterium_granulosum_NCTC11865,N707S518,2
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:017-Ext-crMoB-4_t00,Cutibacterium_granulosum_NCTC11865,N708S518,2
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:023-Ext-tcChBp-1_t00,Cutibacterium_granulosum_NCTC11865,N708S509,12
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split,A:023-Ext-tcChBp-4_t00,Cutibacterium_granulosum_NCTC11865,N705S509,13
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,A:028-Ext-tlMoWd-3_t00,Cutibacterium_granulosum_NCTC11865,N715S508,14
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:302-Scr-Fo-1_t11,Cutibacterium_granulosum_NCTC11865,N724S516,15
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:303-Scr-Rc-3_t11,Cutibacterium_granulosum_NCTC11865,N722S512,16
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:303-Scr-Rc-6_t11,Cutibacterium_granulosum_NCTC11865,N719S512,17
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:304-Scr-Lc-3_t11,Cutibacterium_granulosum_NCTC11865,N722S514,18
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:306-Scr-clCh-2_t11,Cutibacterium_granulosum_NCTC11865,N717S511,19
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,B:306-Scr-clCh-5_t11,Cutibacterium_granulosum_NCTC11865,N714S511,20
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:070-Scr-Fo-3_t00,Cutibacterium_granulosum_NCTC11865,N715S502,21
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:073-Scr-Ch-3_t00,Cutibacterium_granulosum_NCTC11865,N715S503,22
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:075-Scr-trBa-4_t00,Cutibacterium_granulosum_NCTC11865,N720S506,23
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:076-Scr-blBa-2_t00,Cutibacterium_granulosum_NCTC11865,N718S507,24
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:078-Ext-trFoBp-4_t00,Cutibacterium_granulosum_NCTC11865,N720S508,25
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:087-Ext-brNoBs-1_t00,Cutibacterium_granulosum_NCTC11865,N705S522,26
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:087-Ext-brNoBs-2_t00,Cutibacterium_granulosum_NCTC11865,N706S522,27
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:088-Ext-ccChBs-1_t00,Cutibacterium_granulosum_NCTC11865,N705S523,28
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,B:088-Ext-ccChBs-4_t00,Cutibacterium_granulosum_NCTC11865,N708S523,29
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool1/split /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2015_Pool2/split,E:096-Scr-Ch-3_t00,Cutibacterium_granulosum_NCTC11865,N712S504,30
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_07_Pool_HV2T3BGXX,F:103-Stp-Fo2-2_t07,Cutibacterium_granulosum_NCTC11865,S503N716,31
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:323-Scr-Rc-3_t11,Cutibacterium_granulosum_NCTC11865,N715S526,32
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:327-Scr-Ch-4_t11,Cutibacterium_granulosum_NCTC11865,N716S529,33
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:327-Scr-Ch-5_t11,Cutibacterium_granulosum_NCTC11865,N717S529,34
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,J:327-Scr-Ch-6_t11,Cutibacterium_granulosum_NCTC11865,N718S529,35
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,K:345-Scr-clNo-3_t11,Cutibacterium_granulosum_NCTC11865,N719S507,36
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/,L:357-Scr-Fo-4_t11,Cutibacterium_granulosum_NCTC11865,N716S520,37
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:354-Scr-Ch-3_t11,Cutibacterium_granulosum_NCTC11865,N715S505,38
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:354-Scr-Ch-4_t11,Cutibacterium_granulosum_NCTC11865,N716S505,39
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:354-Scr-Ch-5_t11,Cutibacterium_granulosum_NCTC11865,N723S504,40
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool1_HHW2FBGXY/ /scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,M:354-Scr-Ch-6_t11,Cutibacterium_granulosum_NCTC11865,N724S504,41
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:370-Scr-Ch-1_t11,Cutibacterium_granulosum_NCTC11865,N719S510,42
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:370-Scr-Ch-2_t11,Cutibacterium_granulosum_NCTC11865,N720S510,43
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/2016_08_Pool2_HFF5FBGXY/,N:370-Scr-Ch-5_t11,Cutibacterium_granulosum_NCTC11865,N723S510,44
+/scratch/mit_lieberman/raw_data/2018/Pacnes_biogeo/BN10FEB_comb,R:405-Ext-tlLcB-5_t15,Cutibacterium_granulosum_NCTC11865,N711S508,45
