@@ -53,6 +53,7 @@ rule all:
 		"1-temp_pos/string_outgroup_bool.txt",
 		# # Everything # #
 		"2-candidate_mutation_table/candidate_mutation_table.mat",
+		"2-coverage_matrix/coverage_matrix.mat",
 		# # Including cleanup step # #
 		# "logs/DONE_cleanUp",
 
@@ -163,6 +164,7 @@ rule string_outgroup_bool:
 		"""
 
 
+# generate candidate mutation table (matlab version)
 rule candidate_mutation_table:
 	input:
 		mat_positions = rules.combine_positions.output.mat_positions, # "1-temp_pos/allpositions.mat",
@@ -179,9 +181,24 @@ rule candidate_mutation_table:
 		"""
 
 
+# generate coverage matrix (matlab version)
+rule coverage_matrix_mat:
+	input: 
+		string_sampleID_names = rules.string_sampleID_names.output.string_sampleID_names, # "1-temp_pos/string_sampleID_names.txt",
+		string_diversity_mat = rules.string_diversity_mat.output.string_diversity_mat, # "1-temp_pos/string_diversity_mat.txt",
+	output:
+		coverage_matrix = "2-coverage_matrix/coverage_matrix.mat",
+	shell:
+		"""
+		module add mit/matlab/2015b; 
+		matlab -r "path('{SCRIPTS_DIRECTORY}',path); get_all_coverage_snakemake( '{input.string_sampleID_names}', '{input.string_diversity_mat}', '{output.coverage_matrix}' )"
+		"""
+
+
 rule cleanUp:
 	input:
-		candidate_mutation_table = "2-candidate_mutation_table/candidate_mutation_table.mat",
+		candidate_mutation_table = rules.candidate_mutation_table.output.candidate_mutation_table,
+		coverage_mat = rules.coverage_matrix_mat.output.coverage_matrix,
 	params:
 		temp_folder = "1-temp_pos"
 	output:

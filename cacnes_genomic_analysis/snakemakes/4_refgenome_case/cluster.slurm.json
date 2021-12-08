@@ -22,7 +22,8 @@
         "cpus-per-task"  : 1,
         "time"           : "04:00:00",
         "output"         : "logs/{rule}_{wildcards.sampleID}_%j.out_err.txt",
-        "error"          : "logs/{rule}_{wildcards.sampleID}_%j.out_err.txt",    },
+        "error"          : "logs/{rule}_{wildcards.sampleID}_%j.out_err.txt",
+    },
     "candidate_mutation_table" : {
         "mem"            : 128000,
         "mem-per-cpu-mb" : 128000, 
@@ -31,4 +32,12 @@
         "output"         : "logs/slurm_candidate_mutation_table_%j.out_err.txt",
         "error"          : "logs/slurm_candidate_mutation_table_%j.out_err.txt",
     },
- }
+    "coverage_matrix_mat" : {
+        "mem"            : 500000,
+        "mem-per-cpu-mb" : 500000, 
+        "cpus-per-task"  : 1,
+        "time"           : "12:00:00",
+        "output"         : "logs/slurm_coverage_matrix_%j.out_err.txt",
+        "error"          : "logs/slurm_coverage_matrix_%j.out_err.txt",
+    }
+}
