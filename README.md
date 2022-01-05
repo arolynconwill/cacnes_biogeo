@@ -66,15 +66,15 @@ Analyzing plasmid architecture:
 ### Matlab analysis scripts
 Directory: `/cacnes_genomic_analysis/matlab`
 
-Note: Matlab analyses depend on data from their respective snakemake pipeline(s) as indicated below.
-
 SNV-based analyses: `/cacnes_genomic_analysis/matlab/1_snv_analysis/genomic_analysis_main.m`
 * Clustering of colonies into lineages
 * Within-lineage SNV identification
 * Spatial biogeography analysis (across skin regions and within pores)
 * Evolutionary analysis (search for parallel evolution; inference of ancestral alleles; treemaking)
 * and more!  
+* All data files necessary for these analyses are available (see [Data availability](#data-availability)).
 * Snakemake dependencies: `/cacnes_genomic_analysis/snakemakes/4_refgenome_case`
+
 
 Gene content analyses: 
 * Within-lineage gains/losses: `/cacnes_genomic_analysis/matlab/2_within-lineage-gain-loss`
@@ -83,6 +83,9 @@ Gene content analyses:
     * Snakemake dependencies: `/cacnes_genomic_analysis/snakemakes/7_lineage_assembly_cdhit`
 * Plasmid presence and evolutionary analysis: `/cacnes_genomic_analysis/matlab/4_plasmid-presence`
     * Snakemake dependencies: `/cacnes_genomic_analysis/snakemakes/9_plasmid_alignments`
+
+
+Note: Matlab analyses depend on data from their respective snakemake pipeline(s) as indicated above.
 
 
 
@@ -143,9 +146,7 @@ Data relating to these analyses are available from the following sources:
 * Raw sequencing reads: NCBI-SRA BioProject [PRJNA771717](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA771717) 
 * Assembled pan-genomes for each lineage: `/genome_assemblies/lineage_assemblies`
 * Hybrid assembled genomes for select _C. acnes_ colonies with plasmids: `/genome_assemblies/hybrid_assemblies`
-* Matlab data files: _not yet available_ <!-- [TODO](TODO). -->
-
-
+* Matlab analysis data files: All data files necessary to perform _C. acnes_ SNV-based analyses are available [here](https://www.dropbox.com/s/56mfgyalc82z85c/cacnes_biogeo_snv_data.zip?dl=0) and should be placed in the data subdirectory (`/cacnes_genomic_analysis/matlab/1_snv_analysis/data`) before running the main script (`/cacnes_genomic_analysis/matlab/1_snv_analysis/genomic_analysis_main.m`).
 
 # Acknowledgments
 

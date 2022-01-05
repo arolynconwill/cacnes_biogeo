@@ -1,4 +1,16 @@
-INFORMATION ON DATA FILES IN THIS FOLDER:
+===============================================
+== INFORMATION ON DATA FILES IN THIS FOLDER: ==
+===============================================
+
+
+== WHERE TO DOWNLOAD ALL DATA FILES: ==
+
+All data files are available as a single zipped file from this link:
+
+https://www.dropbox.com/s/56mfgyalc82z85c/cacnes_biogeo_snv_data.zip?dl=0
+
+
+== DATA FILE DESCRIPTIONS: ==
 
 assemblies_straintypes.mat -- strain type of each lineage based on lineage assemblies (generated from BLAST alignments in /cacnes_genomic_analysis/snakemakes/5_lineage_assembly_mapping snakemake pipeline)
 
