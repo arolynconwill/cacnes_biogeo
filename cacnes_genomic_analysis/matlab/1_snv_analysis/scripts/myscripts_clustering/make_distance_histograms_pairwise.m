@@ -76,22 +76,6 @@ for i=1:numel(p1)
     fprintf(1, [ SampleNamesLong_final{p1(i)} ', ' SampleNamesLong_final{p2(i)} ', ' num2str(distance_matrix_mini(p1(i),p2(i))) '\n' ])
 end
 
-% % Checking specific clusters
-% thing = distance_matrix_mini( cluster_membership==37, cluster_membership==49 );
-% mean( thing(:) )
-% 
-% thing = distance_matrix_mini( cluster_membership==33, cluster_membership==24 )
-% mean( thing(:) )
-% 
-% thing = distance_matrix_mini( cluster_membership==21, cluster_membership==5 )
-% mean( thing(:) )
-% 
-% thing = distance_matrix_mini( cluster_membership==16, cluster_membership==50 )
-% mean( thing(:) )
-
-thing = distance_matrix_mini( cluster_membership==38, cluster_membership==1 )
-mean( thing(:) )
-
 
 %% Binning instructions for distance histograms
 

@@ -528,7 +528,7 @@ plot_title = 'by function';
 x_axis_label = 'KEGG function';
 x_tick_labels = kegg_cat_coarse_names;
 y_axis_factor = 4;
-dir_save = 'supp_figs';
+dir_save = '5_parallel_evo/supp_figs';
 plot_file_name = 'supp_dNdS_kegg-coarse';
 plot_dnds_bar_supp( dNdS_for_plot, CI_for_plot, ...
     plot_title, x_axis_label, x_tick_labels, y_axis_factor, ...

@@ -2,6 +2,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%% CLUSTERING STEP %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+% This script filters colonies and clusters them into lineages.
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -80,16 +82,6 @@ counts_unfiltered = counts; clear counts;
 Quals_unfiltered = -1*Quals; clear Quals; % use -Quals because this way higher numbers are more confident
 p_all = p; 
 SampleNames_unfiltered = SampleNames;
-%
-%
-%
-%
-% FIX NONSTANDARD SAMPLE NAME FORMAT %
-SampleNames_unfiltered = cellfun(@(x) strrep(x,'LcFo','lcFo'), SampleNames, 'UniformOutput', false )
-%
-%
-%
-
 
 % Remove controls
 is_control = cellfun(@(x) contains(x,'Control'), SampleNames_unfiltered );
@@ -154,15 +146,6 @@ fprintf(1,'Getting bracken info...\n')
 % From kraken/bracken:
 load('data/data_bracken_cacnes')
 % SampleNames_bracken, cacnes_fracs, cacnes_reads
-%
-%
-%
-%
-% FIX NONSTANDARD SAMPLE NAME FORMAT %
-SampleNames_bracken = cellfun(@(x) strrep(x,'LcFo','lcFo'), SampleNames_bracken, 'UniformOutput', false )
-%
-%
-%
 
 cacnes_frac_unfiltered = zeros( numel(SampleNames_unfiltered),1 ); % initialize
 cacnes_reads_unfiltered = zeros( numel(SampleNames_unfiltered),1 ); % initialize
@@ -1176,7 +1159,7 @@ make_distance_histograms_pairwise( distance_matrix_mini, subjects_final, cluster
 
 % Min distance histograms
 subject_fake = 100;
-make_distance_histograms_by_subj_end( clusters_final, unclustered_final, distance_matrix_mini, clusters_final_subjects, subjects_final, subject_fake, dir_clustering, dir_collcurve )
+make_distance_histograms_by_subj_end( clusters_final, unclustered_final, distance_matrix_mini, clusters_final_subjects, subjects_final, subject_fake, dir_collcurve )
 
 
 %% Clustering collector's curves

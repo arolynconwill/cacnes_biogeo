@@ -1,6 +1,0 @@
-Lineage_3d,,,,,,,,,,,,
-sample_name_simple,subject,sampling_method,pore_multiplicity,sample_number,colony_number,sebaceous_skin_region,time_in_months,median_coverage,read_length,plasmid_presence,transposon_presence,
-subj-3_scrape-190_col-1,3,scrape,scrape,190,1,shoulder,7,71,75,0,0,
-subj-3_pore-139_col-1,3,pore_strip,pore,139,1,left_cheek,7,63,75,0,0,
-subj-3_pore-139_col-2,3,pore_strip,pore,139,2,left_cheek,7,45,75,0,0,
-subj-3_pore-139_col-3,3,pore_strip,pore,139,3,left_cheek,7,48,75,0,0,

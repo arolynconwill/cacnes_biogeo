@@ -100,13 +100,13 @@ for c=1:numel(lineage_names)
 end
 
 
-%% Special tree for Lineage A-1
+%% Special tree for Lineage 1a and 3a
 
-for c=1
+for c=1 %5 
 
     % Load lineage data
     this_lineage_name = lineage_names{c};
-    load(['../Clusters/' this_lineage_name '/data_' this_lineage_name '.mat']);
+    load(['2_snvs/' this_lineage_name '/data_' this_lineage_name '.mat']);
 
     % Skip lineages if no SNVs exist or if no pore samples
     %     if isempty(goodpos) || sum( types(~outgroup_isolates) == 3 )==sum(~outgroup_isolates)
@@ -116,7 +116,7 @@ for c=1
     %     end
 
     % Directory setup
-    dir_save = [ this_lineage_name '_trees' ]; 
+    dir_save = [ dir_treemaking '/' this_lineage_name '_trees_simple' ]; 
     if ~exist( dir_save, 'dir' )
         mkdir( dir_save )
     end
@@ -157,6 +157,6 @@ for c=1
     % Make the tree
     [treefilename, UsedTreeNames] = generate_parsimony_tree_old(calls_for_tree_new, SampleNames_new, [this_lineage_name '_clean-names']);
 
-    cd( '..' )
+    cd( '../..' )
 
 end

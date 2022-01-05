@@ -84,7 +84,7 @@ end
 
 %% Define straintypes
 
-strain_list = 'ACDFHK'; %unique( clusters_all_superslst );
+strain_list = 'CDFHK'%'ACDFHK'; %unique( clusters_all_superslst );
 strain_list_outgroup = [ strain_list(1:end-1) strain_list(end-1) ];
 
 
