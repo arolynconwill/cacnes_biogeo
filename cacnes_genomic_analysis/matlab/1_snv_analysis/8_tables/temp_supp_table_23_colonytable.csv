@@ -1,0 +1,8 @@
+Lineage_9b,,,,,,,,,,,,,,
+sample_name_simple,subject,sampling_method,pore_multiplicity,sample_number,colony_number,sebaceous_skin_region,time_in_months,median_coverage,read_length,plasmid_presence,transposon_presence,
+subj-9_scrape-366_col-1,9,scrape,scrape,366,1,right_cheek,11,52,75,0,0,
+subj-9_scrape-366_col-2,9,scrape,scrape,366,2,right_cheek,11,44,75,0,0,
+subj-9_scrape-366_col-3,9,scrape,scrape,366,3,right_cheek,11,24,75,0,0,
+subj-9_scrape-366_col-4,9,scrape,scrape,366,4,right_cheek,11,28,75,0,0,
+subj-9_scrape-368_col-1,9,scrape,scrape,368,1,nose,11,12,75,1,0,
+subj-9_scrape-368_col-4,9,scrape,scrape,368,4,nose,11,28,75,0,0,

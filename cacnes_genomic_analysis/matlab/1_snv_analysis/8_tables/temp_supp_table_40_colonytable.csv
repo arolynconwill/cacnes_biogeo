@@ -1,0 +1,6 @@
+Lineage_8d,,,,,,,,,,,,
+sample_name_simple,subject,sampling_method,pore_multiplicity,sample_number,colony_number,sebaceous_skin_region,time_in_months,median_coverage,read_length,plasmid_presence,transposon_presence,
+subj-8_pore-406_col-1,8,pore_extract,pore,406,1,chin,15,131,100,0,0,
+subj-8_pore-406_col-2,8,pore_extract,pore,406,2,chin,15,183,100,0,0,
+subj-8_pore-406_col-5,8,pore_extract,pore,406,5,chin,15,114,100,0,0,
+subj-8_pore-406_col-6,8,pore_extract,pore,406,6,chin,15,89,100,0,0,

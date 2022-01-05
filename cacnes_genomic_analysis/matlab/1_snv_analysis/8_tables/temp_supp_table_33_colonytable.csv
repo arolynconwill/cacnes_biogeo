@@ -1,0 +1,6 @@
+Lineage_10c,,,,,,,,,,,,
+sample_name_simple,subject,sampling_method,pore_multiplicity,sample_number,colony_number,sebaceous_skin_region,time_in_months,median_coverage,read_length,plasmid_presence,transposon_presence,
+subj-10_scrape-386_col-2,10,scrape,scrape,386,2,chin,11,88,75,0,0,
+subj-10_scrape-386_col-3,10,scrape,scrape,386,3,chin,11,88,75,0,0,
+subj-10_scrape-386_col-5,10,scrape,scrape,386,5,chin,11,72,75,0,0,
+subj-10_scrape-381_col-2,10,scrape,scrape,381,2,forehead,11,20,75,1,0,

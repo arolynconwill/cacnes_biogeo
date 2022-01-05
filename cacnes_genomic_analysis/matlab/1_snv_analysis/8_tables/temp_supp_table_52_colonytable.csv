@@ -1,0 +1,5 @@
+Lineage_1e,,,,,,,,,,,
+sample_name_simple,subject,sampling_method,pore_multiplicity,sample_number,colony_number,sebaceous_skin_region,time_in_months,median_coverage,read_length,plasmid_presence,transposon_presence,
+subj-1_pore-12_col-1,1,pore_extract,pore,12,1,right_cheek,0,90,101,0,0,
+subj-1_pore-12_col-3,1,pore_extract,pore,12,3,right_cheek,0,129,101,0,0,
+subj-1_pore-12_col-4,1,pore_extract,pore,12,4,right_cheek,0,108,101,0,0,

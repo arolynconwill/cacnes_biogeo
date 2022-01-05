@@ -1,0 +1,5 @@
+Lineage_5d,,,,,,,,,,,
+sample_name_simple,subject,sampling_method,pore_multiplicity,sample_number,colony_number,sebaceous_skin_region,time_in_months,median_coverage,read_length,plasmid_presence,transposon_presence,
+subj-5_scrape-401_col-2,5,scrape,scrape,401,2,back,15,98,100,1,0,
+subj-5_scrape-401_col-4,5,scrape,scrape,401,4,back,15,104,100,1,0,
+subj-5_pore-395_col-5,5,pore_extract,pore,395,5,back,15,88,100,0,0,
