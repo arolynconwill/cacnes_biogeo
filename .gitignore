@@ -45,13 +45,16 @@ datadata_other
 /other_analyses/16s_analysis/1_qiime_on_cluster/sra_transfer/
 /other_analyses/c_granulosum/other/
 
-# NOTES TO SELF
-notes*.txt
-
 # DIRECTORIES
 /sra_transfer
 /cacnes_genomic_analysis/snakemakes/0_naming
 /z_debug
+
+# EXCEPTIONS
+!/other_analyses/16s_analysis/1_qiime_on_cluster/README_16S.txt
+
+# NOTES TO SELF
+notes*.txt
 
 # OTHER
 *.DS_Store
