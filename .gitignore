@@ -42,12 +42,10 @@ datadata_other
 /cacnes_genomic_analysis/matlab/4_plasmid-presence/data*
 /cacnes_genomic_analysis/matlab/4_plasmid-presence/plasmid_typing*
 /cacnes_genomic_analysis/matlab/4_plasmid-presence/trees*
+/cacnes_genomic_analysis/snakemakes/0_naming
 /other_analyses/16s_analysis/1_qiime_on_cluster/sra_transfer/
 /other_analyses/c_granulosum/other/
-
-# DIRECTORIES
 /sra_transfer
-/cacnes_genomic_analysis/snakemakes/0_naming
 /z_debug
 
 # EXCEPTIONS

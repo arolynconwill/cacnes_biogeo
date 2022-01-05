@@ -1,0 +1,6 @@
+Lineage_11c,,,,,,,,,,,,
+sample_name_simple,subject,sampling_method,pore_multiplicity,sample_number,colony_number,sebaceous_skin_region,time_in_months,median_coverage,read_length,plasmid_presence,transposon_presence,
+subj-11_scrape-341_col-1,11,scrape,scrape,341,1,forehead,11,20,75,0,0,
+subj-11_scrape-341_col-2,11,scrape,scrape,341,2,forehead,11,72,75,0,0,
+subj-11_scrape-341_col-3,11,scrape,scrape,341,3,forehead,11,12,75,0,0,
+subj-11_scrape-341_col-5,11,scrape,scrape,341,5,forehead,11,56,75,0,0,

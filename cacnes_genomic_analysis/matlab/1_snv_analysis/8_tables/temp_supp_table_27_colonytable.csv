@@ -1,0 +1,7 @@
+Lineage_7b,,,,,,,,,,,,,
+sample_name_simple,subject,sampling_method,pore_multiplicity,sample_number,colony_number,sebaceous_skin_region,time_in_months,median_coverage,read_length,plasmid_presence,transposon_presence,
+subj-7_scrape-338_col-1,7,scrape,scrape,338,1,nose,11,148,75,0,0,
+subj-7_scrape-334_col-1,7,scrape,scrape,334,1,left_cheek,11,96,75,0,0,
+subj-7_scrape-334_col-2,7,scrape,scrape,334,2,left_cheek,11,96,75,0,0,
+subj-7_scrape-331_col-1,7,scrape,scrape,331,1,right_cheek,11,104,75,0,0,
+subj-7_scrape-330_col-1,7,scrape,scrape,330,1,forehead,11,92,75,0,0,
