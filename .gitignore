@@ -12,8 +12,10 @@
 *.fna
 *.tax
 *.qza
+*.zip
 outfile
 outtree
+/other_analyses/16s_analysis/1_qiime_on_cluster/files_for_building_classifier_database/dna-sequences.fasta
 
 # FIGURE FILES
 *.pdf
@@ -40,6 +42,7 @@ datadata_other
 /cacnes_genomic_analysis/matlab/4_plasmid-presence/data*
 /cacnes_genomic_analysis/matlab/4_plasmid-presence/plasmid_typing*
 /cacnes_genomic_analysis/matlab/4_plasmid-presence/trees*
+/other_analyses/16s_analysis/1_qiime_on_cluster/sra_transfer/
 /other_analyses/c_granulosum/other/
 
 # NOTES TO SELF

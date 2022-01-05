@@ -1,11 +1,7 @@
-cd /scratch/mit_lieberman/projects/alex_aro_cacnes/QIIME_03_26_21_rerun_acnes/
-source activate /scratch/mit_lieberman/projects/alex_aro_cacnes/SATIVA_QIIME_cutibacterium_training/QIIME_analysis/qiime2-2020.1
-
-echo "INITIALIZED"
 # IF DEMULTIPLEXED
 qiime tools import \
   --type 'SampleData[SequencesWithQuality]' \
-  --input-path /scratch/mit_lieberman/projects/alex_aro_cacnes/QIIME_03_26_21_rerun_acnes/path_to_16S_Alex_manifest.tsv \
+  --input-path input_files/path_to_16S_Alex_manifest.tsv \
   --output-path data.demux_se.qza \
   --input-format SingleEndFastqManifestPhred33V2
 
@@ -20,7 +16,7 @@ qiime tools import \
 # Demultiplex samples (using only single read from paired end)
 qiime demux emp-single \
   --i-seqs data.qza \
-  --m-barcodes-file metadata_qiime_v1_Alex.tsv \
+  --m-barcodes-file input_files/metadata_qiime_v1_Alex.tsv \
   --m-barcodes-column BarcodeSeqS5N7 \
   --o-per-sample-sequences data.demux_se.qza
 
@@ -43,9 +39,14 @@ qiime demux summarize \
   --i-data data.demux_se.trim.qza \
   --o-visualization data.demux_se.trim.qzv
 
+# export data files for SRA
+qiime tools export \
+  --input-path data.demux_se.trim.qza \
+  --output-path exported-data-demux_se-trim
+
 
 ##################
-###### Quality trim and denoise using deblur
+###### Quality trim and denoise using dada2
 ##################
 
 echo "TRIM AND DENOISE"
@@ -61,25 +62,14 @@ qiime quality-filter q-score \
 qiime demux summarize \
   --i-data data.demux_se.trim.sq4.qza \
   --o-visualization data.demux_se.trim.sq4.qzv
- 
- 
- # # NOTE 8 cores
-#qiime deblur denoise-16S \
-#  --i-demultiplexed-seqs data.demux_se.trim.sq4.qza \
-#  --p-trim-length 150 \
-#  --p-jobs-to-start 8 \
-#  --o-representative-sequences data.demux_se.trim.sq4.deblur.qza \
-#  --o-table deblur-table.qza \
-#  --p-sample-stats \
-#  --o-stats deblur-stats.qza
 
 qiime dada2 denoise-single \
   --i-demultiplexed-seqs data.demux_se.trim.sq4.qza \
   --p-trunc-len 180 \
   --p-n-threads 8 \
-  --o-representative-sequences data.demux_se.trim.sq4.deblur.qza \
-  --o-table deblur-table.qza \
-  --o-denoising-stats deblur-stats.qza
+  --o-representative-sequences data.demux_se.trim.sq4.dada2.qza \
+  --o-table dada2-table.qza \
+  --o-denoising-stats dada2-stats.qza
 
 # visualize results 
 qiime metadata tabulate \
@@ -87,16 +77,16 @@ qiime metadata tabulate \
   --o-visualization filter_stats_sq4.qzv
 
 qiime deblur visualize-stats \
-  --i-deblur-stats deblur-stats.qza \
-  --o-visualization deblur-stats.qzv
+  --i-dada2-stats dada2-stats.qza \
+  --o-visualization dada2-stats.qzv
 
 # FeatureTable and FeatureData summaries
 qiime feature-table summarize \
-  --i-table deblur-table.qza \
-  --o-visualization deblur-table.qzv \
+  --i-table dada2-table.qza \
+  --o-visualization dada2-table.qzv \
   --m-sample-metadata-file metadata_summ_feature_table.tsv 
 
 qiime feature-table tabulate-seqs \
-  --i-data data.demux_se.trim.sq4.deblur.qza \
-  --o-visualization data.demux_se.trim.sq4.deblur.qzv
+  --i-data data.demux_se.trim.sq4.dada2.qza \
+  --o-visualization data.demux_se.trim.sq4.dada2.qzv
  

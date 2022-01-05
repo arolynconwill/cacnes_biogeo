@@ -63,7 +63,9 @@ table_subject = namedata.Subject;
 table_time = namedata.SamplingTime;
 
 % Update names
-sample_names_new = cell( size(sample_names) ); % initialize
+sample_names_old_short = cell( size(sample_names) ); % initialize
+sample_types = cell( size(sample_names) ); % initialize
+sample_names_new_long = cell( size(sample_names) ); % initialize
 G_tally = 0; % since G doesn't have specimen numbers in the log
 for n=1:numel(sample_names)
     old_name = sample_names{n};
@@ -79,27 +81,61 @@ for n=1:numel(sample_names)
     this_bool = ismember( table_spec, this_tag ) & ismember( table_subject, this_subject ) & cellfun(@(x) contains(x,'2016'), table_time );
     if sum(this_bool)~=1 % unique match not found
         fprintf(1, [ old_name ':' num2str(sum(this_bool)) '\n'] )
-        next_name_new = old_name;
+        next_name_old_short = old_name;
+        next_name_new_long = old_name;
+        next_name_type = old_name;
     else
-        next_name_new = [ old_name(1:5) num2str(table_specnum(this_bool)) ];
+        next_name_old_short = [ old_name(1:5) num2str(table_specnum(this_bool)) ];
+        next_name_new_long = [ old_name(1:5) num2str(table_specnum(this_bool)) ];
+        next_name_type = old_name;
+    end
+    % Get sample type
+    if contains( next_name_type, 'Sc_' )
+        next_name_type = 'skin_scrape';
+    elseif contains( next_name_type, 'St_' )
+        next_name_type = 'pore_strip';
+    elseif contains( next_name_type, 'Ex_' )
+        next_name_type = 'pore_extract';
+    else
+        next_name_type = 'unrecognized_type';
     end
     % Update to subject numbers
-    next_name_new = strrep( next_name_new, 'A_', '' );
-    next_name_new = strrep( next_name_new, 'F_', '' );
-    next_name_new = strrep( next_name_new, 'G_', '' );
-%     next_name_new = strrep( next_name_new, 'A_', 'subj-1_' );
-%     next_name_new = strrep( next_name_new, 'F_', 'subj-3_' );
-%     next_name_new = strrep( next_name_new, 'G_', 'subj-17_' );
+    next_name_new_long = strrep( next_name_new_long, 'A_', 'subj-1_' );
+    next_name_new_long = strrep( next_name_new_long, 'F_', 'subj-3_' );
+    next_name_new_long = strrep( next_name_new_long, 'G_', 'subj-17_' );
     % Update sample descriptions
-    next_name_new = strrep( next_name_new, 'Sc_', 'scrape-' );
-    next_name_new = strrep( next_name_new, 'St_', 'porestrip-' );
-    next_name_new = strrep( next_name_new, 'Ex_', 'extract-' );
-%     next_name_new = strrep( next_name_new, '_Sc_', '_scrape-' );
-%     next_name_new = strrep( next_name_new, '_St_', '_porestrip-' );
-%     next_name_new = strrep( next_name_new, '_Ex_', '_extract-' );
+    next_name_new_long = strrep( next_name_new_long, '_Sc_', '_scrape-' );
+    next_name_new_long = strrep( next_name_new_long, '_St_', '_pore-' );
+    next_name_new_long = strrep( next_name_new_long, '_Ex_', '_pore-' );
+    % Add 16S to long nname
+    next_name_new_long = [ next_name_new_long '_16S' ];
     % Save new name
-    sample_names_new{n} = next_name_new;
+    sample_types{n} = next_name_type;
+    sample_names_old_short{n} = next_name_old_short;
+    sample_names_new_long{n} = next_name_new_long;
 end
+
+% Match back to original filenames (needed for SRA upload)
+filedata = readtable('data/MANIFEST.csv','Delimiter',',');
+filedata_filenames = filedata.filename;
+file_index = [];
+for i=1:numel(sample_names)
+    next_name_tag = strrep( sample_names{i},'_','-' );
+    next_index = find( cellfun(@(x) contains(x,next_name_tag), filedata_filenames ) );
+    file_index = [ file_index next_index ];
+end
+
+% Write csv with key to different sample nomenclature
+fid = fopen( 'sample_names_key.csv', 'w' );
+fprintf(fid, [ 'sample_names_raw,sample_names_old_short,sample_names_new_long,sample_type,filename,' '\n' ] );
+for i=1:numel(sample_names)
+    fprintf(fid, [ sample_names{i} ',' ...
+        sample_names_old_short{i} ',' ...
+        sample_names_new_long{i} ',' ...
+        sample_types{i} ',' ...
+        filedata_filenames{file_index(i)} ',' '\n' ] );
+end
+fclose(fid);
 
 
 %% Get classifications at each taxonomic levels
@@ -222,7 +258,7 @@ for i=1:numel(sampletype_names)
     these_samples = A_samples_to_show{i};
     these_samples_name = [ 'subject 1: ' sampletype_names{i} ];
     bar_temp = [species_seperated_counts_normalized(:,these_samples)];
-    x_labels = sample_names_new(these_samples);
+    x_labels = sample_names_old_short(these_samples);
     
     if legend_bool
         fig_filename = [ dir_plots '/' '16S_subj-1_' sampletype_names{i} '-wleg.png'];
@@ -241,7 +277,7 @@ for i=1:numel(sampletype_names)
     these_samples = F_samples_to_show{i};
     these_samples_name = [ 'subject 3: ' sampletype_names{i} ];
     bar_temp = [species_seperated_counts_normalized(:,these_samples)];
-    x_labels = sample_names_new(these_samples);
+    x_labels = sample_names_old_short(these_samples);
     
     if legend_bool
         fig_filename = [ dir_plots '/' '16S_subj-3_' sampletype_names{i} '-wleg.png'];
@@ -253,22 +289,5 @@ for i=1:numel(sampletype_names)
 end
 
 % % Subject G % skipping bcs we do not have WGS colony data for Subject G
-% for i=1:numel(sampletype_names)
-%     
-%     figure(1)
-%     clf(1)
-%     these_samples = G_samples_to_show{i};
-%     these_samples_name = [ 'subject G: ' sampletype_names{i} ];
-%     bar_temp = [species_seperated_counts_normalized(:,these_samples)];
-%     x_labels = sample_names_new(these_samples);
-%     
-%     if legend_bool
-%         fig_filename = [ dir_plots '/' '16S_subj-G_' sampletype_names{i} '-wleg.png'];
-%     else
-%         fig_filename = [ dir_plots '/' '16S_subj-G_' sampletype_names{i} '.png'];
-%     end
-%     make_miniplot( these_samples_name, bar_temp, x_labels, graph_labels, legend_bool, fig_filename )
-% 
-% end
 
 
