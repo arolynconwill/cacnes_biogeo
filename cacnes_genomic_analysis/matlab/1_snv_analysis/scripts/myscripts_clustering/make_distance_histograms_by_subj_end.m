@@ -1,11 +1,11 @@
-function make_distance_histograms_by_subj_end( clusters_all, unclustered_all, distance_matrix, clusters_all_subjects, subjects_all, subject_fake, dir_clustering, dir_save )
+function make_distance_histograms_by_subj_end( clusters_all, unclustered_all, distance_matrix, clusters_all_subjects, subjects_all, subject_fake, dir_save )
 
 
 %% Directory setup
 
 % Where to save figures
-if ~exist( [ dir_clustering '/' dir_save ], 'dir' )
-    mkdir( [ dir_clustering '/' dir_save ] )
+if ~exist( [ dir_save ], 'dir' )
+    mkdir( [ dir_save ] )
 end
 
 

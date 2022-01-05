@@ -203,7 +203,7 @@ for c=1:numel(cluster_names)
     if c==2
         
         % Load info about subclades
-        lin2_table = readtable('data/data_extra/lineage2_subcladeinfo.csv');
+        lin2_table = readtable('data/lineage2_subcladeinfo.csv');
         lin2_names = lin2_table.sample_name;
         lin2_subclades = lin2_table.sub_clade_num;
         num_subclades = max( lin2_subclades );

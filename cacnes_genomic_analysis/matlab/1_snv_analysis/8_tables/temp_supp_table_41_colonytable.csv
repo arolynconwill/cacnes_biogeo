@@ -1,6 +1,0 @@
-Lineage_14b,,,,,,,,,,,,
-sample_name_simple,subject,sampling_method,pore_multiplicity,sample_number,colony_number,sebaceous_skin_region,time_in_months,median_coverage,read_length,plasmid_presence,transposon_presence,
-subj-14_scrape-61_col-1,14,scrape,scrape,61,1,chin,0,19,101,0,0,
-subj-14_scrape-58_col-2,14,scrape,scrape,58,2,forehead,0,94,101,0,0,
-subj-14_scrape-58_col-3,14,scrape,scrape,58,3,forehead,0,34,101,0,0,
-subj-14_scrape-58_col-4,14,scrape,scrape,58,4,forehead,0,58,101,0,0,

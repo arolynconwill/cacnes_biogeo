@@ -31,7 +31,8 @@ dnapars.app
 # DIRECTORIES - avoid clutter of data directories and output directories in analysis folders
 datadata_other
 /cacnes_genomic_analysis/matlab/data/
-/cacnes_genomic_analysis/1_snv_analysis/1_clustering//cacnes_genomic_analysis/1_snv_analysis/2_snvs//cacnes_genomic_analysis/1_snv_analysis/3_straintype_biogeo//cacnes_genomic_analysis/1_snv_analysis/3_straintype_faceback//cacnes_genomic_analysis/1_snv_analysis/3_straintype_porestripvis//cacnes_genomic_analysis/1_snv_analysis/4_pore_biogeo//cacnes_genomic_analysis/1_snv_analysis/5_parallel_evo//cacnes_genomic_analysis/1_snv_analysis/6_misc_molec_clock//cacnes_genomic_analysis/1_snv_analysis/6_misc_spatial_confinement//cacnes_genomic_analysis/1_snv_analysis/7_trees_lineageancestors//cacnes_genomic_analysis/1_snv_analysis/7_trees_lineages//cacnes_genomic_analysis/1_snv_analysis/7_trees_straintypes//cacnes_genomic_analysis/1_snv_analysis/8_tables//cacnes_genomic_analysis/matlab/2_within-lineage-gain-loss/data_lineage_snvtrees/
+/cacnes_genomic_analysis/1_snv_analysis/1_clustering//cacnes_genomic_analysis/1_snv_analysis/2_snvs//cacnes_genomic_analysis/1_snv_analysis/3_straintype_biogeo//cacnes_genomic_analysis/1_snv_analysis/3_straintype_faceback//cacnes_genomic_analysis/1_snv_analysis/3_straintype_porestripvis//cacnes_genomic_analysis/1_snv_analysis/4_pore_biogeo//cacnes_genomic_analysis/1_snv_analysis/5_parallel_evo//cacnes_genomic_analysis/1_snv_analysis/6_misc_molec_clock//cacnes_genomic_analysis/1_snv_analysis/6_misc_spatial_confinement//cacnes_genomic_analysis/1_snv_analysis/7_trees_lineageancestors//cacnes_genomic_analysis/1_snv_analysis/7_trees_lineages//cacnes_genomic_analysis/1_snv_analysis/7_trees_straintypes//cacnes_genomic_analysis/1_snv_analysis/8_tables/
+/cacnes_genomic_analysis/1_snv_analysis/data_other//cacnes_genomic_analysis/matlab/2_within-lineage-gain-loss/data_lineage_snvtrees/
 /cacnes_genomic_analysis/matlab/2_within-lineage-gain-loss/blast*
 /cacnes_genomic_analysis/matlab/2_within-lineage-gain-loss/output_gainloss_regions/
 /cacnes_genomic_analysis/matlab/2_within-lineage-gain-loss/output_supp_table/
@@ -51,6 +52,7 @@ datadata_other
 /z_debug
 
 # EXCEPTIONS
+!/cacnes_genomic_analysis/1_snv_analysis/data/README_description_of_each_data_file.txt
 !/other_analyses/16s_analysis/1_qiime_on_cluster/README_16S.txt
 
 # NOTES TO SELF

@@ -1,6 +1,0 @@
-Lineage_2g,,,,,,,,,,,,
-sample_name_simple,subject,sampling_method,pore_multiplicity,sample_number,colony_number,sebaceous_skin_region,time_in_months,median_coverage,read_length,plasmid_presence,transposon_presence,
-subj-2_scrape-309_col-3,2,scrape,scrape,309,3,back,11,24,75,0,0,
-subj-2_scrape-75_col-3,2,scrape,scrape,75,3,back,0,55,101,0,0,
-subj-2_scrape-92_col-2,2,scrape,scrape,92,2,neck,0,36,101,0,0,
-subj-2_scrape-92_col-3,2,scrape,scrape,92,3,neck,0,51,101,0,0,

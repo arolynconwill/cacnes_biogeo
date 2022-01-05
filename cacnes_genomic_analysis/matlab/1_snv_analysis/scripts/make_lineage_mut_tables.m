@@ -59,10 +59,6 @@ load('data/data_plasmid_presence.mat','SampleNamesSimple_keep'); SampleNamesSimp
 
 % read lengths
 load('data/read_lengths.mat')
-%
-%
-SampleNames_rl = cellfun(@(x) strrep(x,'LcFo','lcFo'), SampleNames_rl, 'UniformOutput', false );
-%
 
 
 %% Loop through lineages
@@ -113,7 +109,7 @@ for c=1:numel(lineage_names)
         sample_metadata(next_index).time_in_months = num2str(times(next_index));
         sample_metadata(next_index).median_coverage = num2str(coverage_chromosome_median(ismember(SampleNames_all,SampleNames(next_index))));
         % read length
-        sample_metadata(next_index).read_length = num2str(read_lengths( ismember( SampleNames_rl, next_name ) ))
+        sample_metadata(next_index).read_length = num2str(read_lengths( ismember( SampleNames_rl, next_name ) ));
         % plasmid presence
         sample_metadata(next_index).plasmid_presence = num2str(has_plasmid( ismember( SampleNamesSimple_plasmid, next_simple_name ) ));
         % transposon presence

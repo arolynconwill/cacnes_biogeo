@@ -205,10 +205,14 @@ end
 
 %%
 
+% Skip strain-type E beacuse no lineages
+slst_list_filter = slst_list_short(1:end-1)~='E';
+slst_list_filter_names = slst_list_short~='E'& slst_list_short~='X';
+
 % Figure
 fig=figure(10);
 clf(10);
-heatmap_text = my_table_subject_strains(sort_subjects,:)';
+heatmap_text = my_table_subject_strains(sort_subjects,slst_list_filter)';
 heatmap_vals = heatmap_text;
 imagesc( heatmap_vals )
 cmap = flipud(gray(5));
@@ -221,7 +225,7 @@ xticks( 1:1:numel(sort_subjects) )
 %xticklabels( char(64+my_subjects_list(sort_subjects)) )
 xlabel('subject')
 % y axis
-yticklabels( slst_list_short(1:end-1) )
+yticklabels( slst_list_short(slst_list_filter_names) )
 ylabel('strain')
 % gridlines
 lw=1.5;

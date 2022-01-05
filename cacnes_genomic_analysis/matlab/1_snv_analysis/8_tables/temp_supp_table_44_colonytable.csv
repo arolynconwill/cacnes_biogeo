@@ -1,5 +1,0 @@
-Lineage_12c,,,,,,,,,,,
-sample_name_simple,subject,sampling_method,pore_multiplicity,sample_number,colony_number,sebaceous_skin_region,time_in_months,median_coverage,read_length,plasmid_presence,transposon_presence,
-subj-12_scrape-353_col-2,12,scrape,scrape,353,2,nose,11,52,75,0,0,
-subj-12_scrape-352_col-3,12,scrape,scrape,352,3,nose,11,28,75,0,0,
-subj-12_scrape-352_col-4,12,scrape,scrape,352,4,nose,11,20,75,0,0,
