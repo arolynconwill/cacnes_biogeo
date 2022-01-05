@@ -1,7 +1,0 @@
-Lineage_8c,,,,,,,,,,,,,
-sample_name_simple,subject,sampling_method,pore_multiplicity,sample_number,colony_number,sebaceous_skin_region,time_in_months,median_coverage,read_length,plasmid_presence,transposon_presence,
-subj-8_multipore-409_col-1,8,pore_extract,multipore,409,1,left_cheek,15,98,100,0,0,
-subj-8_multipore-409_col-2,8,pore_extract,multipore,409,2,left_cheek,15,93,100,0,0,
-subj-8_multipore-409_col-3,8,pore_extract,multipore,409,3,left_cheek,15,49,100,0,0,
-subj-8_multipore-409_col-4,8,pore_extract,multipore,409,4,left_cheek,15,71,100,0,0,
-subj-8_multipore-409_col-5,8,pore_extract,multipore,409,5,left_cheek,15,84,100,0,0,

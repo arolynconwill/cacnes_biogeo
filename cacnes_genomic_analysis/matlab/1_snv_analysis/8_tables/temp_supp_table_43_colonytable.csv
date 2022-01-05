@@ -1,5 +1,0 @@
-Lineage_10d,,,,,,,,,,,
-sample_name_simple,subject,sampling_method,pore_multiplicity,sample_number,colony_number,sebaceous_skin_region,time_in_months,median_coverage,read_length,plasmid_presence,transposon_presence,
-subj-10_scrape-385_col-1,10,scrape,scrape,385,1,nose,11,48,75,0,0,
-subj-10_scrape-385_col-2,10,scrape,scrape,385,2,nose,11,60,75,0,0,
-subj-10_scrape-385_col-3,10,scrape,scrape,385,3,nose,11,36,75,0,0,
