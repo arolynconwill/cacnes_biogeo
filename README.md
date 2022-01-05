@@ -67,12 +67,13 @@ Analyzing plasmid architecture:
 Directory: `/cacnes_genomic_analysis/matlab`
 
 SNV-based analyses: `/cacnes_genomic_analysis/matlab/1_snv_analysis/genomic_analysis_main.m`
-* Clustering of colonies into lineages
-* Within-lineage SNV identification
-* Spatial biogeography analysis (across skin regions and within pores)
-* Evolutionary analysis (search for parallel evolution; inference of ancestral alleles; treemaking)
-* and more!  
-* All data files necessary for these analyses are available (see [Data availability](#data-availability)).
+* Analyses include:
+    * Clustering of colonies into lineages
+    * Within-lineage SNV identification
+    * Spatial biogeography analysis (across skin regions and within pores)
+    * Evolutionary analysis (search for parallel evolution; inference of ancestral alleles; treemaking)
+    * and more!  
+* All data files necessary for these analyses are available for download (see [Data availability](#data-availability)).
 * Snakemake dependencies: `/cacnes_genomic_analysis/snakemakes/4_refgenome_case`
 
 
@@ -146,7 +147,9 @@ Data relating to these analyses are available from the following sources:
 * Raw sequencing reads: NCBI-SRA BioProject [PRJNA771717](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA771717) 
 * Assembled pan-genomes for each lineage: `/genome_assemblies/lineage_assemblies`
 * Hybrid assembled genomes for select _C. acnes_ colonies with plasmids: `/genome_assemblies/hybrid_assemblies`
-* Matlab analysis data files: All data files necessary to perform _C. acnes_ SNV-based analyses are available [here](https://www.dropbox.com/s/56mfgyalc82z85c/cacnes_biogeo_snv_data.zip?dl=0) and should be placed in the data subdirectory (`/cacnes_genomic_analysis/matlab/1_snv_analysis/data`) before running the main script (`/cacnes_genomic_analysis/matlab/1_snv_analysis/genomic_analysis_main.m`).
+* Matlab data files for _C. acnes_ SNV-based analyses: All necessary data files are available [here](https://www.dropbox.com/s/56mfgyalc82z85c/cacnes_biogeo_snv_data.zip?dl=0) as a single zipped file. The contents of the zipped file should be placed in the data subdirectory (`/cacnes_genomic_analysis/matlab/1_snv_analysis/data`) before running the main script (`/cacnes_genomic_analysis/matlab/1_snv_analysis/genomic_analysis_main.m`).
+
+
 
 # Acknowledgments
 
