@@ -3,7 +3,7 @@ _C. acnes_ biogeography
 
 This repository contains all code necessary to reproduce the analyses described in:
 
-> [__Arolyn Conwill, Anne C. Kuan, Ravalika Damerla, Alexandra J. Poret, Jacob S. Baker, A. Delphine Tripp, Eric J. Alm, Tami D. Lieberman.__ Anatomy promotes neutral coexistence of strains in the human skin microbiome. _bioRxiv_ 2021.](https://www.biorxiv.org/content/10.1101/2021.05.12.443817v1)
+> __Arolyn Conwill, Anne C. Kuan, Ravalika Damerla, Alexandra J. Poret, Jacob S. Baker, A. Delphine Tripp, Eric J. Alm, Tami D. Lieberman.__ Anatomy promotes neutral coexistence of strains in the human skin microbiome. [_bioRxiv_ 2021.](https://www.biorxiv.org/content/10.1101/2021.05.12.443817v1) [_Cell Host and Microbe_ 2022](https://www.sciencedirect.com/science/article/pii/S1931312821005783).
 
 This project is part of my postdoctoral research in the [Lieberman Lab](http://lieberman.science).
 
